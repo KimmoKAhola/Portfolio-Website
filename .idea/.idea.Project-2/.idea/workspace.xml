@@ -12,43 +12,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc5e123b-7b75-4197-a751-b6ab3de75352" name="Changes" comment="initial commit. Added necessary projects">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Project-2/.idea/CSharpierPlugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Project-2/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Project-2/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Project-2/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Project-2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Project-2/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataAccessLayer/Data/ProjectDbContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataAccessLayer/Migrations/20240520115221_Initial.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataAccessLayer/Migrations/20240520115221_Initial.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataAccessLayer/Migrations/ProjectDbContextModelSnapshot.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataAccessLayer/Models/Project.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataAccessLayer/ProjectDbContextFactory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataAccessLayer/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project-2.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project-2/Controllers/HomeController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project-2/Data/ApplicationDbContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project-2/Data/Migrations/ApplicationDbContextModelSnapshot.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project-2/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project-2/Project-2.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project-2/Views/Home/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project-2/Views/Shared/_Layout.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project-2/Views/Shared/_Layout.cshtml.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project-2/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project-2/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project-2/wwwroot/css/site.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project-2/wwwroot/js/site.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectAPI/Controllers/ProjectController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectAPI/DataInitializer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectAPI/Infrastructure/AutomapperConfigurations/MappingProfile.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectAPI/Models/ProjectViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectAPI/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectAPI/ProjectAPI.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectAPI/ProjectAPI.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectAPI/WeatherForecast.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectAPI/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectAPI/appsettings.json" afterDir="false" />
+    <list default="true" id="cc5e123b-7b75-4197-a751-b6ab3de75352" name="Changes" comment="Add initial project files and structure&#10;&#10;Created the initial setup for Project-2, including main solution file, controllers, views, and configuration files. This setup also includes instantiation of the HomeController as well as initial methods and routes definitions.">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Project-2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Project-2/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +26,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/KimmoKAhola/Project-2.git",
+    "accountId": "a83314ef-d1f6-4c4e-bfd0-2b90b7703fe1"
+  }
+}]]></component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo"><![CDATA[{
   "customColor": "",
   "associatedIndex": 2
@@ -202,7 +174,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1716204004266</updated>
-      <workItem from="1716204005893" duration="3172000" />
+      <workItem from="1716204005893" duration="3467000" />
     </task>
     <task id="LOCAL−00001" summary="initial commit. Added necessary projects">
       <option name="closed" value="true" />
@@ -211,17 +183,106 @@
       <option name="presentableId" value="LOCAL−00001" />
       <updated>1716207209505</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL−00002" summary="Initial commit adding project configurations&#10;&#10;This commit adds initial configuration and setup for the project. It includes settings for Rider IDE, database connection settings for API and DataAccessLayer projects, and initial database migration scripts. Additionally, it integrates Git version control system for the project.">
+      <option name="closed" value="true" />
+      <created>1716207244384</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1716207244384</updated>
+    </task>
+    <task id="LOCAL−00003" summary="Add DataInitializer and update ApplicationDbContextModelSnapshot&#10;&#10;Implemented a new DataInitializer class to seed data into the Project database. Additionally, updated the ApplicationDbContextModelSnapshot to reflect the latest IdentityUser and IdentityRole models configurations within the Authentication system.">
+      <option name="closed" value="true" />
+      <created>1716207258139</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1716207258139</updated>
+    </task>
+    <task id="LOCAL−00004" summary="Add initial configuration for ProjectAPI&#10;&#10;Introduces all necessary services for the .NET Core web application, ProjectAPI. The services include configuring AutoMapper, enabling Swagger, adding database context for ProjectDbContext using SQL Server, and seeding initial data with the help of DataInitializer service. Controllers and https redirection have also been set up in the application pipeline.">
+      <option name="closed" value="true" />
+      <created>1716207293593</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1716207293593</updated>
+    </task>
+    <task id="LOCAL−00005" summary="Add Project model in DataAccessLayer&#10;&#10;A Project record class has been added to the DataAccessLayer models. The Project model includes fields for Id, Title, Description, Content, and a List of Skills. Necessary attributes for validation such as Key, Required, and StringLength have been applied to the appropriate fields.">
+      <option name="closed" value="true" />
+      <created>1716207303122</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1716207303122</updated>
+    </task>
+    <task id="LOCAL−00006" summary="Add AutoMapper configuration for Project models&#10;&#10;Automapper configuration for Project and ProjectViewModel has been added in MappingProfile class. This will streamline the mapping between the two models, making data transfer easier and more efficient.">
+      <option name="closed" value="true" />
+      <created>1716207311089</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1716207311089</updated>
+    </task>
+    <task id="LOCAL−00007" summary="Add ProjectController with GET methods &#10;&#10;A new ProjectController.cs file has been added to the ProjectAPI's Controllers folder. The controller includes two GET methods, one retreiving a specific project by its id, and the other retrieving a list of all current projects. Both methods include error handling and map results through AutoMapper.">
+      <option name="closed" value="true" />
+      <created>1716207321318</created>
+      <option name="number" value="LOCAL−00007" />
+      <option name="presentableId" value="LOCAL−00007" />
+      <updated>1716207321318</updated>
+    </task>
+    <task id="LOCAL−00008" summary="Added ProjectDbContext class&#10;&#10;This commit introduces the ProjectDbContext class, which extends the DbContext class, in the DataAccessLayer. It also includes a DbSet property for the Project model.">
+      <option name="closed" value="true" />
+      <created>1716207330618</created>
+      <option name="number" value="LOCAL−00008" />
+      <option name="presentableId" value="LOCAL−00008" />
+      <updated>1716207330618</updated>
+    </task>
+    <task id="LOCAL−00009" summary="Add ProjectDbContextFactory for database context setup&#10;&#10;This commit introduces a new class 'ProjectDbContextFactory' in the DataAccessLayer. This class implements the 'IDesignTimeDbContextFactory&lt;ProjectDbContext&gt;' interface and it is responsible for creating and configuring the database context used for the application, utilizing a connection string provided by an appsettings.json.">
+      <option name="closed" value="true" />
+      <created>1716207351366</created>
+      <option name="number" value="LOCAL−00009" />
+      <option name="presentableId" value="LOCAL−00009" />
+      <updated>1716207351366</updated>
+    </task>
+    <task id="LOCAL−00010" summary="Add ProjectViewModel to project API&#10;&#10;This commit introduces a new model called ProjectViewModel in the ProjectAPI project. This model includes properties for Title, Description, Content, and a list of Skills, where Title is required and has a character length constraint of minimum 10 and maximum 200 characters.">
+      <option name="closed" value="true" />
+      <created>1716207367041</created>
+      <option name="number" value="LOCAL−00010" />
+      <option name="presentableId" value="LOCAL−00010" />
+      <updated>1716207367041</updated>
+    </task>
+    <task id="LOCAL−00011" summary="Add ProjectAPI and update DataAccessLayer&#10;&#10;Added new ProjectAPI with HTTP operations and project settings. Also added new migration snapshot to DataAccessLayer, outlining model structure for Project.">
+      <option name="closed" value="true" />
+      <created>1716207379837</created>
+      <option name="number" value="LOCAL−00011" />
+      <option name="presentableId" value="LOCAL−00011" />
+      <updated>1716207379837</updated>
+    </task>
+    <task id="LOCAL−00012" summary="Add initial project files and structure&#10;&#10;Created the initial setup for Project-2, including main solution file, controllers, views, and configuration files. This setup also includes instantiation of the HomeController as well as initial methods and routes definitions.">
+      <option name="closed" value="true" />
+      <created>1716207391817</created>
+      <option name="number" value="LOCAL−00012" />
+      <option name="presentableId" value="LOCAL−00012" />
+      <updated>1716207391817</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="initial commit. Added necessary projects" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit. Added necessary projects" />
+    <MESSAGE value="Initial commit adding project configurations&#10;&#10;This commit adds initial configuration and setup for the project. It includes settings for Rider IDE, database connection settings for API and DataAccessLayer projects, and initial database migration scripts. Additionally, it integrates Git version control system for the project." />
+    <MESSAGE value="Add DataInitializer and update ApplicationDbContextModelSnapshot&#10;&#10;Implemented a new DataInitializer class to seed data into the Project database. Additionally, updated the ApplicationDbContextModelSnapshot to reflect the latest IdentityUser and IdentityRole models configurations within the Authentication system." />
+    <MESSAGE value="Add initial configuration for ProjectAPI&#10;&#10;Introduces all necessary services for the .NET Core web application, ProjectAPI. The services include configuring AutoMapper, enabling Swagger, adding database context for ProjectDbContext using SQL Server, and seeding initial data with the help of DataInitializer service. Controllers and https redirection have also been set up in the application pipeline." />
+    <MESSAGE value="Add Project model in DataAccessLayer&#10;&#10;A Project record class has been added to the DataAccessLayer models. The Project model includes fields for Id, Title, Description, Content, and a List of Skills. Necessary attributes for validation such as Key, Required, and StringLength have been applied to the appropriate fields." />
+    <MESSAGE value="Add AutoMapper configuration for Project models&#10;&#10;Automapper configuration for Project and ProjectViewModel has been added in MappingProfile class. This will streamline the mapping between the two models, making data transfer easier and more efficient." />
+    <MESSAGE value="Add ProjectController with GET methods &#10;&#10;A new ProjectController.cs file has been added to the ProjectAPI's Controllers folder. The controller includes two GET methods, one retreiving a specific project by its id, and the other retrieving a list of all current projects. Both methods include error handling and map results through AutoMapper." />
+    <MESSAGE value="Added ProjectDbContext class&#10;&#10;This commit introduces the ProjectDbContext class, which extends the DbContext class, in the DataAccessLayer. It also includes a DbSet property for the Project model." />
+    <MESSAGE value="Add ProjectDbContextFactory for database context setup&#10;&#10;This commit introduces a new class 'ProjectDbContextFactory' in the DataAccessLayer. This class implements the 'IDesignTimeDbContextFactory&lt;ProjectDbContext&gt;' interface and it is responsible for creating and configuring the database context used for the application, utilizing a connection string provided by an appsettings.json." />
+    <MESSAGE value="Add ProjectViewModel to project API&#10;&#10;This commit introduces a new model called ProjectViewModel in the ProjectAPI project. This model includes properties for Title, Description, Content, and a list of Skills, where Title is required and has a character length constraint of minimum 10 and maximum 200 characters." />
+    <MESSAGE value="Add ProjectAPI and update DataAccessLayer&#10;&#10;Added new ProjectAPI with HTTP operations and project settings. Also added new migration snapshot to DataAccessLayer, outlining model structure for Project." />
+    <MESSAGE value="Add initial project files and structure&#10;&#10;Created the initial setup for Project-2, including main solution file, controllers, views, and configuration files. This setup also includes instantiation of the HomeController as well as initial methods and routes definitions." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add initial project files and structure&#10;&#10;Created the initial setup for Project-2, including main solution file, controllers, views, and configuration files. This setup also includes instantiation of the HomeController as well as initial methods and routes definitions." />
   </component>
 </project>
