@@ -8,6 +8,6 @@ public class MappingProfile : Profile
 {
     public MappingProfile()
     {
-        CreateMap<Project, ProjectViewModel>().ReverseMap();
+        CreateMap<GithubProject, GithubProjectViewModel>().ReverseMap();
     }
 }
