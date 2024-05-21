@@ -1,0 +1,15 @@
+﻿@using Microsoft.AspNetCore.Mvc.TagHelpers
+<div id="footer-bg">
+    <div class="container">
+        <div class="navbar-footer">
+            <p>&copy; @DateTime.Now.Year</p>
+            <nav>
+                <a asp-controller="Home" asp-action="">Contact me</a>
+            </nav>
+            <div>
+                <a class="social-icon" href="#"><img src="~/images/icons/github.svg" alt="logo"/></a>
+                <a class="social-icon" href="#"><img src="~/images/icons/linkedin.svg" alt="logo"/></a>
+            </div>
+        </div>
+    </div>
+</div>
