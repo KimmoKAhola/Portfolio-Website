@@ -1,31 +1,32 @@
-using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
+using Project_2.Infrastructure;
 using Project_2.Models;
+using Project_2.Models.FormModels.Contact;
+using Project_2.Models.ViewModels;
+using Project_2.Models.ViewModels.GithubProjects;
+using Project_2.Models.ViewModels.Weather;
 
 namespace Project_2.Controllers;
 
-public class HomeController : Controller
+public class HomeController(
+    IHttpService<Root> weatherService,
+    IHttpService<GithubProjectModel> projectService
+) : Controller
 {
-    private readonly ILogger<HomeController> _logger;
-
-    public HomeController(ILogger<HomeController> logger)
+    public async Task<IActionResult> Index()
     {
-        _logger = logger;
-    }
+        // var weatherResult = await weatherService.Get();
+        // var model = new WeatherModel { Info = result.Weather.First().Description };  //TODO
+        var weatherModel = new WeatherModel { Info = "Warm as hell" };
+        var githubProjectModels = await projectService.GetAll();
 
-    public IActionResult Index()
-    {
-        return View();
-    }
-
-    public IActionResult Privacy()
-    {
-        return View();
-    }
-
-    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-    public IActionResult Error()
-    {
-        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        var indexViewModel = new IndexViewModel
+        {
+            WeatherModel = weatherModel,
+            GithubProjectModels = githubProjectModels,
+            ListOfSkills = Parameters.Skills,
+            ContactMeModel = new ContactMeModel()
+        };
+        return View(indexViewModel);
     }
 }
