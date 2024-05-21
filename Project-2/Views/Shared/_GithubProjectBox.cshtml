@@ -1,0 +1,24 @@
+﻿@model Project_2.Models.ViewModels.GithubProjects.GithubProjectModel
+
+<div class="github-project-box">
+    @* TODO replace this image with azure blob storage link *@
+    <img class="github-project-image" src="@Model.ImageUrl" alt="">
+    <div>
+        <span class="project-info">
+            <span>Title: @Model.Title</span>
+            <span>Description: @Model.Description</span>
+            <span>Content: @Model.Content</span>
+        </span>
+        <p>Skills:</p>
+        <span class="project-skills">
+            @foreach (var skill in Model.Skills)
+            {
+                <p>@skill</p>
+            }
+        </span>
+        <span class="project-links">
+            <a href="@Model.ProjectUrl"><img class="social-icon" src="images/icons/github.svg" alt=""></a>
+            <a href="#"><img class="social-icon" src="images/icons/open-in-new-tab.svg" alt=""></a>
+        </span>
+    </div>
+</div>
