@@ -5,13 +5,10 @@ namespace DataAccessLayer.Data;
 
 public class ProjectDbContext : DbContext
 {
-    protected ProjectDbContext()
-    {
-    }
+    protected ProjectDbContext() { }
 
-    public ProjectDbContext(DbContextOptions options) : base(options)
-    {
-    }
+    public ProjectDbContext(DbContextOptions options)
+        : base(options) { }
 
-    public DbSet<Project> Projects { get; set; }
+    public DbSet<GithubProject> Projects { get; set; }
 }
