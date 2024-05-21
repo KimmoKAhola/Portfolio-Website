@@ -20,7 +20,7 @@ public class ProjectController(ProjectDbContext context, IMapper mapper) : Contr
             return NotFound("No project found.");
         }
 
-        var result = mapper.Map<ProjectViewModel>(project);
+        var result = mapper.Map<GithubProjectViewModel>(project);
         return Ok(result);
     }
 
@@ -34,7 +34,7 @@ public class ProjectController(ProjectDbContext context, IMapper mapper) : Contr
             return NotFound("Error. No projects were found.");
         }
 
-        var result = mapper.Map<List<ProjectViewModel>>(projects);
+        var result = mapper.Map<List<GithubProjectViewModel>>(projects);
 
         return Ok(result);
     }
