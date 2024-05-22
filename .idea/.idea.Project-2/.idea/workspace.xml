@@ -12,12 +12,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35eb54fb-81c2-4d76-ab0c-229ae8a87442" name="Changes" comment="You didn't provide any specific code differences (diffs) or a current commit message. I need this information to craft an appropriate commit message. Please provide these details so I can assist you further.">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Project-2/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project-2/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/Controllers/HomeController.cs" afterDir="false" />
+    <list default="true" id="35eb54fb-81c2-4d76-ab0c-229ae8a87442" name="Changes" comment="Update skill display and input placeholder in Home view&#10;&#10;The skill details display has been updated in the Home view to be more comprehensible by separating the skill name and description into separate spans. Furthermore, the placeholder text of the Name input field under 'Contact Me' form has been updated to &quot;Enter your name&quot; aiming for better clarity.">
+      <change beforePath="$PROJECT_DIR$/DataAccessLayer/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccessLayer/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project-2/Infrastructure/Parameters.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/Infrastructure/Parameters.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project-2/Models/ViewModels/GithubProjects/GithubProjectModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/Models/ViewModels/GithubProjects/GithubProjectModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project-2/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/Views/Home/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project-2/Views/Shared/_GithubProjectBox.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/Views/Shared/_GithubProjectBox.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project-2/wwwroot/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/wwwroot/css/site.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project-2/wwwroot/images/project-images/blackjack.png" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/wwwroot/images/project-images/blackjack.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project-2/wwwroot/images/project-images/cashier.png" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/wwwroot/images/project-images/cashier.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectAPI/DataInitializer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectAPI/DataInitializer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectAPI/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectAPI/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,9 +35,42 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="add-skills" />
       </map>
     </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/aspnetcore/88ec3bc3f37e76fbcc932a25f9f0c1c29fe2b343/src/Mvc/Mvc.Razor/src/RazorPageOfT.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/DataAccessLayer/Models/GithubProject.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/DataAccessLayer/appsettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Controllers/HomeController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Controllers/HomeController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Controllers/HomeController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Controllers/HomeController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Controllers/HomeController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Infrastructure/Parameters.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Infrastructure/Parameters.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Infrastructure/Parameters.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Infrastructure/Parameters.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Models/FormModels/Contact/ContactMeModel.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Models/FormModels/Contact/ContactMeModel.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Models/FormModels/Contact/ContactMeModel.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Models/ViewModels/GithubProjects/GithubProjectModel.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Models/ViewModels/GithubProjects/GithubProjectModel.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Models/ViewModels/GithubProjects/GithubProjectModel.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Models/ViewModels/IndexViewModel.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Models/ViewModels/IndexViewModel.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Models/ViewModels/IndexViewModel.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Models/ViewModels/SkillModel.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Views/Shared/_ValidationScriptsPartial.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/ProjectAPI/DataInitializer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/ProjectAPI/Models/GithubProjectViewModel.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/ProjectAPI/appsettings.json" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="false" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -41,13 +79,29 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     ".NET Launch Settings Profile.Project-2: http.executor": "Run",
-    "git-widget-placeholder": "add-skills",
+    ".NET Launch Settings Profile.ProjectAPI: http.executor": "Run",
+    "git-widget-placeholder": "style-project-box",
     "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected=".NET Launch Settings Profile.Project-2: http">
     <configuration name="Project-2: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile" temporary="true">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Project-2/Project-2.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net8.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="http" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="ProjectAPI: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile" temporary="true">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/ProjectAPI/ProjectAPI.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net8.0" />
       <option name="LAUNCH_PROFILE_NAME" value="http" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
@@ -64,17 +118,50 @@
     <recent_temporary>
       <list>
         <item itemvalue=".NET Launch Settings Profile.Project-2: http" />
+        <item itemvalue=".NET Launch Settings Profile.ProjectAPI: http" />
       </list>
     </recent_temporary>
   </component>
   <component name="TaskManager">
+    <task id="LOCAL−00001" summary="Remove .idea workspace configuration file&#10;&#10;The .idea workspace.xml configuration file was deleted to avoid sharing of personal IDE settings. This file is generated automatically by the IDE and should not be included in version control as it contains user specific settings. This change will improve project portability across different development environments.">
+      <option name="closed" value="true" />
+      <created>1716371767258</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1716371767258</updated>
+    </task>
+    <task id="LOCAL−00002" summary="Add new skills to Parameters.cs&#10;&#10;The commit expands the number of skills in the SkillModel section by adding .NET CORE, Google, Azure, React and Javascript. Each skill model includes a skill name, description, and an associated icon URL.">
+      <option name="closed" value="true" />
+      <created>1716371776793</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1716371776793</updated>
+    </task>
+    <task id="LOCAL−00003" summary="Update skill display and input placeholder in Home view&#10;&#10;The skill details display has been updated in the Home view to be more comprehensible by separating the skill name and description into separate spans. Furthermore, the placeholder text of the Name input field under 'Contact Me' form has been updated to &quot;Enter your name&quot; aiming for better clarity.">
+      <option name="closed" value="true" />
+      <created>1716371788876</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1716371788876</updated>
+    </task>
+    <task id="LOCAL−00004" summary="Update skill display and input placeholder in Home view&#10;&#10;The skill details display has been updated in the Home view to be more comprehensible by separating the skill name and description into separate spans. Furthermore, the placeholder text of the Name input field under 'Contact Me' form has been updated to &quot;Enter your name&quot; aiming for better clarity.">
+      <option name="closed" value="true" />
+      <created>1716371798079</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1716371798079</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="false" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <MESSAGE value="You didn't provide any specific code differences (diffs) or a current commit message. I need this information to craft an appropriate commit message. Please provide these details so I can assist you further." />
-    <option name="LAST_COMMIT_MESSAGE" value="You didn't provide any specific code differences (diffs) or a current commit message. I need this information to craft an appropriate commit message. Please provide these details so I can assist you further." />
+    <MESSAGE value="Remove .idea workspace configuration file&#10;&#10;The .idea workspace.xml configuration file was deleted to avoid sharing of personal IDE settings. This file is generated automatically by the IDE and should not be included in version control as it contains user specific settings. This change will improve project portability across different development environments." />
+    <MESSAGE value="Add new skills to Parameters.cs&#10;&#10;The commit expands the number of skills in the SkillModel section by adding .NET CORE, Google, Azure, React and Javascript. Each skill model includes a skill name, description, and an associated icon URL." />
+    <MESSAGE value="Update skill display and input placeholder in Home view&#10;&#10;The skill details display has been updated in the Home view to be more comprehensible by separating the skill name and description into separate spans. Furthermore, the placeholder text of the Name input field under 'Contact Me' form has been updated to &quot;Enter your name&quot; aiming for better clarity." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update skill display and input placeholder in Home view&#10;&#10;The skill details display has been updated in the Home view to be more comprehensible by separating the skill name and description into separate spans. Furthermore, the placeholder text of the Name input field under 'Contact Me' form has been updated to &quot;Enter your name&quot; aiming for better clarity." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
