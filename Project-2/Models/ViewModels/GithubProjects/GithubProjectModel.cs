@@ -8,4 +8,5 @@ public class GithubProjectModel
     public List<string> Skills { get; init; } = [];
     public Uri ProjectUrl { get; init; } = null!;
     public Uri ImageUrl { get; init; } = null!;
+    public Uri LiveDemoUrl { get; init; } = null!;
 }

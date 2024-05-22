@@ -19,12 +19,12 @@ public class DataInitializer(ProjectDbContext context)
         var cashierSystem = new GithubProject
         {
             Title = "Cashier Console App",
-            Description = "Temp",
-            Content = "Temp",
-            Skills = ["C#", "Design patterns", "Console.WriteLine"],
+            Description = "",
+            Content = "",
+            Skills = ["C#"],
             ProjectURL = new Uri("https://github.com/KimmoKAhola/KassaSystemet"),
             ImageURL = new Uri(
-                "https://kimmoprojectstorage.blob.core.windows.net/project/silicon.png"
+                "https://kimmoprojectstorage.blob.core.windows.net/project/cashier.png"
             )
         };
 
@@ -33,7 +33,7 @@ public class DataInitializer(ProjectDbContext context)
             Title = "Blackjack",
             Description = "Good blackjack game",
             Content = "Play until you lose all your money",
-            Skills = ["C#", "Console.WriteLine"],
+            Skills = ["C#"],
             ProjectURL = new Uri("https://github.com/KimmoKAhola/Blackjack"),
             ImageURL = new Uri(
                 "https://kimmoprojectstorage.blob.core.windows.net/project/blackjack.png"
@@ -52,17 +52,17 @@ public class DataInitializer(ProjectDbContext context)
             )
         };
 
-        var project1 = new GithubProject
-        {
-            Title = "Console App",
-            Description = "",
-            Content = "",
-            Skills = ["C#", "MS-SQL", "Entity Framework", "Design patterns"],
-            ProjectURL = new Uri("https://github.com/KimmoKAhola/Projekt_1"),
-            ImageURL = new Uri(
-                "https://images.rawpixel.com/image_social_landscape/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA5L3JtNzA1ZGVzaWduLWVmZmVjdC10bnQtMDFlLmpwZw.jpg"
-            )
-        };
+        // var project1 = new GithubProject
+        // {
+        //     Title = "Console App",
+        //     Description = "",
+        //     Content = "",
+        //     Skills = ["C#", "MS-SQL", "Entity Framework", "Design patterns"],
+        //     ProjectURL = new Uri("https://github.com/KimmoKAhola/Projekt_1"),
+        //     ImageURL = new Uri(
+        //         "https://images.rawpixel.com/image_social_landscape/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA5L3JtNzA1ZGVzaWduLWVmZmVjdC10bnQtMDFlLmpwZw.jpg"
+        //     )
+        // };
 
         var silicon = new GithubProject
         {
@@ -80,8 +80,8 @@ public class DataInitializer(ProjectDbContext context)
         var bank = new GithubProject
         {
             Title = "Babun Bank",
-            Description = "MVC bank project",
-            Content = "Can display users, accounts, customers. Login as admin, cashier.",
+            Description = "",
+            Content = "",
             Skills =
             [
                 "C#",
@@ -126,50 +126,50 @@ public class DataInitializer(ProjectDbContext context)
             LiveDemoUrl = new Uri("https://babun-api.azurewebsites.net/")
         };
 
-        var project2 = new GithubProject
-        {
-            Title = "Web Portfolio",
-            Description = "",
-            Content = "",
-            Skills =
-            [
-                "C#",
-                "ASP.NET",
-                "MVC",
-                "RESTful API",
-                "MS-SQL",
-                "Entity Framework",
-                "HTML",
-                "CSS",
-                "Javascript",
-                "Consume External API"
-            ],
-            ProjectURL = new Uri("https://github.com/KimmoKAhola/Project-2"),
-            ImageURL = new Uri(
-                "https://kimmoprojectstorage.blob.core.windows.net/project/python.png"
-            )
-        };
+        // var project2 = new GithubProject
+        // {
+        //     Title = "Web Portfolio",
+        //     Description = "",
+        //     Content = "",
+        //     Skills =
+        //     [
+        //         "C#",
+        //         "ASP.NET",
+        //         "MVC",
+        //         "RESTful API",
+        //         "MS-SQL",
+        //         "Entity Framework",
+        //         "HTML",
+        //         "CSS",
+        //         "Javascript",
+        //         "Consume External API"
+        //     ],
+        //     ProjectURL = new Uri("https://github.com/KimmoKAhola/Project-2"),
+        //     ImageURL = new Uri(
+        //         "https://kimmoprojectstorage.blob.core.windows.net/project/python.png"
+        //     )
+        // };
 
-        var python = new GithubProject
-        {
-            Title = "Python Exam",
-            Description = "",
-            Content = "",
-            Skills = ["Python", "Pandas", "Matplotlib", "Numpy",],
-            ProjectURL = new Uri("https://github.com/KimmoKAhola/Programmera-mera-i-Python-A266TG"),
-            ImageURL = new Uri(
-                "https://images.rawpixel.com/image_social_landscape/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA5L3JtNzA1ZGVzaWduLWVmZmVjdC10bnQtMDFlLmpwZw.jpg"
-            )
-        };
+        // var python = new GithubProject
+        // {
+        //     Title = "Python Exam",
+        //     Description = "",
+        //     Content = "",
+        //     Skills = ["Python", "Pandas", "Matplotlib", "Numpy",],
+        //     ProjectURL = new Uri("https://github.com/KimmoKAhola/Programmera-mera-i-Python-A266TG"),
+        //     ImageURL = new Uri(
+        //         "https://images.rawpixel.com/image_social_landscape/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA5L3JtNzA1ZGVzaWduLWVmZmVjdC10bnQtMDFlLmpwZw.jpg"
+        //     )
+        // };
 
         context.Add(cashierSystem);
         context.Add(blackjack);
         context.Add(hotel);
-        context.Add(project1);
+        // context.Add(project1);
         context.Add(silicon);
         context.Add(bank);
-        context.Add(project2);
-        context.Add(python);
+        // context.Add(project2);
+        // context.Add(python);
 
         await context.SaveChangesAsync();
     }
