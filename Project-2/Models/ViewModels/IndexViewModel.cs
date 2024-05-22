@@ -5,8 +5,8 @@ namespace Project_2.Models.ViewModels;
 
 public class IndexViewModel
 {
-    public WeatherModel WeatherModel { get; init; } = null!;
-    public List<GithubProjectModel> GithubProjectModels { get; init; } = null!;
-    public List<SkillModel> ListOfSkills { get; init; } = null!;
-    public ContactMeModel ContactMeModel { get; init; } = null!;
+    public WeatherModel WeatherModel { get; set; } = null!;
+    public List<GithubProjectModel> GithubProjectModels { get; set; } = null!;
+    public List<SkillModel> ListOfSkills { get; set; } = null!;
+    public ContactMeModel ContactMeModel { get; set; } = null!;
 }

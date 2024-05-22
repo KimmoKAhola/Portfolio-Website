@@ -48,9 +48,7 @@
 <div class="main-carousel project-section" data-flickity='{ "wrapAround":true }'>
     @foreach (var project in @Model.GithubProjectModels)
     {
-        @* <div class="carousel-cell"> *@
-            <partial name="_GithubProjectBox" model="project"/>
-        // </div>
+        <partial name="_GithubProjectBox" model="project"/>
     }
 </div>
 
@@ -71,33 +69,13 @@
 <section id="contact-me" class="contact-me-section">
     <form method="post" class="contact-form" asp-controller="Home" asp-action="Submit">
         <div asp-validation-summary="ModelOnly"></div>
+        
         <span class="form-row">
             <span class="form-input">
-                <label asp-for="ContactMeModel.FirstName">Your first name</label>
-                <input asp-for="ContactMeModel.FirstName" type="text" placeholder="Your first name">
-                <span asp-validation-for="ContactMeModel.FirstName" class="text-danger"></span>
+                <label asp-for="ContactMeModel.Fullname">Your name</label>
+                <input asp-for="ContactMeModel.Fullname" type="text" placeholder="Your first name">
+                <span asp-validation-for="ContactMeModel.Fullname" class="text-danger"></span>
             </span>
-
-            <span class="form-input">
-                <label asp-for="ContactMeModel.Surname">Your last name</label>
-                <input asp-for="ContactMeModel.Surname" type="text" placeholder="Your last name">
-                <span asp-validation-for="ContactMeModel.Surname" class="text-danger"></span>
-            </span>
-        </span>
-
-        <span class="form-row">
-            <span class="form-input">
-                <label asp-for="ContactMeModel.Email">Your email</label>
-                <input asp-for="ContactMeModel.Email" type="email" placeholder="Your email here">
-                <span asp-validation-for="ContactMeModel.Email" class="text-danger"></span>
-            </span>
-            
-            <span class="form-input">
-                <label asp-for="ContactMeModel.ConfirmEmail">Confirm your email</label>
-                <input asp-for="ContactMeModel.ConfirmEmail" type="email" placeholder="Your email here">
-                <span asp-validation-for="ContactMeModel.ConfirmEmail" class="text-danger"></span>
-            </span>
-
         </span>
         
         <span class="form-row">
