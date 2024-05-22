@@ -1,14 +1,17 @@
 ﻿@using Microsoft.AspNetCore.Mvc.TagHelpers
+@using Project_2.Infrastructure
 <div id="footer-bg">
     <div class="container">
         <div class="navbar-footer">
-            <p>&copy; @DateTime.Now.Year</p>
-            <nav>
-                <a asp-controller="Home" asp-action="">Contact me</a>
-            </nav>
+            <span style="display: flex; line-height: 2rem; flex-direction: column; font-size: 2rem; font-weight: bold">
+                <p>&copy; @DateTime.Now.Year</p>
+                <p>Kimmo Ahola</p> 
+                <address>Ölandsresan 48</address>
+                <p><a href="#"></a>Email</p>
+            </span>
             <div>
-                <a class="social-icon" href="#"><img src="~/images/icons/github.svg" alt="logo"/></a>
-                <a class="social-icon" href="#"><img src="~/images/icons/linkedin.svg" alt="logo"/></a>
+                <a class="social-icon" href="@Parameters.GitHub"><img src="~/images/icons/github.svg" alt="logo"/></a>
+                <a class="social-icon" href="@Parameters.LinkedIn"><img src="~/images/icons/linkedin.svg" alt="logo"/></a>
             </div>
         </div>
     </div>
