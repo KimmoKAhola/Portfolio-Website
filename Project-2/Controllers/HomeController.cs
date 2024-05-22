@@ -31,14 +31,22 @@ public class HomeController(
     }
 
     [HttpPost]
-    [ValidateAntiForgeryToken]
-    public async Task<IActionResult> Submit(ContactMeModel formModel)
+    public async Task<IActionResult> Submit(IndexViewModel indexViewModel)
     {
+        indexViewModel.GithubProjectModels = await projectService.GetAll();
+        indexViewModel.WeatherModel.Info = "Warm as hell";
+        indexViewModel.ListOfSkills = Parameters.Skills;
         if (!ModelState.IsValid)
         {
-            return RedirectToAction("Index", formModel);
+            return RedirectToAction("Index", indexViewModel);
         }
 
-        return RedirectToAction("Index");
+        var myEmail = Parameters.MyEmail;
+
+        var mailtoLink =
+            $"mailto:{Uri.EscapeDataString(myEmail)}"
+            + $"?subject={Uri.EscapeDataString("Intresseanmälan")}"
+            + $"&body={Uri.EscapeDataString($"Hello {indexViewModel.ContactMeModel.Fullname},\n\n{indexViewModel.ContactMeModel.Message}")}";
+        return Redirect(mailtoLink);
     }
 }
