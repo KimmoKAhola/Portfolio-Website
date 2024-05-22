@@ -19,7 +19,8 @@ public class DataInitializer(ProjectDbContext context)
         var cashierSystem = new GithubProject
         {
             Title = "Cashier Console App",
-            Description = "",
+            Description =
+                "A cashier management console application. Built with heavy focus on OOP and design pattern principles.",
             Content = "",
             Skills = ["C#"],
             ProjectURL = new Uri("https://github.com/KimmoKAhola/KassaSystemet"),
@@ -31,7 +32,7 @@ public class DataInitializer(ProjectDbContext context)
         var blackjack = new GithubProject
         {
             Title = "Blackjack",
-            Description = "Good blackjack game",
+            Description = "A blackjack game with heavy focus on OOP. Built using Console.Write.",
             Content = "Play until you lose all your money",
             Skills = ["C#"],
             ProjectURL = new Uri("https://github.com/KimmoKAhola/Blackjack"),
@@ -43,7 +44,7 @@ public class DataInitializer(ProjectDbContext context)
         var hotel = new GithubProject
         {
             Title = "Hotel Console App",
-            Description = "",
+            Description = "A hotel managament console application. Utilizes entity framework.",
             Content = "",
             Skills = ["C#", "MS-SQL", "Entity Framework"],
             ProjectURL = new Uri("https://github.com/KimmoKAhola/HotelApp"),
@@ -67,12 +68,12 @@ public class DataInitializer(ProjectDbContext context)
         var silicon = new GithubProject
         {
             Title = "Silicon Design",
-            Description = "",
+            Description = "A website designed with React and SCSS.",
             Content = "",
             Skills = ["HTML", "Figma", "CSS", "SCSS", "React", "Javascript"],
             ProjectURL = new Uri("https://github.com/KimmoKAhola/Silicon-Kimmo-Ahola"),
             ImageURL = new Uri(
-                "https://kimmoprojectstorage.blob.core.windows.net/project/silicon.png"
+                "https://kimmoprojectstorage.blob.core.windows.net/project/silicon.webp"
             ),
             LiveDemoUrl = new Uri("https://silicon-kimmo-ahola.vercel.app/")
         };
@@ -80,7 +81,7 @@ public class DataInitializer(ProjectDbContext context)
         var bank = new GithubProject
         {
             Title = "Babun Bank",
-            Description = "",
+            Description = "A banking application built with ASP.NET MVC.",
             Content = "",
             Skills =
             [
@@ -96,7 +97,7 @@ public class DataInitializer(ProjectDbContext context)
             ],
             ProjectURL = new Uri("https://github.com/KimmoKAhola/BabunBank"),
             ImageURL = new Uri(
-                "https://kimmoprojectstorage.blob.core.windows.net/project/bank.png"
+                "https://kimmoprojectstorage.blob.core.windows.net/project/bank.webp"
             ),
             LiveDemoUrl = new Uri("https://babunbank.azurewebsites.net/")
         };
@@ -104,8 +105,9 @@ public class DataInitializer(ProjectDbContext context)
         var api = new GithubProject
         {
             Title = "RESTful API",
-            Description = "MVC RESTful API",
-            Content = "A RESTful API to do CRUD operations.",
+            Description =
+                "A RESTful API for the Babun Bank. Utilizes JWT tokenization and swagger documentation.",
+            Content = "",
             Skills =
             [
                 "C#",
@@ -121,9 +123,9 @@ public class DataInitializer(ProjectDbContext context)
             ],
             ProjectURL = new Uri("https://github.com/KimmoKAhola/BabunBank"),
             ImageURL = new Uri(
-                "https://kimmoprojectstorage.blob.core.windows.net/project/bank.png"
+                "https://kimmoprojectstorage.blob.core.windows.net/project/api.webp"
             ),
-            LiveDemoUrl = new Uri("https://babun-api.azurewebsites.net/")
+            LiveDemoUrl = new Uri("https://babun-api.azurewebsites.net/swagger/index.html")
         };
 
         // var project2 = new GithubProject
@@ -168,6 +170,7 @@ public class DataInitializer(ProjectDbContext context)
         // context.Add(project1);
         context.Add(silicon);
         context.Add(bank);
+        context.Add(api);
         // context.Add(project2);
         // context.Add(python);
 
