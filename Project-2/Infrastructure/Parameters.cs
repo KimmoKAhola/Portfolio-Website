@@ -99,6 +99,9 @@ public static class Parameters
     public static readonly Uri GitHub = new("https://github.com/KimmoKAhola/");
     public static readonly Uri LinkedIn = new("https://www.linkedin.com/in/kimmo-ahola-0679b6290/");
     public const string MyEmail = "Kahola@gmail.com";
+    public static readonly Uri MyResume = new Uri(
+        "https://kimmoprojectstorage.blob.core.windows.net/project/CV.pdf"
+    );
 
     public static readonly Dictionary<string, string> Icons =
         new()
@@ -146,6 +149,31 @@ public static class Parameters
             {
                 "Javascript",
                 """<img class="project-skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />"""
+            },
+            {
+                "FIGMA",
+                """<img class="project-skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" />"""
+            },
+            {
+                "HTML",
+                """<img class="project-skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" />"""
+            },
+            {
+                "CSS",
+                """<img class="project-skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" />"""
+            },
+            {
+                "SCSS",
+                """<img class="project-skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg" />"""
             }
         };
+
+    public static readonly List<string> ReferenceQuotes =
+    [
+        // "\"It was a joy to do Console.WriteLine with you\" - William Gross",
+        """
+                <i class="quote">"IT WAS A <span style='text-decoration: underline;'>JOY</span> TO DO CONSOLE.WRITELINE WITH YOU" - WILLIAM GROSS</i>
+            """,
+        "\"I create bugs, he squashes them\" - William Gross"
+    ];
 }

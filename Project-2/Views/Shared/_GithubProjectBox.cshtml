@@ -4,8 +4,8 @@
 <div class="github-project-box">
     @* TODO replace this image with azure blob storage link *@
     <div class="github-project-content">
-        <span class="github-project-title">@Model.Title</span>
-        <span class="github-project-subtitle">@Model.Description</span>
+        <span style="font-size: 3rem; font-weight: bold" class="github-project-title">@Model.Title.ToUpper()</span>
+        <span class="github-project-subtitle">@Model.Description.ToUpper()</span>
         <img class="github-project-image" src="@Model.ImageUrl" alt="project image">
         <span class="project-info">
             @*TODO add later <span>@Model.Description</span> *@

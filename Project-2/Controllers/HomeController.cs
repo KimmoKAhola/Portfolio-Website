@@ -17,7 +17,7 @@ public class HomeController(
     {
         // var weatherResult = await weatherService.Get();
         // var model = new WeatherModel { Info = result.Weather.First().Description };  //TODO
-        var weatherModel = new WeatherModel { Info = "Warm as hell" };
+        var weatherModel = new WeatherModel { Info = "TOO HOT!" };
         var githubProjectModels = await projectService.GetAll();
 
         var indexViewModel = new IndexViewModel
@@ -34,7 +34,7 @@ public class HomeController(
     public async Task<IActionResult> Submit(IndexViewModel indexViewModel)
     {
         indexViewModel.GithubProjectModels = await projectService.GetAll();
-        // indexViewModel.WeatherModel.Info = "Warm as hell";
+        indexViewModel.WeatherModel = new WeatherModel { Info = "TOO HOT!" };
         indexViewModel.ListOfSkills = Parameters.Skills;
         if (!ModelState.IsValid)
         {
