@@ -59,4 +59,5 @@ public static class Parameters
 
     public static readonly Uri GitHub = new("https://github.com/KimmoKAhola/");
     public static readonly Uri LinkedIn = new("https://www.linkedin.com/in/kimmo-ahola-0679b6290/");
+    public const string MyEmail = "Kahola@gmail.com";
 }
