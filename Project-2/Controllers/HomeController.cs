@@ -34,7 +34,7 @@ public class HomeController(
     public async Task<IActionResult> Submit(IndexViewModel indexViewModel)
     {
         indexViewModel.GithubProjectModels = await projectService.GetAll();
-        indexViewModel.WeatherModel.Info = "Warm as hell";
+        // indexViewModel.WeatherModel.Info = "Warm as hell";
         indexViewModel.ListOfSkills = Parameters.Skills;
         if (!ModelState.IsValid)
         {

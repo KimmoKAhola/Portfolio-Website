@@ -54,7 +54,46 @@ public static class Parameters
                 <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/matplotlib/matplotlib-original.svg" />
                 """
         },
-        new SkillModel { SkillName = "Fluff", Description = "I ran out of skills" }
+        new SkillModel
+        {
+            SkillName = ".NET CORE",
+            Description = "The .NET Framework",
+            IconUrl = """
+                <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-original.svg" />
+                """
+        },
+        new SkillModel
+        {
+            SkillName = "Google",
+            Description = "Google first",
+            IconUrl = """
+                <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/google/google-original-wordmark.svg" />
+                """
+        },
+        new SkillModel
+        {
+            SkillName = "Azure",
+            Description = "Pushing sites to azure services",
+            IconUrl = """
+                <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original.svg" />
+                """
+        },
+        new SkillModel
+        {
+            SkillName = "React",
+            Description = "Creating websites using React",
+            IconUrl = """
+                <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
+                """
+        },
+        new SkillModel
+        {
+            SkillName = "Javascript",
+            Description = "Please no",
+            IconUrl = """
+                <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+                """
+        }
     ];
 
     public static readonly Uri GitHub = new("https://github.com/KimmoKAhola/");
