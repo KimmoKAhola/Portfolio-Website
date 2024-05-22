@@ -12,12 +12,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35eb54fb-81c2-4d76-ab0c-229ae8a87442" name="Changes" comment="Update CSS styles, add new font and improve interactivity&#10;&#10;The main changes in this commit include altering many CSS properties to modify the site's aesthetics. A new font, Rubik, has been imported and used across the site replacing the previous one. User interactivity has been improved by adding hover and active styles to buttons, as well as focus styles to input fields. Some new CSS classes have been created for additional features and unnecessary styles were removed.">
+    <list default="true" id="35eb54fb-81c2-4d76-ab0c-229ae8a87442" name="Changes" comment="Update footer content and styles&#10;&#10;Altered the styling of the footer in _Footer.cshtml, including an increase in line-height for better readability. Updated the footer's content to improve the visibility and accessibility of key information such as address and email.">
       <change beforePath="$PROJECT_DIR$/DataAccessLayer/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccessLayer/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project-2/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/Views/Home/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project-2/Views/Shared/_Footer.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/Views/Shared/_Footer.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project-2/Views/Shared/_GithubProjectBox.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/Views/Shared/_GithubProjectBox.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project-2/wwwroot/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/wwwroot/css/site.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectAPI/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectAPI/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +34,8 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/aspnetcore/88ec3bc3f37e76fbcc932a25f9f0c1c29fe2b343/src/Mvc/Mvc.Razor/src/RazorPageOfT.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/RiderProjects/Project-2/DataAccessLayer/Models/GithubProject.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/DataAccessLayer/appsettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/DataAccessLayer/appsettings.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://D:/RiderProjects/Project-2/DataAccessLayer/appsettings.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://D:/RiderProjects/Project-2/DataAccessLayer/appsettings.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://D:/RiderProjects/Project-2/DataAccessLayer/appsettings.json" root0="FORCE_HIGHLIGHTING" />
@@ -73,7 +71,10 @@
     <setting file="mock://D:/RiderProjects/Project-2/Project-2/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/RiderProjects/Project-2/Project-2/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/RiderProjects/Project-2/Project-2/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/RiderProjects/Project-2/Project-2/Views/Shared/_Footer.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Views/Shared/_Footer.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Views/Shared/_GithubProjectBox.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/RiderProjects/Project-2/Project-2/Views/Shared/_GithubProjectBox.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/RiderProjects/Project-2/Project-2/Views/Shared/_GithubProjectBox.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/RiderProjects/Project-2/Project-2/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
@@ -87,6 +88,7 @@
     <setting file="mock://D:/RiderProjects/Project-2/ProjectAPI/appsettings.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://D:/RiderProjects/Project-2/ProjectAPI/appsettings.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://D:/RiderProjects/Project-2/ProjectAPI/appsettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/ProjectAPI/appsettings.json" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="false" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -96,12 +98,50 @@
   "keyToString": {
     ".NET Launch Settings Profile.Project-2: http.executor": "Run",
     ".NET Launch Settings Profile.ProjectAPI: http.executor": "Run",
+    "Azure - Publish Web App.Publish Project-2 to Azure.executor": "Run",
     "git-widget-placeholder": "update-references",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "preferences.sourceCode.Service Authentication"
   }
 }]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.Project-2: http">
+    <configuration name="Publish Project-2 to Azure" type="AzureDotNetWebAppPublish" factoryName="Azure Web App">
+      <option name="AZURE_WEB_APP_PROJECT" value="$PROJECT_DIR$/Project-2/Project-2.csproj" />
+      <option name="AZURE_WEB_APP_CONFIGURATION" value="Release" />
+      <option name="AZURE_WEB_APP_PLATFORM" value="Any CPU" />
+      <option name="AZURE_WEB_APP_SUBSCRIPTION_ID" value="42874c1c-2ba9-441d-865d-5b38e2c642f4" />
+      <option name="AZURE_WEB_APP_IS_CREATE_APP" value="0" />
+      <option name="AZURE_WEB_APP_ID" value="/subscriptions/42874c1c-2ba9-441d-865d-5b38e2c642f4/resourceGroups/ResourceMoverRG-eastus-swedencentral-swc/providers/Microsoft.Web/sites/kimmo-project-2" />
+      <option name="AZURE_WEB_APP_NAME" value="" />
+      <option name="AZURE_WEB_APP_IS_CREATE_RESOURCE_GROUP" value="0" />
+      <option name="AZURE_WEB_APP_RESOURCE_GROUP_NAME" value="" />
+      <option name="AZURE_WEB_APP_OPERATING_SYSTEM" value="WINDOWS" />
+      <option name="AZURE_WEB_APP_IS_CREATE_APP_SERVICE_PLAN" value="0" />
+      <option name="AZURE_WEB_APP_SERVICE_PLAN_ID" value="/subscriptions/42874c1c-2ba9-441d-865d-5b38e2c642f4/resourceGroups/rg-240331191401/providers/Microsoft.Web/serverfarms/appsp-240331191503" />
+      <option name="AZURE_WEB_APP_SERVICE_PLAN_NAME" value="" />
+      <option name="AZURE_WEB_APP_LOCATION" value="eastus" />
+      <option name="AZURE_WEB_APP_PRICING_TIER" value="S1" />
+      <option name="AZURE_WEB_APP_NET_FRAMEWORK" value="4.7" />
+      <option name="AZURE_WEB_APP_NET_CORE_RUNTIME" value="DOTNETCORE 2.1" />
+      <option name="AZURE_WEB_APP_IS_DEPLOY_TO_SLOT" value="0" />
+      <option name="AZURE_WEB_APP_SLOT_NAME" value="" />
+      <option name="AZURE_WEB_APP_OPEN_BROWSER_PUBLISH" value="0" />
+      <option name="AZURE_SQL_DATABASE_SUBSCRIPTION_ID" value="42874c1c-2ba9-441d-865d-5b38e2c642f4" />
+      <option name="AZURE_SQL_DATABASE_IS_ENABLED" value="0" />
+      <option name="AZURE_SQL_DATABASE_CONNECTION_STRING_NAME" value="" />
+      <option name="AZURE_SQL_DATABASE_IS_CREATE" value="0" />
+      <option name="AZURE_SQL_DATABASE_ID" value="/subscriptions/42874c1c-2ba9-441d-865d-5b38e2c642f4/resourceGroups/rg-240331191401/providers/Microsoft.Sql/servers/kimmo-bankappdata/databases/BankAppData" />
+      <option name="AZURE_SQL_DATABASE_NAME" value="" />
+      <option name="AZURE_SQL_DATABASE_IS_CREATE_RESOURCE_GROUP" value="0" />
+      <option name="AZURE_SQL_DATABASE_RESOURCE_GROUP_NAME" value="" />
+      <option name="AZURE_SQL_DATABASE_IS_CREATE_SQL_SERVER" value="0" />
+      <option name="AZURE_SQL_DATABASE_SQL_SERVER_ID" value="" />
+      <option name="AZURE_SQL_DATABASE_SQL_SERVER_NAME" value="" />
+      <option name="AZURE_SQL_DATABASE_SQL_SERVER_ADMIN_LOGIN" value="KiAhola" />
+      <option name="AZURE_SQL_DATABASE_LOCATION" value="eastus" />
+      <option name="AZURE_SQL_DATABASE_COLLATION" value="SQL_Latin1_General_CP1_CI_AS" />
+      <method v="2" />
+    </configuration>
     <configuration name="Project-2: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile" temporary="true">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Project-2/Project-2.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net8.0" />
@@ -252,7 +292,35 @@
       <option name="presentableId" value="LOCAL−00016" />
       <updated>1716399509891</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL−00017" summary="Update workspace configuration and site aesthetics &#10;&#10;This commit primarily refines workspace.xml file and updates site aesthetics in site.css. The workspace file now includes detailed commit messages that better describe the recent changes. The site's design has been enhanced by altering many CSS styles, including modifying button styles and structure of several sections in the homepage. Lastly, a new font, Rubik, has been incorporated across the site.">
+      <option name="closed" value="true" />
+      <created>1716401551604</created>
+      <option name="number" value="LOCAL−00017" />
+      <option name="presentableId" value="LOCAL−00017" />
+      <updated>1716401551604</updated>
+    </task>
+    <task id="LOCAL−00018" summary="Refactor home page HTML for better readability&#10;&#10;This commit simplifies sections of the home page HTML to improve readability and maintainability. It condenses paragraphs into one and removes inline styling for buttons, replacing them with an id value for CSS targeting. Changed the placeholder text to uppercase for better user visibility.">
+      <option name="closed" value="true" />
+      <created>1716401562009</created>
+      <option name="number" value="LOCAL−00018" />
+      <option name="presentableId" value="LOCAL−00018" />
+      <updated>1716401562009</updated>
+    </task>
+    <task id="LOCAL−00019" summary="Convert project description to uppercase in project box&#10;&#10;The project description in the GitHub project box view has been updated to display in uppercase. This alteration improves visibility and alignment with other UI elements.">
+      <option name="closed" value="true" />
+      <created>1716401569871</created>
+      <option name="number" value="LOCAL−00019" />
+      <option name="presentableId" value="LOCAL−00019" />
+      <updated>1716401569871</updated>
+    </task>
+    <task id="LOCAL−00020" summary="Update footer content and styles&#10;&#10;Altered the styling of the footer in _Footer.cshtml, including an increase in line-height for better readability. Updated the footer's content to improve the visibility and accessibility of key information such as address and email.">
+      <option name="closed" value="true" />
+      <created>1716401579106</created>
+      <option name="number" value="LOCAL−00020" />
+      <option name="presentableId" value="LOCAL−00020" />
+      <updated>1716401579106</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="false" />
@@ -274,7 +342,11 @@
     <MESSAGE value="Add new parameters for website content&#10;&#10;Added links to resume and several development skills icons to the Parameters.cs file. Additionally, a list of reference quotes has been included for future use. These updates enhance the site content, providing more detailed professional information." />
     <MESSAGE value="Simplify Program.cs by removing unnecessary imports and code&#10;&#10;This commit removes several unnecessary 'using' imports that weren't being utilized within Project-2's Program.cs file. Additionally, the HTTP request pipeline configuration was simplified and unneeded conditionals were discarded, now all environments use MigrationEndPoint, ExceptionHandler and Hsts." />
     <MESSAGE value="Update CSS styles, add new font and improve interactivity&#10;&#10;The main changes in this commit include altering many CSS properties to modify the site's aesthetics. A new font, Rubik, has been imported and used across the site replacing the previous one. User interactivity has been improved by adding hover and active styles to buttons, as well as focus styles to input fields. Some new CSS classes have been created for additional features and unnecessary styles were removed." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update CSS styles, add new font and improve interactivity&#10;&#10;The main changes in this commit include altering many CSS properties to modify the site's aesthetics. A new font, Rubik, has been imported and used across the site replacing the previous one. User interactivity has been improved by adding hover and active styles to buttons, as well as focus styles to input fields. Some new CSS classes have been created for additional features and unnecessary styles were removed." />
+    <MESSAGE value="Update workspace configuration and site aesthetics &#10;&#10;This commit primarily refines workspace.xml file and updates site aesthetics in site.css. The workspace file now includes detailed commit messages that better describe the recent changes. The site's design has been enhanced by altering many CSS styles, including modifying button styles and structure of several sections in the homepage. Lastly, a new font, Rubik, has been incorporated across the site." />
+    <MESSAGE value="Refactor home page HTML for better readability&#10;&#10;This commit simplifies sections of the home page HTML to improve readability and maintainability. It condenses paragraphs into one and removes inline styling for buttons, replacing them with an id value for CSS targeting. Changed the placeholder text to uppercase for better user visibility." />
+    <MESSAGE value="Convert project description to uppercase in project box&#10;&#10;The project description in the GitHub project box view has been updated to display in uppercase. This alteration improves visibility and alignment with other UI elements." />
+    <MESSAGE value="Update footer content and styles&#10;&#10;Altered the styling of the footer in _Footer.cshtml, including an increase in line-height for better readability. Updated the footer's content to improve the visibility and accessibility of key information such as address and email." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update footer content and styles&#10;&#10;Altered the styling of the footer in _Footer.cshtml, including an increase in line-height for better readability. Updated the footer's content to improve the visibility and accessibility of key information such as address and email." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
