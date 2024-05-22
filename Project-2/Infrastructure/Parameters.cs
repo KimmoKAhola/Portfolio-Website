@@ -99,4 +99,53 @@ public static class Parameters
     public static readonly Uri GitHub = new("https://github.com/KimmoKAhola/");
     public static readonly Uri LinkedIn = new("https://www.linkedin.com/in/kimmo-ahola-0679b6290/");
     public const string MyEmail = "Kahola@gmail.com";
+
+    public static readonly Dictionary<string, string> Icons =
+        new()
+        {
+            {
+                "C#",
+                """<img class="project-skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" />"""
+            },
+            {
+                "REACT",
+                """<img class="project-skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />"""
+            },
+            {
+                "JAVASCRIPT",
+                """<img class="project-skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />"""
+            },
+            {
+                "AZURE",
+                """<img class="project-skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original.svg" />"""
+            },
+            {
+                "JAVA",
+                """<img class="project-skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" />"""
+            },
+            {
+                "PYTHON",
+                """<img class="project-skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />"""
+            },
+            {
+                "MS-SQL",
+                """<img class="project-skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" />"""
+            },
+            {
+                "PANDAS",
+                """<img class="project-skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg" />"""
+            },
+            {
+                "MATPLOTLIB",
+                """<img class="project-skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/matplotlib/matplotlib-original.svg" />"""
+            },
+            {
+                ".NET CORE",
+                """<img class="project-skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-original.svg" />"""
+            },
+            {
+                "Javascript",
+                """<img class="project-skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />"""
+            }
+        };
 }
