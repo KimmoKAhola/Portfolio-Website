@@ -12,20 +12,23 @@
             <img id="hero-profile-picture" src="~/images/profile.png" alt="TODO">
         </div>
         <div id="about-me">
-            <p>About me:</p>
+            <p>ABOUT <span style="text-decoration: underline">ME:</span></p>
             <p>
-                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores debitis dolorem fugit nemo non praesentium rerum sapiente tempore vel voluptate! A, autem deleniti eos eum iste numquam perspiciatis porro repudiandae!</span><span>Ad aliquam asperiores consectetur culpa dignissimos doloremque, dolores dolorum eligendi est et ex fuga in ipsum molestias nisi nobis obcaecati odit officiis pariatur quasi quos recusandae sequi, similique temporibus veritatis.</span>
+                <span><br>LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISICING ELIT. ASPERIORES DEBITIS DOLOREM FUGIT NEMO NON PRAESENTIUM RERUM SAPIENTE TEMPORE VEL VOLUPTATE! A, AUTEM DELENITI EOS EUM ISTE NUMQUAM PERSPICIATIS PORRO REPUDIANDAE!</span>
+                <br><span>brAD ALIQUAM ASPERIORES CONSECTETUR CULPA DIGNISSIMOS DOLOREMQUE, DOLORES DOLORUM ELIGENDI EST ET EX FUGA IN IPSUM MOLESTIAS NISI NOBIS OBCAECATI ODIT OFFICIIS PARIATUR QUASI QUOS RECUSANDAE SEQUI, SIMILIQUE TEMPORIBUS VERITATIS.</span>
             </p>
             <p>
-                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </span>
+                <br><span>LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISICING ELIT. </span>
             </p>
             <p>
-                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </span>
+                <br><span>LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISICING ELIT. </span>
             </p>
             <p>
-                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </span>
+                <br><span>LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISICING ELIT. </span>
             </p>
-            <span>
+            <span style="display: flex; gap: 12px; padding-top: 104px; padding-left: 60%">
+                @* TODO for absolute positioning*@
+                <a href="@Parameters.MyResume"><button class="button-cta">CV</button></a>
                 <a href="@Parameters.GitHub"><img class="social-icon" src="~/images/icons/github.svg" alt="github"></a>
                 <a href="@Parameters.LinkedIn"><img class="social-icon" src="~/images/icons/linkedin.svg" alt="linkedin"></a>
             </span>
@@ -34,20 +37,20 @@
 </section>
 
 <section class="skills-section">
+    <h2 style="font-size: 102px; font-weight: bold; text-decoration: underline">MY SKILLS</h2>
     <div class="skills-container">
-        @foreach (var skill in @Model.ListOfSkills)
+        @for (int i = 0; i < 2; i++)
         {
-            <span class="skill-span">
-                <span class="skill-details">
-                    <span class="skill-header">
-                        @skill.SkillName
+            @foreach (var skill in @Model.ListOfSkills)
+            {
+                <span class="skill-span">
+                    <span class="skill-details">
+                        <span class="skill-header">@skill.SkillName</span>
+                        <span class="skill-subheader">@skill.Description</span>
                     </span>
-                    <span class="skill-subheader">
-                        @skill.Description
-                    </span>
+                    @Html.Raw(skill.IconUrl)
                 </span>
-                @Html.Raw(@skill.IconUrl)
-            </span>
+            }
         }
     </div>
 </section>
@@ -61,25 +64,24 @@
 
 <section class="references-section">
     <div class="references">
-        <div class="reference-box">
-            <img class="reference-profile-picture" src="~/images/wilgross.jpg" alt="wilgross">
-            <i class="quote">&quotIt was a joy to do Console.WriteLine with you&quot - William Gross</i>
-        </div>
-
-        <div class="reference-box">
-            <img class="reference-profile-picture" src="~/images/wilgross.jpg" alt="wilgross">
-            <i class="quote">&quotI introduce the bugs, he squashes them.&quot - William Gross</i>
-        </div>
+        @foreach (var reference in Parameters.ReferenceQuotes)
+        {
+            <div class="reference-box">
+                <img class="reference-profile-picture" src="~/images/wilgross.jpg" alt="wilgross">
+                @Html.Raw(reference)
+                @* <i class="quote">@reference</i> TODO check if this is overcomplicated or not*@
+            </div>
+        }
     </div>
 </section>
 
 <section id="contact-me" class="contact-me-section">
     <form method="post" class="contact-form" asp-controller="Home" asp-action="Submit">
         <div asp-validation-summary="ModelOnly"></div>
-        
+        <input type="hidden" asp-for="WeatherModel">
         <span class="form-row">
             <span class="form-input">
-                <label asp-for="ContactMeModel.Fullname">Your name</label>
+                <label asp-for="ContactMeModel.Fullname">YOUR NAME</label>
                 <input asp-for="ContactMeModel.Fullname" type="text" placeholder="Enter your name">
                 <span asp-validation-for="ContactMeModel.Fullname" class="text-danger"></span>
             </span>
@@ -87,16 +89,14 @@
         
         <span class="form-row">
             <span class="form-input">
-                <label asp-for="ContactMeModel.Message">Your message</label>
+                <label asp-for="ContactMeModel.Message">YOUR MESSAGE</label>
                 <textarea id="contact-me-textarea" asp-for="ContactMeModel.Message"></textarea>
                 <span asp-validation-for="ContactMeModel.Message" class="text-danger"></span>
             </span>
         </span>
-        <button type="submit" class="button-cta">SUBMIT</button>
+        <button style="margin-bottom: 36px" type="submit" class="button-cta">SUBMIT</button>
     </form>
 </section>
-
-<p>Weather @Model.WeatherModel.Info</p>
 
 @section Scripts{
     <partial name="_ValidationScriptsPartial" />
