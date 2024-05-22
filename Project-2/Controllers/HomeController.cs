@@ -29,4 +29,16 @@ public class HomeController(
         };
         return View(indexViewModel);
     }
+
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public async Task<IActionResult> Submit(ContactMeModel formModel)
+    {
+        if (!ModelState.IsValid)
+        {
+            return RedirectToAction("Index", formModel);
+        }
+
+        return RedirectToAction("Index");
+    }
 }
