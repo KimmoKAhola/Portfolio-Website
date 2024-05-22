@@ -77,8 +77,8 @@ a{
 }
 
 button{
-  border-radius: 0.25rem;
-  padding: 24px;
+  border-radius: 2px;
+  padding: 24px 48px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -180,7 +180,8 @@ button{
 }
 
 #about-me, #hero-profile-box{
-  box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.3);
+  /*box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.3);*/
+  box-shadow: 7px 7px 0px black;
 }
 
 #about-me{
@@ -191,11 +192,23 @@ button{
   border-radius: 2px;
   z-index: 4;
   font-weight: bolder;
+  position: relative;
 }
 
-.social-icon{
-  height: 45px;
-  width: 45px;
+#about-me-buttons{
+  display: flex; justify-content: flex-end; gap: 12px;
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+}
+
+.social-icon, .project-skill-icon{
+  height: 50px;
+  width: 50px;
+}
+
+.social-icon:hover, .project-skill-icon:hover{
+  /*TODO add something here?*/
 }
 
 
@@ -322,7 +335,7 @@ span {
 }
 
 .project-section{
-  height: 130vh;
+  height: 140vh;
 }
 
 .project-section-buttons {
@@ -373,7 +386,9 @@ span {
   display: flex;
   flex-direction: column;
   background-color: var(--off-white);
-  box-shadow: 7px 7px 0px rgba(0, 0, 0, 0.4);
+  /*box-shadow: 7px 7px 0px rgba(0, 0, 0, 0.4);*/
+  box-shadow: 7px 7px 0px rgba(0, 0, 0, 0.8);
+  /*TODO How much shadow? 0.8, 1.0?*/
   padding: 24px;
   border-radius: 2px;
 }
@@ -386,11 +401,6 @@ span {
 .github-project-subtitle{
   color: rgba(0, 0, 0, 0.7);
   margin-bottom: 8px;
-}
-
-.project-skill-icon{
-  height: 45px;
-  width: 45px;
 }
 
 .project-info{
@@ -431,7 +441,7 @@ span {
   display: grid;
   place-items: center;
   border-radius: 2px;
-  /*box-shadow: 7px 7px 0px rgba(0, 0, 0, 0.4);*/
+  /*box-shadow: 7px 7px 0px rgba(0, 0, 0, 0.4); TODO I have not decided yet*/
   box-shadow: 7px 7px 0px black;
 }
 
@@ -456,6 +466,9 @@ span {
     border-radius: 2px;
     padding: 12px;
     box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.4);
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
   }
   input{
     height: 50px;
@@ -549,8 +562,6 @@ span {
 
 .button-cta:active{
   box-shadow: inset 4px 4px 0px rgba(0, 0, 0, 0.4);
-  /*box-shadow: inset 4px 4px 0px black;*/
-  /*box-shadow: 4px 4px 0px black;*/
   text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.4);
 }
 

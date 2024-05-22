@@ -12,22 +12,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35eb54fb-81c2-4d76-ab0c-229ae8a87442" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Project-2/.idea/shelf/Uncommitted_changes_before_Update_at_2024-05-22_10_54__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Project-2/.idea/shelf/Uncommitted_changes_before_Update_at_2024-05-22_10_54__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Project-2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Project-2/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="35eb54fb-81c2-4d76-ab0c-229ae8a87442" name="Changes" comment="Update CSS styles, add new font and improve interactivity&#10;&#10;The main changes in this commit include altering many CSS properties to modify the site's aesthetics. A new font, Rubik, has been imported and used across the site replacing the previous one. User interactivity has been improved by adding hover and active styles to buttons, as well as focus styles to input fields. Some new CSS classes have been created for additional features and unnecessary styles were removed.">
       <change beforePath="$PROJECT_DIR$/DataAccessLayer/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccessLayer/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project-2/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/Controllers/HomeController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project-2/Infrastructure/Parameters.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/Infrastructure/Parameters.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project-2/Models/FormModels/Contact/ContactMeModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/Models/FormModels/Contact/ContactMeModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project-2/Models/ViewModels/IndexViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/Models/ViewModels/IndexViewModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project-2/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project-2/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/Views/Home/Index.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project-2/Views/Shared/_Footer.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/Views/Shared/_Footer.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project-2/Views/Shared/_GithubProjectBox.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/Views/Shared/_GithubProjectBox.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project-2/Views/Shared/_Navbar.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/Views/Shared/_Navbar.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project-2/wwwroot/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/wwwroot/css/site.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project-2/wwwroot/images/project-images/hotel.png" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/wwwroot/images/project-images/hotel.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectAPI/DataInitializer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectAPI/DataInitializer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectAPI/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectAPI/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,11 +39,16 @@
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/aspnetcore/88ec3bc3f37e76fbcc932a25f9f0c1c29fe2b343/src/Mvc/Mvc.Razor/src/RazorPageOfT.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/RiderProjects/Project-2/DataAccessLayer/Models/GithubProject.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/RiderProjects/Project-2/DataAccessLayer/appsettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/DataAccessLayer/appsettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/DataAccessLayer/appsettings.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://D:/RiderProjects/Project-2/Project-2/Controllers/HomeController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/RiderProjects/Project-2/Project-2/Controllers/HomeController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/RiderProjects/Project-2/Project-2/Controllers/HomeController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/RiderProjects/Project-2/Project-2/Controllers/HomeController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/RiderProjects/Project-2/Project-2/Controllers/HomeController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Controllers/HomeController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Infrastructure/Parameters.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Infrastructure/Parameters.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/RiderProjects/Project-2/Project-2/Infrastructure/Parameters.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/RiderProjects/Project-2/Project-2/Infrastructure/Parameters.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/RiderProjects/Project-2/Project-2/Infrastructure/Parameters.cs" root0="SKIP_HIGHLIGHTING" />
@@ -61,21 +56,36 @@
     <setting file="mock://D:/RiderProjects/Project-2/Project-2/Models/FormModels/Contact/ContactMeModel.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/RiderProjects/Project-2/Project-2/Models/FormModels/Contact/ContactMeModel.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/RiderProjects/Project-2/Project-2/Models/FormModels/Contact/ContactMeModel.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Models/FormModels/Contact/ContactMeModel.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/RiderProjects/Project-2/Project-2/Models/ViewModels/GithubProjects/GithubProjectModel.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/RiderProjects/Project-2/Project-2/Models/ViewModels/GithubProjects/GithubProjectModel.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/RiderProjects/Project-2/Project-2/Models/ViewModels/GithubProjects/GithubProjectModel.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Models/ViewModels/GithubProjects/GithubProjectModel.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Models/ViewModels/IndexViewModel.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/RiderProjects/Project-2/Project-2/Models/ViewModels/IndexViewModel.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/RiderProjects/Project-2/Project-2/Models/ViewModels/IndexViewModel.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/RiderProjects/Project-2/Project-2/Models/ViewModels/IndexViewModel.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/RiderProjects/Project-2/Project-2/Models/ViewModels/SkillModel.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/RiderProjects/Project-2/Project-2/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/RiderProjects/Project-2/Project-2/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/RiderProjects/Project-2/Project-2/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/RiderProjects/Project-2/Project-2/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Views/Shared/_Footer.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Views/Shared/_GithubProjectBox.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Views/Shared/_GithubProjectBox.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/RiderProjects/Project-2/Project-2/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Views/Shared/_Navbar.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/RiderProjects/Project-2/Project-2/Views/Shared/_ValidationScriptsPartial.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/RiderProjects/Project-2/ProjectAPI/DataInitializer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/ProjectAPI/DataInitializer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/ProjectAPI/DataInitializer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/RiderProjects/Project-2/ProjectAPI/Models/GithubProjectViewModel.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/ProjectAPI/appsettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/ProjectAPI/appsettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/ProjectAPI/appsettings.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://D:/RiderProjects/Project-2/ProjectAPI/appsettings.json" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="false" />
@@ -87,7 +97,8 @@
     ".NET Launch Settings Profile.Project-2: http.executor": "Run",
     ".NET Launch Settings Profile.ProjectAPI: http.executor": "Run",
     "git-widget-placeholder": "update-references",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.Project-2: http">
@@ -157,7 +168,91 @@
       <option name="presentableId" value="LOCAL−00004" />
       <updated>1716371798079</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL−00005" summary="Add shelved patch for uncommitted changes&#10;&#10;This commit adds a new shelved.patch file capturing the uncommitted changes in the project. This patch serves as a backup of these uncommitted changes to allow switching branches or updates without losing current progress.">
+      <option name="closed" value="true" />
+      <created>1716399368009</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1716399368009</updated>
+    </task>
+    <task id="LOCAL−00006" summary="Update footer with additional details and links&#10;&#10;The footer layout has been updated to include more detailed information like the name and address. Social links are now also dynamic, deriving from the @Parameters object rather than being hardcoded.">
+      <option name="closed" value="true" />
+      <created>1716399378721</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1716399378721</updated>
+    </task>
+    <task id="LOCAL−00007" summary="Update text style in Github project title &#10;&#10;The Github project title in the shared project box view has been updated with new CSS styles for font size and font weight. Additionally, the title is now transformed to uppercase for better visual impact.">
+      <option name="closed" value="true" />
+      <created>1716399396429</created>
+      <option name="number" value="LOCAL−00007" />
+      <option name="presentableId" value="LOCAL−00007" />
+      <updated>1716399396429</updated>
+    </task>
+    <task id="LOCAL−00008" summary="Update navigation bar in shared view&#10;&#10;The navigation bar in the shared view file &quot;_Navbar.cshtml&quot; has been modified. The &quot;Home&quot; link and title have been replaced with dynamic weather information. The &quot;Hire Me&quot; section is also updated to a &quot;Contact Me&quot; call-to-action button.">
+      <option name="closed" value="true" />
+      <created>1716399406954</created>
+      <option name="number" value="LOCAL−00008" />
+      <option name="presentableId" value="LOCAL−00008" />
+      <updated>1716399406954</updated>
+    </task>
+    <task id="LOCAL−00009" summary="Update default value for Message in ContactMeModel&#10;&#10;The default message string in the ContactMeModel has been updated in order to be more appealing and professional. This new message is designed to encourage potential candidates to respond more effectively.">
+      <option name="closed" value="true" />
+      <created>1716399418927</created>
+      <option name="number" value="LOCAL−00009" />
+      <option name="presentableId" value="LOCAL−00009" />
+      <updated>1716399418927</updated>
+    </task>
+    <task id="LOCAL−00010" summary="Update project descriptions and images in DataInitializer&#10;&#10;In this commit, the project descriptions in the DataInitializer class have been updated to provide more layout for each project. Additionally, the project images' URLs have been updated to point to a .webp version instead of a .png for improved loading speed. A new project 'RESTful API' has also been added to the list of projects.">
+      <option name="closed" value="true" />
+      <created>1716399433528</created>
+      <option name="number" value="LOCAL−00010" />
+      <option name="presentableId" value="LOCAL−00010" />
+      <updated>1716399433528</updated>
+    </task>
+    <task id="LOCAL−00011" summary="Update weather description in HomeController&#10;&#10;The hardcoded weather description was updated in two instances within the HomeController file. The description was changed from &quot;Warm as hell&quot; to &quot;TOO HOT!&quot;.">
+      <option name="closed" value="true" />
+      <created>1716399450414</created>
+      <option name="number" value="LOCAL−00011" />
+      <option name="presentableId" value="LOCAL−00011" />
+      <updated>1716399450414</updated>
+    </task>
+    <task id="LOCAL−00012" summary="Updated styling and structure on several sections of the homepage&#10;&#10;In this update, the layout of homepage elements was adjusted to improve appearance and HTML semantics. The typography was modified capital letters on labels and headers for clarity. Looping adjustments also made for more efficient rendering of data, such as references and skills.">
+      <option name="closed" value="true" />
+      <created>1716399465081</created>
+      <option name="number" value="LOCAL−00012" />
+      <option name="presentableId" value="LOCAL−00012" />
+      <updated>1716399465081</updated>
+    </task>
+    <task id="LOCAL−00013" summary="Update nullability in IndexViewModel properties&#10;&#10;Good code structure was enforced by updating the nullability of some properties inside the IndexViewModel class. The WeatherModel, GithubProjectModels, and ListOfSkills properties have been updated to have a nullable type instead of an initially null object.">
+      <option name="closed" value="true" />
+      <created>1716399474605</created>
+      <option name="number" value="LOCAL−00013" />
+      <option name="presentableId" value="LOCAL−00013" />
+      <updated>1716399474605</updated>
+    </task>
+    <task id="LOCAL−00014" summary="Add new parameters for website content&#10;&#10;Added links to resume and several development skills icons to the Parameters.cs file. Additionally, a list of reference quotes has been included for future use. These updates enhance the site content, providing more detailed professional information.">
+      <option name="closed" value="true" />
+      <created>1716399485256</created>
+      <option name="number" value="LOCAL−00014" />
+      <option name="presentableId" value="LOCAL−00014" />
+      <updated>1716399485256</updated>
+    </task>
+    <task id="LOCAL−00015" summary="Simplify Program.cs by removing unnecessary imports and code&#10;&#10;This commit removes several unnecessary 'using' imports that weren't being utilized within Project-2's Program.cs file. Additionally, the HTTP request pipeline configuration was simplified and unneeded conditionals were discarded, now all environments use MigrationEndPoint, ExceptionHandler and Hsts.">
+      <option name="closed" value="true" />
+      <created>1716399495703</created>
+      <option name="number" value="LOCAL−00015" />
+      <option name="presentableId" value="LOCAL−00015" />
+      <updated>1716399495703</updated>
+    </task>
+    <task id="LOCAL−00016" summary="Update CSS styles, add new font and improve interactivity&#10;&#10;The main changes in this commit include altering many CSS properties to modify the site's aesthetics. A new font, Rubik, has been imported and used across the site replacing the previous one. User interactivity has been improved by adding hover and active styles to buttons, as well as focus styles to input fields. Some new CSS classes have been created for additional features and unnecessary styles were removed.">
+      <option name="closed" value="true" />
+      <created>1716399509891</created>
+      <option name="number" value="LOCAL−00016" />
+      <option name="presentableId" value="LOCAL−00016" />
+      <updated>1716399509891</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="false" />
@@ -167,7 +262,19 @@
     <MESSAGE value="Remove .idea workspace configuration file&#10;&#10;The .idea workspace.xml configuration file was deleted to avoid sharing of personal IDE settings. This file is generated automatically by the IDE and should not be included in version control as it contains user specific settings. This change will improve project portability across different development environments." />
     <MESSAGE value="Add new skills to Parameters.cs&#10;&#10;The commit expands the number of skills in the SkillModel section by adding .NET CORE, Google, Azure, React and Javascript. Each skill model includes a skill name, description, and an associated icon URL." />
     <MESSAGE value="Update skill display and input placeholder in Home view&#10;&#10;The skill details display has been updated in the Home view to be more comprehensible by separating the skill name and description into separate spans. Furthermore, the placeholder text of the Name input field under 'Contact Me' form has been updated to &quot;Enter your name&quot; aiming for better clarity." />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="Add shelved patch for uncommitted changes&#10;&#10;This commit adds a new shelved.patch file capturing the uncommitted changes in the project. This patch serves as a backup of these uncommitted changes to allow switching branches or updates without losing current progress." />
+    <MESSAGE value="Update footer with additional details and links&#10;&#10;The footer layout has been updated to include more detailed information like the name and address. Social links are now also dynamic, deriving from the @Parameters object rather than being hardcoded." />
+    <MESSAGE value="Update text style in Github project title &#10;&#10;The Github project title in the shared project box view has been updated with new CSS styles for font size and font weight. Additionally, the title is now transformed to uppercase for better visual impact." />
+    <MESSAGE value="Update navigation bar in shared view&#10;&#10;The navigation bar in the shared view file &quot;_Navbar.cshtml&quot; has been modified. The &quot;Home&quot; link and title have been replaced with dynamic weather information. The &quot;Hire Me&quot; section is also updated to a &quot;Contact Me&quot; call-to-action button." />
+    <MESSAGE value="Update default value for Message in ContactMeModel&#10;&#10;The default message string in the ContactMeModel has been updated in order to be more appealing and professional. This new message is designed to encourage potential candidates to respond more effectively." />
+    <MESSAGE value="Update project descriptions and images in DataInitializer&#10;&#10;In this commit, the project descriptions in the DataInitializer class have been updated to provide more layout for each project. Additionally, the project images' URLs have been updated to point to a .webp version instead of a .png for improved loading speed. A new project 'RESTful API' has also been added to" />
+    <MESSAGE value="Update weather description in HomeController&#10;&#10;The hardcoded weather description was updated in two instances within the HomeController file. The description was changed from &quot;Warm as hell&quot; to &quot;TOO HOT!&quot;." />
+    <MESSAGE value="Updated styling and structure on several sections of the homepage&#10;&#10;In this update, the layout of homepage elements was adjusted to improve appearance and HTML semantics. The typography was modified capital letters on labels and headers for clarity. Looping adjustments also made for more efficient rendering of data, such as references and skills." />
+    <MESSAGE value="Update nullability in IndexViewModel properties&#10;&#10;Good code structure was enforced by updating the nullability of some properties inside the IndexViewModel class. The WeatherModel, GithubProjectModels, and ListOfSkills properties have been updated to have a nullable type instead of an initially null object." />
+    <MESSAGE value="Add new parameters for website content&#10;&#10;Added links to resume and several development skills icons to the Parameters.cs file. Additionally, a list of reference quotes has been included for future use. These updates enhance the site content, providing more detailed professional information." />
+    <MESSAGE value="Simplify Program.cs by removing unnecessary imports and code&#10;&#10;This commit removes several unnecessary 'using' imports that weren't being utilized within Project-2's Program.cs file. Additionally, the HTTP request pipeline configuration was simplified and unneeded conditionals were discarded, now all environments use MigrationEndPoint, ExceptionHandler and Hsts." />
+    <MESSAGE value="Update CSS styles, add new font and improve interactivity&#10;&#10;The main changes in this commit include altering many CSS properties to modify the site's aesthetics. A new font, Rubik, has been imported and used across the site replacing the previous one. User interactivity has been improved by adding hover and active styles to buttons, as well as focus styles to input fields. Some new CSS classes have been created for additional features and unnecessary styles were removed." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update CSS styles, add new font and improve interactivity&#10;&#10;The main changes in this commit include altering many CSS properties to modify the site's aesthetics. A new font, Rubik, has been imported and used across the site replacing the previous one. User interactivity has been improved by adding hover and active styles to buttons, as well as focus styles to input fields. Some new CSS classes have been created for additional features and unnecessary styles were removed." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
