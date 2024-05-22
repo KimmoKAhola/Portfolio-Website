@@ -12,10 +12,10 @@
             <img id="hero-profile-picture" src="~/images/profile.png" alt="TODO">
         </div>
         <div id="about-me">
-            <p>ABOUT <span style="text-decoration: underline">ME:</span></p>
+            <p>ABOUT ME:</p>
             <p>
                 <span><br>LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISICING ELIT. ASPERIORES DEBITIS DOLOREM FUGIT NEMO NON PRAESENTIUM RERUM SAPIENTE TEMPORE VEL VOLUPTATE! A, AUTEM DELENITI EOS EUM ISTE NUMQUAM PERSPICIATIS PORRO REPUDIANDAE!</span>
-                <br><span>brAD ALIQUAM ASPERIORES CONSECTETUR CULPA DIGNISSIMOS DOLOREMQUE, DOLORES DOLORUM ELIGENDI EST ET EX FUGA IN IPSUM MOLESTIAS NISI NOBIS OBCAECATI ODIT OFFICIIS PARIATUR QUASI QUOS RECUSANDAE SEQUI, SIMILIQUE TEMPORIBUS VERITATIS.</span>
+                <span><br>AD ALIQUAM ASPERIORES CONSECTETUR CULPA DIGNISSIMOS DOLOREMQUE, DOLORES DOLORUM ELIGENDI EST ET EX FUGA IN IPSUM MOLESTIAS NISI NOBIS OBCAECATI ODIT OFFICIIS PARIATUR QUASI QUOS RECUSANDAE SEQUI, SIMILIQUE TEMPORIBUS VERITATIS.</span>
             </p>
             <p>
                 <br><span>LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISICING ELIT. </span>
@@ -23,10 +23,7 @@
             <p>
                 <br><span>LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISICING ELIT. </span>
             </p>
-            <p>
-                <br><span>LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISICING ELIT. </span>
-            </p>
-            <span style="display: flex; gap: 12px; padding-top: 104px; padding-left: 60%">
+            <span id="about-me-buttons">
                 @* TODO for absolute positioning*@
                 <a href="@Parameters.MyResume"><button class="button-cta">CV</button></a>
                 <a href="@Parameters.GitHub"><img class="social-icon" src="~/images/icons/github.svg" alt="github"></a>
@@ -82,7 +79,7 @@
         <span class="form-row">
             <span class="form-input">
                 <label asp-for="ContactMeModel.Fullname">YOUR NAME</label>
-                <input asp-for="ContactMeModel.Fullname" type="text" placeholder="Enter your name">
+                <input asp-for="ContactMeModel.Fullname" type="text" placeholder="ENTER YOUR NAME">
                 <span asp-validation-for="ContactMeModel.Fullname" class="text-danger"></span>
             </span>
         </span>
