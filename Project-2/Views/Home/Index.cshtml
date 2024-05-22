@@ -38,8 +38,15 @@
         @foreach (var skill in @Model.ListOfSkills)
         {
             <span class="skill-span">
-                @skill.SkillName - @skill.Description
-                @Html.Raw(@skill.IconUrl)
+                <span class="skill-details">
+                    <span class="skill-header">
+                        @skill.SkillName
+                    </span>
+                    <span class="skill-subheader">
+                        @skill.Description
+                    </span>
+                </span>
+                    @Html.Raw(@skill.IconUrl)
             </span>
         }
     </div>
@@ -73,7 +80,7 @@
         <span class="form-row">
             <span class="form-input">
                 <label asp-for="ContactMeModel.Fullname">Your name</label>
-                <input asp-for="ContactMeModel.Fullname" type="text" placeholder="Your first name">
+                <input asp-for="ContactMeModel.Fullname" type="text" placeholder="Enter your name">
                 <span asp-validation-for="ContactMeModel.Fullname" class="text-danger"></span>
             </span>
         </span>
