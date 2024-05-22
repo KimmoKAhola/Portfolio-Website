@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DataAccessLayer.Migrations
 {
     [DbContext(typeof(ProjectDbContext))]
-    [Migration("20240521070735_added-properties")]
-    partial class addedproperties
+    [Migration("20240521171936_Initial")]
+    partial class Initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -42,6 +42,9 @@ namespace DataAccessLayer.Migrations
 
                     b.Property<string>("ImageURL")
                         .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("LiveDemoUrl")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ProjectURL")

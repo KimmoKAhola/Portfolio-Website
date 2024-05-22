@@ -2,9 +2,9 @@
 @model Project_2.Models.ViewModels.IndexViewModel
 @{
     ViewData["Title"] = "Home Page";
+    Layout = "_Layout";
 }
 
-@* TODO place this weather in the navbar or smth *@
 <section class="hero-section">
     <div id="hero-section"></div>
     <div class="container hero">
@@ -16,6 +16,15 @@
             <p>
                 <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores debitis dolorem fugit nemo non praesentium rerum sapiente tempore vel voluptate! A, autem deleniti eos eum iste numquam perspiciatis porro repudiandae!</span><span>Ad aliquam asperiores consectetur culpa dignissimos doloremque, dolores dolorum eligendi est et ex fuga in ipsum molestias nisi nobis obcaecati odit officiis pariatur quasi quos recusandae sequi, similique temporibus veritatis.</span>
             </p>
+            <p>
+                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </span>
+            </p>
+            <p>
+                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </span>
+            </p>
+            <p>
+                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </span>
+            </p>
             <span>
                 <a href="@Parameters.GitHub"><img class="social-icon" src="~/images/icons/github.svg" alt="github"></a>
                 <a href="@Parameters.LinkedIn"><img class="social-icon" src="~/images/icons/linkedin.svg" alt="linkedin"></a>
@@ -25,97 +34,86 @@
 </section>
 
 <section class="skills-section">
-    <p>Here are all my skills</p>
-    @foreach (var skill in @Model.ListOfSkills)
-    {
-        <p>@skill.SkillName - @skill.Description</p>
-    }
-</section>
-
-<section class="project-section">
-    <div class="carousel">
-        @foreach (var project in Model.GithubProjectModels)
+    <div class="skills-container">
+        @foreach (var skill in @Model.ListOfSkills)
         {
-            <div class="carousel-item @(project == Model.GithubProjectModels.First() ? "active" : "")">
-                <partial name="_GithubProjectBox" model="project"/>
-            </div>
+            <span class="skill-span">
+                @skill.SkillName - @skill.Description
+                @Html.Raw(@skill.IconUrl)
+            </span>
         }
     </div>
-    <span class="project-section-buttons">
-        <button id="prev-btn">
-            <img class="project-section-button" src="~/images/icons/chevron-left.svg" alt="">
-        </button>
-        <button id="next-btn">
-            <img class="project-section-button" src="~/images/icons/chevron-right.svg" alt="">
-        </button>
-        <span id="carousel-index"></span>
-    </span>
+</section>
+
+<div class="main-carousel project-section" data-flickity='{ "wrapAround":true }'>
+    @foreach (var project in @Model.GithubProjectModels)
+    {
+        @* <div class="carousel-cell"> *@
+            <partial name="_GithubProjectBox" model="project"/>
+        // </div>
+    }
+</div>
+
+<section class="references-section">
+    <div class="references">
+        <div class="reference-box">
+            <img class="reference-profile-picture" src="~/images/wilgross.jpg" alt="wilgross">
+            <i class="quote">&quotIt was a joy to do Console.WriteLine with you&quot - William Gross</i>
+        </div>
+
+        <div class="reference-box">
+            <img class="reference-profile-picture" src="~/images/wilgross.jpg" alt="wilgross">
+            <i class="quote">&quotI introduce the bugs, he squashes them.&quot - William Gross</i>
+        </div>
+    </div>
 </section>
 
 <section id="contact-me" class="contact-me-section">
-    <form class="contact-form" action="">
+    <form method="post" class="contact-form" asp-controller="Home" asp-action="Submit">
         <div asp-validation-summary="ModelOnly"></div>
-        <span class="form-input">
-            <label asp-for="ContactMeModel.FirstName">Your first name</label>
-            <input asp-for="ContactMeModel.FirstName" type="text" placeholder="Your first name">
-            <span asp-validation-for="ContactMeModel" class="text-danger"></span>
+        <span class="form-row">
+            <span class="form-input">
+                <label asp-for="ContactMeModel.FirstName">Your first name</label>
+                <input asp-for="ContactMeModel.FirstName" type="text" placeholder="Your first name">
+                <span asp-validation-for="ContactMeModel.FirstName" class="text-danger"></span>
+            </span>
+
+            <span class="form-input">
+                <label asp-for="ContactMeModel.Surname">Your last name</label>
+                <input asp-for="ContactMeModel.Surname" type="text" placeholder="Your last name">
+                <span asp-validation-for="ContactMeModel.Surname" class="text-danger"></span>
+            </span>
         </span>
 
-        <span class="form-input">
-            <label asp-for="ContactMeModel.Surname">Your last name</label>
-            <input asp-for="ContactMeModel.Surname" type="text" placeholder="Your last name">
-            <span asp-validation-for="ContactMeModel" class="text-danger"></span>
-        </span>
+        <span class="form-row">
+            <span class="form-input">
+                <label asp-for="ContactMeModel.Email">Your email</label>
+                <input asp-for="ContactMeModel.Email" type="email" placeholder="Your email here">
+                <span asp-validation-for="ContactMeModel.Email" class="text-danger"></span>
+            </span>
+            
+            <span class="form-input">
+                <label asp-for="ContactMeModel.ConfirmEmail">Confirm your email</label>
+                <input asp-for="ContactMeModel.ConfirmEmail" type="email" placeholder="Your email here">
+                <span asp-validation-for="ContactMeModel.ConfirmEmail" class="text-danger"></span>
+            </span>
 
-        <span class="form-input">
-            <label asp-for="ContactMeModel.Email">Your email</label>
-            <input asp-for="ContactMeModel.Email" type="email" placeholder="Your email here">
-            <span asp-validation-for="ContactMeModel" class="text-danger"></span>
         </span>
-
-        <span class="form-input">
-            <label asp-for="ContactMeModel.Message">Your message</label>
-            <textarea id="contact-me-textarea" asp-for="ContactMeModel.Message"></textarea>
-            <span asp-validation-for="ContactMeModel" class="text-danger"></span>
+        
+        <span class="form-row">
+            <span class="form-input">
+                <label asp-for="ContactMeModel.Message">Your message</label>
+                <textarea id="contact-me-textarea" asp-for="ContactMeModel.Message"></textarea>
+                <span asp-validation-for="ContactMeModel.Message" class="text-danger"></span>
+            </span>
         </span>
+        <button type="submit" class="button-cta">SUBMIT</button>
     </form>
 </section>
 
 <p>Weather @Model.WeatherModel.Info</p>
 
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        let currentIndex = 0;
-        const items = document.querySelectorAll('.carousel-item');
-        const totalItems = items.length;
-        const carouselIndex = document.getElementById('carousel-index');
-
-        function showItem(index) {
-            items.forEach((item, i) => {
-                if (i === index) {
-                    item.classList.add('active');
-                } else {
-                    item.classList.remove('active');
-                }
-            });
-        }
-
-        document.getElementById('prev-btn').addEventListener('click', function () {
-            currentIndex = (currentIndex > 0) ? currentIndex - 1 : totalItems - 1;
-            carouselIndex.innerText = `Project ${currentIndex+1} out of ${totalItems}`;
-            showItem(currentIndex);
-        });
-
-        document.getElementById('next-btn').addEventListener('click', function () {
-            currentIndex = (currentIndex < totalItems - 1) ? currentIndex + 1 : 0;
-            carouselIndex.innerText = `Project ${currentIndex+1} out of ${totalItems}`;
-            showItem(currentIndex);
-        });
-        carouselIndex.innerText = `Project ${currentIndex+1} out of ${totalItems}`;
-        showItem(currentIndex);
-    });
-</script>
-
 @section Scripts{
-<partial name="_ValidationScriptsPartial" />
+    <partial name="_ValidationScriptsPartial" />
+    <script src="~/js/index.js"></script>
 }
