@@ -59,6 +59,7 @@ html, body, a {
   color: #070707;
   font-family: "Manrope", sans-serif;
   font-size: 16px;
+  background-color: var(--off-white);
 }
 
 button{
@@ -74,6 +75,8 @@ button{
   --success: #22c55e;
   --warning: #ffba08;
   --info: #4c82f7;
+  --primary: #0891b2;
+  --off-white: #f5f5f5;
 }
 
 .wrapper{
@@ -90,7 +93,7 @@ button{
   padding-top: 12px;
   padding-bottom: 12px;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.18);
-  background-color: #fcfcfc;
+  background-color: var(--off-white);
 }
 
 .navbar .navbar-navigation {
@@ -110,15 +113,11 @@ button{
 
 .navbar-link{
   color: #151515;
-  /*color: var(--CTA-btn);*/
   font-size: 20px;
 }
 
-
-/*Alternative footer starts here*/
 .navbar-footer {
   /*TODO remove border top?*/
-  
   border-top: 1px solid #E2E2E2;
   margin-bottom: 64px;
   padding-top: 44px;
@@ -145,10 +144,10 @@ button{
 
 #hero-section{
   height: 93vh;
-  background-color: #0891b2;
+  background-color: var(--primary);
   clip-path: polygon(0 100%, 0 0, 100% 0, 100% 50%);
   position: relative;
-  z-index: -1;
+  z-index: 1;
 }
 
 .container.hero{
@@ -156,7 +155,7 @@ button{
   top: 10%;
   left: 15%;
   width: 100%;
-  z-index: 1;
+  z-index: 2;
   display: flex;
   align-items: center;
 }
@@ -166,8 +165,6 @@ button{
   width: 700px;
   background-color: red;
   position: relative;
-  box-shadow: 1px 1px 1px black;
-  /*TODO remove or fix*/
 }
 
 #hero-profile-picture{
@@ -177,13 +174,15 @@ button{
   right: 0;
 }
 
+#about-me, #hero-profile-box{
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
 #about-me{
   height: 500px;
   width: 750px;
   padding: 12px;
-  background-color: whitesmoke;
-  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
-  /*TODO remove or fix*/
+  background-color: var(--off-white);
 }
 
 .social-icon{
@@ -193,18 +192,66 @@ button{
 
 
 .skills-section{
-  height: 100vh;
-  background-color: rebeccapurple;
+  height: 40vh;
+  position: relative;
+  display: grid;
+  place-items: center;
+  margin-bottom: 72px;
 }
 
 .skills-container{
-  display: grid;
-  place-items: center;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.skill-span {
+  position: relative;
+  /*display: inline-block;*/
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.skill-details {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  z-index: 10;
+}
+
+.skill-span:hover .skill-details {
+  display: block;
+  transition: ease-in 2s;
+}
+
+.skill-icon img {
+  width: 50px;  
+  height: 50px;
+}
+
+.skill-header {
+  font-weight: bold;
+  display: block;
+}
+
+.skill-subheader {
+  display: block;
+}
+
+.skill-icon{
+  height: 100px;
+  font-size: 72px;
 }
 
 .carousel {
-  /*set project width here*/
   width: 90%;
   display: flex;
   transition: transform 0.5s ease-in-out;
@@ -224,13 +271,14 @@ button{
 .project-section {
   position: relative;
   overflow: hidden;
+  background-color: var(--primary);
+  clip-path: polygon(0 0, 100% 12%, 100% 100%, 0 100%);
 }
 
 .project-section{
   height: 100vh;
-  /*background-color: red;*/
-  /*display: grid;*/
-  /*place-items: center;*/
+  /*TODO Do not change this*/
+  /*margin-bottom: 72px;*/
 }
 
 .project-section-buttons {
@@ -252,14 +300,11 @@ button{
   width: 66%;
   height: 100%;
   margin-right: 10px;
-  /*background: #8C8;*/
   border-radius: 5px;
   counter-increment: carousel-cell;
-  background-color: white;
+  /*background-color: white;*/
   padding: 20px;
   border: 1px solid black;
-  /*width: 100%;*/
-  /*height: 80vh;*/
   display: grid;
   place-items: center;
   img{
@@ -289,14 +334,6 @@ button{
   gap: 12px;
 }
 
-/*.github-project-image{*/
-/*  height: 70%;*/
-/*  width: 70%;*/
-/*  */
-/*  max-height: 70%;*/
-/*  max-width: 70%;*/
-/*}*/
-
 .contact-me-section{
   height: 100vh;
   display: grid;
@@ -304,23 +341,27 @@ button{
 }
 
 .contact-form{
-  width: 100%;
+  /*width: 100%;*/
+  width: 50%;
+  padding: 72px;
+  background-color: rebeccapurple;
   display: grid;
   place-items: center;
+  border-radius: 12px;
 }
 
 .form-row{
   display: flex;
   width: 100%;
   justify-content: center;
-  gap: 72px;
+  margin-bottom: 36px;
 }
 
 .form-input{
   display: flex;
   flex-direction: column;
   gap: 12px;
-  width: 30%;
+  width: 100%;
   input, textarea{
     border: 1px solid rgba(0, 0, 0, 0.3);
     border-radius: 4px;
@@ -330,7 +371,8 @@ button{
     height: 50px;
   }
   textarea{
-    height: fit-content;
+    height: 400px;
+    resize: none;
   }
 }
 
@@ -343,7 +385,6 @@ button{
   width: 66%;
   height: 100%;
   margin-right: 10px;
-  /*background: #8C8;*/
   border-radius: 5px;
   counter-increment: carousel-cell;
 }
@@ -374,7 +415,7 @@ button{
   gap: 12px;
   padding: 12px;
   align-items: center;
-  background-color: white;
+  background-color: var(--off-white);
   width: fit-content;
   border-radius: 0.25rem;
   box-shadow: 1px 1px 1px black;
@@ -394,16 +435,6 @@ button{
   border-radius: 50%;
   max-height: 300px;
   max-width: 300px;
-}
-
-.skill-icon{
-  height: 100px;
-  font-size: 72px;
-}
-
-.skill-span{
-  display: flex;  
-  align-items: center;
 }
 
 .text-danger{
