@@ -122,6 +122,7 @@ button{
 }
 
 .navbar-footer {
+  height: 5vh;
   margin-bottom: 64px;
   padding-top: 44px;
   display: flex;
@@ -164,24 +165,31 @@ button{
 }
 
 #hero-profile-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   height: 700px;
   width: 700px;
-  position: relative;
   border-radius: 2px;
   z-index: 3;
   border: 2px solid black;
+  background-color: var(--off-white);
+  padding: 24px;
 }
 
 #hero-profile-picture{
   height: 100%;
-  position: absolute;
-  bottom: 0;
-  right: 0;
 }
 
-#about-me, #hero-profile-box{
+.hero-profile-box-title{
+  font-size: 32px;
+  font-weight: bold;
+}
+
+#about-me, #hero-profile-box, .github-project-content, .contact-form{
   /*box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.3);*/
-  box-shadow: 7px 7px 0px black;
+  box-shadow: 10px 10px 0px black;
 }
 
 #about-me{
@@ -387,7 +395,7 @@ span {
   flex-direction: column;
   background-color: var(--off-white);
   /*box-shadow: 7px 7px 0px rgba(0, 0, 0, 0.4);*/
-  box-shadow: 7px 7px 0px rgba(0, 0, 0, 0.8);
+  /*box-shadow: 7px 7px 0px rgba(0, 0, 0, 0.8);*/
   /*TODO How much shadow? 0.8, 1.0?*/
   padding: 24px;
   border-radius: 2px;
@@ -441,8 +449,6 @@ span {
   display: grid;
   place-items: center;
   border-radius: 2px;
-  /*box-shadow: 7px 7px 0px rgba(0, 0, 0, 0.4); TODO I have not decided yet*/
-  box-shadow: 7px 7px 0px black;
 }
 
 .form-row{
@@ -507,10 +513,17 @@ span {
 
 .references-section{
   background-color: var(--off-white);
-  height: 60vh;
+  min-height: 70vh;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-evenly;
   align-items: center;
+}
+
+.references-header, .skills-header{
+  font-size: 102px;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 .reference-box{
@@ -599,4 +612,8 @@ input:active, input:focus, textarea:active, textarea:focus{
   box-shadow: inset 4px 4px 0px rgba(0, 0, 0, 0.4) !important; 
   text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.4) !important; 
   background-color: var(--success);
+}
+
+#ContactMeModel_Fullname:hover, #contact-me-textarea:hover{
+  cursor: pointer;
 }
