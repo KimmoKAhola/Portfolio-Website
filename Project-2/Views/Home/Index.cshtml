@@ -10,6 +10,7 @@
     <div class="container hero">
         <div id="hero-profile-box">
             <img id="hero-profile-picture" src="~/images/profile.png" alt="TODO">
+            <h2 class="hero-profile-box-title">POORLY DRAWN PICTURE OF ME</h2>
         </div>
         <div id="about-me">
             <p>ABOUT ME:</p>
@@ -34,7 +35,7 @@
 </section>
 
 <section class="skills-section">
-    <h2 style="font-size: 102px; font-weight: bold; text-decoration: underline">MY SKILLS</h2>
+    <h2 class="skills-header">MY SKILLS</h2>
     <div class="skills-container">
         @for (int i = 0; i < 2; i++)
         {
@@ -60,6 +61,7 @@
 </div>
 
 <section class="references-section">
+    <h2 class="references-header">TESTIMONIALS</h2>
     <div class="references">
         @foreach (var reference in Parameters.ReferenceQuotes)
         {
