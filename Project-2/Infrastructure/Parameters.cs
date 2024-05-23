@@ -174,6 +174,8 @@ public static class Parameters
         """
                 <i class="quote">"IT WAS A <span style='text-decoration: underline;'>JOY</span> TO DO CONSOLE.WRITELINE WITH YOU" - WILLIAM GROSS</i>
             """,
-        "\"I create bugs, he squashes them\" - William Gross"
+        """
+            <i class="quote">"I CREATE BUGS, HE <span style='text-decoration: underline;'>SQUASHES</span> THEM" - WILLIAM GROSS</i>
+            """
     ];
 }
