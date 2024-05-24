@@ -12,10 +12,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35eb54fb-81c2-4d76-ab0c-229ae8a87442" name="Changes" comment="Update workspace configuration and enhance site aesthetics &#10;&#10;This commit includes changes in workspace.xml file with updated commit descriptions and additional Azure publishing settings. Modification in site.css allows better webpage layout positioning. A few new quotes have also been added to the Parameters in the Infrastructure folder.">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Project-2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Project-2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project-2/wwwroot/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/wwwroot/css/site.css" afterDir="false" />
-    </list>
+    <list default="true" id="35eb54fb-81c2-4d76-ab0c-229ae8a87442" name="Changes" comment="Update workspace.xml and site.css files&#10;&#10;The workspace.xml file was updated, adding Azure publishing settings and modifying commit descriptions. Webpage layout positioning was also improved via changes in the site.css file. A few new quotes have been added to the Parameters in the Infrastructure folder." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -532,7 +529,7 @@
       <workItem from="1716402706487" duration="402000" />
       <workItem from="1716474179841" duration="921000" />
       <workItem from="1716565110632" duration="2609000" />
-      <workItem from="1716568244034" duration="732000" />
+      <workItem from="1716568244034" duration="1109000" />
     </task>
     <task id="LOCAL−00022" summary="Refactor Github project service and update project details&#10;&#10;This commit includes removal of the unused Get method in IGithubProjectService interface and GithubApiService class. The HomeController's submit method has been updated to use latitude and longitude for weather service, and the email body message has been localized. Finally, a new workspace.xml file has been added.">
       <option name="closed" value="true" />
@@ -555,7 +552,14 @@
       <option name="presentableId" value="LOCAL−00024" />
       <updated>1716567105223</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL−00025" summary="Update workspace.xml and site.css files&#10;&#10;The workspace.xml file was updated, adding Azure publishing settings and modifying commit descriptions. Webpage layout positioning was also improved via changes in the site.css file. A few new quotes have been added to the Parameters in the Infrastructure folder.">
+      <option name="closed" value="true" />
+      <created>1716569156070</created>
+      <option name="number" value="LOCAL−00025" />
+      <option name="presentableId" value="LOCAL−00025" />
+      <updated>1716569156070</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -564,7 +568,6 @@
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="false" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="You didn't provide any specific code differences (diffs) or a current commit message. I need this information to craft an appropriate commit message. Please provide these details so I can assist you further." />
     <MESSAGE value="Remove .idea workspace configuration file&#10;&#10;The .idea workspace.xml configuration file was deleted to avoid sharing of personal IDE settings. This file is generated automatically by the IDE and should not be included in version control as it contains user specific settings. This change will improve project portability across different development environments." />
     <MESSAGE value="Add new skills to Parameters.cs&#10;&#10;The commit expands the number of skills in the SkillModel section by adding .NET CORE, Google, Azure, React and Javascript. Each skill model includes a skill name, description, and an associated icon URL." />
     <MESSAGE value="Update skill display and input placeholder in Home view&#10;&#10;The skill details display has been updated in the Home view to be more comprehensible by separating the skill name and description into separate spans. Furthermore, the placeholder text of the Name input field under 'Contact Me' form has been updated to &quot;Enter your name&quot; aiming for better clarity." />
@@ -589,7 +592,8 @@
     <MESSAGE value="Refactor Github project service and update project details&#10;&#10;This commit includes removal of the unused Get method in IGithubProjectService interface and GithubApiService class. The HomeController's submit method has been updated to use latitude and longitude for weather service, and the email body message has been localized. Finally, a new workspace.xml file has been added." />
     <MESSAGE value="Update workspace configurations and refactor CSS files&#10;&#10;Adjusted workspace configurations in workspace.xml file, including changes in commit descriptions, and added Azure publishing settings. Also updated site.css for better webpage layout positioning by implementing CSS grid and transform properties." />
     <MESSAGE value="Update workspace configuration and enhance site aesthetics &#10;&#10;This commit includes changes in workspace.xml file with updated commit descriptions and additional Azure publishing settings. Modification in site.css allows better webpage layout positioning. A few new quotes have also been added to the Parameters in the Infrastructure folder." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update workspace configuration and enhance site aesthetics &#10;&#10;This commit includes changes in workspace.xml file with updated commit descriptions and additional Azure publishing settings. Modification in site.css allows better webpage layout positioning. A few new quotes have also been added to the Parameters in the Infrastructure folder." />
+    <MESSAGE value="Update workspace.xml and site.css files&#10;&#10;The workspace.xml file was updated, adding Azure publishing settings and modifying commit descriptions. Webpage layout positioning was also improved via changes in the site.css file. A few new quotes have been added to the Parameters in the Infrastructure folder." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update workspace.xml and site.css files&#10;&#10;The workspace.xml file was updated, adding Azure publishing settings and modifying commit descriptions. Webpage layout positioning was also improved via changes in the site.css file. A few new quotes have been added to the Parameters in the Infrastructure folder." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
