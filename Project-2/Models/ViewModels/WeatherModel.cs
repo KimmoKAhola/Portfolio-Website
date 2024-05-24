@@ -2,5 +2,8 @@
 
 public class WeatherModel
 {
-    public string Info { get; set; }
+    public string Time { get; set; }
+    public double CurrentTemperature { get; set; }
+    public string IsDay { get; set; }
+    public string WeatherCode { get; set; }
 }
