@@ -178,7 +178,8 @@ button{
 }
 
 #hero-profile-picture{
-  height: 70%;
+  max-height: 490px;
+  width: auto;
 }
 
 #about-me{
