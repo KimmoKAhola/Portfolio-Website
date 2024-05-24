@@ -133,6 +133,9 @@ public static class Parameters
 
     public static readonly Uri GitHub = new("https://github.com/KimmoKAhola/");
     public static readonly Uri LinkedIn = new("https://www.linkedin.com/in/kimmo-ahola-0679b6290/");
+    public static readonly Uri WilliamLinkedIn =
+        new("https://www.linkedin.com/in/william-gross-602971290/");
+    public static readonly Uri WilliamGithub = new("https://github.com/WILGROSS");
     public const string MyEmail = "Kahola@gmail.com";
     public static readonly Uri MyResume =
         new("https://kimmoprojectstorage.blob.core.windows.net/project/CV.pdf");
@@ -213,10 +216,10 @@ public static class Parameters
     public static readonly List<string> ReferenceQuotes =
     [
         """
-                <i class="quote">"IT WAS AN <span style='text-decoration: underline;'>HONOR</span> TO DO CONSOLE.WRITELINE WITH YOU" - WILLIAM GROSS</i>
+            <i class="quote">"IT WAS AN <span style='text-decoration: underline;'>HONOR</span> TO DO CONSOLE.WRITELINE WITH YOU"</i>
             """,
         """
-            <i class="quote">"I CREATE BUGS, HE <span style='text-decoration: underline;'>SQUASHES</span> THEM" - WILLIAM GROSS</i>
+            <i class="quote">"I CREATE BUGS, HE <span style='text-decoration: underline;'>SQUASHES</span> THEM"</i>
             """
     ];
 }

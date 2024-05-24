@@ -91,7 +91,7 @@ button{
   grid-template-rows: auto 1fr auto;
 }
 
-.navbar {
+.navbar, .navbar-footer {
   height: 7vh; 
   display: flex;
   justify-content: space-between;
@@ -100,7 +100,13 @@ button{
   background-color: var(--off-white);
 }
 
-.navbar .navbar-navigation {
+.footer{
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar .navbar-navigation, .navbar-footer {
   display: flex;
   align-items: center;
   gap: 80px;
@@ -121,18 +127,7 @@ button{
   font-weight: bold;
 }
 
-.navbar-footer {
-  height: 5vh;
-  margin-bottom: 64px;
-  padding-top: 44px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.navbar-footer nav {
-  display: flex;
-  gap: 40px;
-}
+
 .navbar-footer div {
   display: flex;
   gap: 25px;
@@ -210,7 +205,7 @@ button{
     }
   }
 }
-#about-me, #hero-profile-box, .github-project-content, .contact-form{
+#about-me, #hero-profile-box, .github-project-content, .contact-form, .reference-box{
   box-shadow: 10px 10px 0 black;
 }
 
@@ -219,15 +214,12 @@ button{
 }
 
 #about-me{
-  max-height: 500px;
-  height: 500px;
   max-width: 750px;
   width: 100%;
-  padding: 1.5rem;
+  padding: 1rem;
   background-color: var(--off-white);
   z-index: 4;
   font-weight: bolder;
-  position: relative;
 }
 
 #about-me-info{
@@ -247,11 +239,8 @@ button{
   text-decoration: underline;
 }
 
-#about-me-buttons{
+#about-me-buttons, #about-me-buttons-william{
   display: flex; justify-content: flex-end; gap: 12px;
-  position: absolute;
-  bottom: 12px;
-  right: 12px;
 }
 
 .social-icon, .project-skill-icon{
@@ -263,13 +252,16 @@ button{
   /*TODO add something here?*/
 }
 
-
 .skills-section{
   min-height: 60vh;
   position: relative;
   display: grid;
   place-items: center;
   margin: 72px 0;
+}
+
+.skills-header{
+  margin-bottom: 150px;
 }
 
 .skills-container{
@@ -556,22 +548,22 @@ span {
 
 .references-section{
   background-color: var(--off-white);
-  min-height: 70vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
+  max-height: 70vh;
+  min-height: 50vh;
+  display: grid;
+  place-items: center;
+  margin-bottom: 50px;
+}
+
+.references-header{
+  margin-bottom: 50px;
 }
 
 .references-header, .skills-header{
   font-size: 102px;
   font-weight: bold;
   text-decoration: underline;
-  margin: 50px 0;
-}
-
-.skills-header{
-  margin-bottom: 100px;
+  line-height: 102px;
 }
 
 .reference-box{
@@ -580,26 +572,77 @@ span {
   padding: 12px;
   align-items: center;
   background-color: var(--off-white);
-  width: fit-content;
-  border-radius: 0.25rem;
+  border: 1px solid black;
+  height: 100%;
 }
+
+.reference-body{
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  flex: 1;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.reference-body-top{
+  padding-top: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.reference-body a{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    width: fit-content;
+    transition: all 0.1s ease-in;
+}
+
 .quote{
   font-style: italic;
   font-weight: bold;
   font-size: 1.5rem;
+  line-height: 1.5rem;
 }
 
 .references{
-  display: flex;
-  gap: 24px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+  gap: 72px;
 }
 
 .reference-profile-picture{
   height: 100%;
   width: 100%;
   border-radius: 50%;
-  max-height: 300px;
-  max-width: 300px;
+  max-height: 200px;
+  max-width: 200px;
+}
+
+
+
+.reference-body-social-links{
+  display: flex;
+  gap: 24px;
+  justify-content: end;
+}
+
+#test{
+  i{
+    
+  height: 50px;
+  width: 50px;
+  }
+}
+
+a:hover{
+  cursor: pointer;
+  color: var(--primary);
 }
 
 .text-danger{
@@ -613,22 +656,22 @@ span {
   color: var(--off-white);
   font-size: 2rem;
   font-weight: bold;
-  transition: all ease-in 0.1s;
+  transition: all ease 0.2s;
 }
 
 .button-cta:hover{
-  box-shadow: 4px 4px 0px black;
-  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.7);
+  box-shadow: 6px 6px 0 black;
+  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.7);
 }
 
 .button-cta:active{
-  box-shadow: inset 4px 4px 0px rgba(0, 0, 0, 0.4);
-  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: inset 4px 4px 0 rgba(0, 0, 0, 0.4);
+  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.4);
 }
 
 input:active, input:focus, textarea:active, textarea:focus{
   outline: none;
-  box-shadow: inset 4px 4px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: inset 4px 4px 0 rgba(0, 0, 0, 0.4);
 }
 
 .flickity-prev-next-button.previous,.flickity-prev-next-button.next {
@@ -639,7 +682,7 @@ input:active, input:focus, textarea:active, textarea:focus{
   height: 50px; 
   border: none; 
   transition: all ease-in 0.1s;
-  box-shadow: 7px 7px 0px black;
+  box-shadow: 6px 6px 0 black;
 }
 
 .flickity-prev-next-button.previous{
@@ -651,8 +694,7 @@ input:active, input:focus, textarea:active, textarea:focus{
 }
 
 .flickity-prev-next-button.previous:hover,.flickity-prev-next-button.next:hover{
-  /*box-shadow: inset 7px 7px 0px black;*/
-  box-shadow: 7px 7px 0px black;
+  box-shadow: 6px 6px 0px black;
   text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.7);
   background-color: var(--success);
   transition: all ease-in 0.1s;
