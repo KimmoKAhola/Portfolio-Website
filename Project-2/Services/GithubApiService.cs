@@ -4,7 +4,7 @@ using Project_2.Models.ViewModels.GithubProjects;
 
 namespace Project_2.Services;
 
-public class GithubApiService(HttpClient httpClient) : IHttpService<GithubProjectModel>
+public class GithubApiService(HttpClient httpClient) : IGithubProjectService
 {
     private readonly JsonSerializerOptions _jsonOptions =
         new() { PropertyNameCaseInsensitive = true };
@@ -14,12 +14,7 @@ public class GithubApiService(HttpClient httpClient) : IHttpService<GithubProjec
         throw new NotImplementedException();
     }
 
-    public async Task<GithubProjectModel> Get()
-    {
-        throw new NotImplementedException();
-    }
-
-    public async Task<List<GithubProjectModel>> GetAll()
+    public async Task<List<GithubProjectModel>> Get()
     {
         var httpResponse = await httpClient.GetAsync("Project");
         try
