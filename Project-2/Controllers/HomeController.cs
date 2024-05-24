@@ -45,4 +45,12 @@ public class HomeController(IWeatherService weatherService, IGithubProjectServic
             + $"&body={Uri.EscapeDataString($"Hello {indexViewModel.ContactMeModel.Fullname},\n\n{indexViewModel.ContactMeModel.Message}")}";
         return Redirect(mailtoLink);
     }
+
+    [HttpGet]
+    public async Task<JsonResult> GetWeather(double lat, double lon)
+    {
+        var result = await weatherService.Get(lat, lon);
+        return new JsonResult(result);
+        // return $"{result.Current.Temperature2m}";
+    }
 }
