@@ -47,7 +47,6 @@
             let res = await fetch(`/Home/GetWeather/?lat=${latitude}&lon=${longitude}`);
             let data = await res.json();
             let icon = getWeatherIcon(data.current.weather_code, data.current.is_day);
-            console.log(data);
             weatherElement.innerHTML = `${data.current.temperature_2m} °C ${icon}`;
         } catch (error){
             weatherElement.innerHTML = `COULD NOT FETCH THE WEATHER`;
