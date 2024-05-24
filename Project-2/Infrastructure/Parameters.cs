@@ -165,14 +165,21 @@ public static class Parameters
             {
                 "SCSS",
                 """<img class="project-skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg" />"""
+            },
+            {
+                "SWAGGER",
+                """<img class="project-skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swagger/swagger-original.svg" />"""
+            },
+            {
+                "OAUTH2",
+                """<img class="project-skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/oauth/oauth-original.svg" />"""
             }
         };
 
     public static readonly List<string> ReferenceQuotes =
     [
-        // "\"It was a joy to do Console.WriteLine with you\" - William Gross",
         """
-                <i class="quote">"IT WAS A <span style='text-decoration: underline;'>JOY</span> TO DO CONSOLE.WRITELINE WITH YOU" - WILLIAM GROSS</i>
+                <i class="quote">"IT WAS AN <span style='text-decoration: underline;'>HONOR</span> TO DO CONSOLE.WRITELINE WITH YOU" - WILLIAM GROSS</i>
             """,
         """
             <i class="quote">"I CREATE BUGS, HE <span style='text-decoration: underline;'>SQUASHES</span> THEM" - WILLIAM GROSS</i>
