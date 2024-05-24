@@ -1,15 +1,11 @@
-﻿@using Microsoft.AspNetCore.Mvc.TagHelpers
-@using Project_2.Infrastructure
-<div id="footer-bg">
-    <div class="container">
-        <div class="navbar-footer">
-            <span style="display: flex; line-height: 2.5rem; flex-direction: column; font-size: 2rem; font-weight: bold;">
-                <p>&copy; @DateTime.Now.Year KIMMO AHOLA</p>
-            </span>
-            <div>
-                <a class="social-icon" href="@Parameters.GitHub"><img src="~/images/icons/github.svg" alt="logo"/></a>
-                <a class="social-icon" href="@Parameters.LinkedIn"><img src="~/images/icons/linkedin.svg" alt="logo"/></a>
-            </div>
-        </div>
+﻿@using Project_2.Infrastructure
+
+<footer class="navbar-footer container" style="display: flex; align-items: end; margin-bottom: 24px">
+    <span style="line-height: 2rem; font-size: 2rem; font-weight: bold;">
+        <p>&copy; @DateTime.Now.Year KIMMO AHOLA</p>
+    </span>
+    <div>
+        <a class="social-icon" href="@Parameters.GitHub"><img src="~/images/icons/github.svg" alt="logo"/></a>
+        <a class="social-icon" href="@Parameters.LinkedIn"><img src="~/images/icons/linkedin.svg" alt="logo"/></a>
     </div>
-</div>
+</footer>

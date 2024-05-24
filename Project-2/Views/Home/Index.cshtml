@@ -17,7 +17,8 @@
                 <a href="@Parameters.MyResume"><button class="button-cta">HERE</button></a>
             </h3></span>
         </div>
-        <div id="about-me">
+        <div style="display: flex; flex-direction: column; justify-content: space-between" id="about-me">
+            <span>
             <p class="header">kimmo ahola:</p>
             <p id="about-me-info">
             <p><span class="underline">born:</span> <span class="normal-text">1991 to finnish parents</span></p>
@@ -39,7 +40,8 @@
                     </span>
                 </span>
             </span>
-            <span id="about-me-buttons">
+            </span>
+            <span style="justify-content: end" id="about-me-buttons">
                 <a href="@Parameters.GitHub"><img class="social-icon" src="~/images/icons/github.svg" alt="github"></a>
                 <a href="@Parameters.LinkedIn"><img class="social-icon" src="~/images/icons/linkedin.svg" alt="linkedin"></a>
             </span>
@@ -70,14 +72,23 @@
     }
 </div>
 
-<section class="references-section">
+<section class="references-section container">
     <h2 class="references-header">TESTIMONIALS</h2>
     <div class="references">
         @foreach (var reference in Parameters.ReferenceQuotes)
         {
             <div class="reference-box">
                 <img class="reference-profile-picture" src="~/images/wilgross.jpg" alt="wilgross">
-                @Html.Raw(reference)
+                <span class="reference-body">
+                    <span class="reference-body-top">
+                        @Html.Raw(reference)
+                        <p style="margin-top: 24px" class="normal-text"> - william gross</p>
+                    </span>
+                    <span id="about-me-buttons-william">
+                        <a href="@Parameters.WilliamGithub"><img class="social-icon" src="~/images/icons/github.svg" alt="github"></a>
+                        <a href="@Parameters.WilliamLinkedIn"><img class="social-icon" src="~/images/icons/linkedin.svg" alt="linkedin"></a>
+                    </span>
+                </span>
             </div>
         }
     </div>
