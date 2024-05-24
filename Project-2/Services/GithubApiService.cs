@@ -9,11 +9,6 @@ public class GithubApiService(HttpClient httpClient) : IGithubProjectService
     private readonly JsonSerializerOptions _jsonOptions =
         new() { PropertyNameCaseInsensitive = true };
 
-    public async Task<GithubProjectModel> Get(int id)
-    {
-        throw new NotImplementedException();
-    }
-
     public async Task<List<GithubProjectModel>> Get()
     {
         var httpResponse = await httpClient.GetAsync("Project");

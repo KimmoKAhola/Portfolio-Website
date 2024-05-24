@@ -2,14 +2,10 @@
 @model Project_2.Models.ViewModels.GithubProjects.GithubProjectModel
 
 <div class="github-project-box">
-    @* TODO replace this image with azure blob storage link *@
     <div class="github-project-content">
         <span class="github-project-title">@Model.Title.ToUpper()</span>
         <span class="github-project-subtitle">@Model.Description.ToUpper()</span>
         <img class="github-project-image" src="@Model.ImageURL" alt="project image">
-        <span class="project-info">
-            @*TODO add later <span>@Model.Description</span> *@
-        </span>
         <span class="project-skills">
             <div style="display: flex; gap: 12px">
                 @foreach (var skill in Model.Skills.Where(skill => Parameters.Icons.ContainsKey(skill.ToUpper())))
@@ -28,4 +24,4 @@
             </span>
         </span>
     </div>
-    </div>
+</div>
