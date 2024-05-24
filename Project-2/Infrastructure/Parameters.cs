@@ -204,6 +204,10 @@ public static class Parameters
             """,
         """
             <i class="quote">"I CREATE BUGS, HE <span style='text-decoration: underline;'>SQUASHES</span> THEM"</i>
-            """
+            """,
+        """
+            <i class="quote">"here i am, <span style='text-decoration: underline;'>again</span>."</i>
+            """,
+        """<i class="quote">"this is the last quote. I<span style='text-decoration: underline;'>promise</span>!"</i> """
     ];
 }

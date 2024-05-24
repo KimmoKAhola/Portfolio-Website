@@ -12,8 +12,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35eb54fb-81c2-4d76-ab0c-229ae8a87442" name="Changes" comment="Refactor Github project service and update project details&#10;&#10;This commit includes removal of the unused Get method in IGithubProjectService interface and GithubApiService class. The HomeController's submit method has been updated to use latitude and longitude for weather service, and the email body message has been localized. Finally, a new workspace.xml file has been added.">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Project-2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Project-2/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="35eb54fb-81c2-4d76-ab0c-229ae8a87442" name="Changes" comment="Update workspace configurations and refactor CSS files&#10;&#10;Adjusted workspace configurations in workspace.xml file, including changes in commit descriptions, and added Azure publishing settings. Also updated site.css for better webpage layout positioning by implementing CSS grid and transform properties.">
+      <change beforePath="$PROJECT_DIR$/Project-2/Infrastructure/Parameters.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/Infrastructure/Parameters.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project-2/wwwroot/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/wwwroot/css/site.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -128,6 +128,7 @@
     ".NET Launch Settings Profile.Project-2: http.executor": "Run",
     ".NET Launch Settings Profile.ProjectAPI: http.executor": "Run",
     "Azure - Publish Web App.Publish Project-2 to Azure (1).executor": "Run",
+    "Azure - Publish Web App.Publish Project-2 to Azure (2).executor": "Run",
     "Azure - Publish Web App.Publish Project-2 to Azure.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "final-push-cleaning",
@@ -148,6 +149,43 @@
 }]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.Project-2: http">
     <configuration name="Publish Project-2 to Azure (1)" type="AzureDotNetWebAppPublish" factoryName="Azure Web App">
+      <option name="AZURE_WEB_APP_PROJECT" value="$PROJECT_DIR$/Project-2/Project-2.csproj" />
+      <option name="AZURE_WEB_APP_CONFIGURATION" value="Release" />
+      <option name="AZURE_WEB_APP_PLATFORM" value="Any CPU" />
+      <option name="AZURE_WEB_APP_SUBSCRIPTION_ID" value="42874c1c-2ba9-441d-865d-5b38e2c642f4" />
+      <option name="AZURE_WEB_APP_IS_CREATE_APP" value="0" />
+      <option name="AZURE_WEB_APP_ID" value="/subscriptions/42874c1c-2ba9-441d-865d-5b38e2c642f4/resourceGroups/ResourceMoverRG-eastus-swedencentral-swc/providers/Microsoft.Web/sites/kimmo-project-2" />
+      <option name="AZURE_WEB_APP_NAME" value="" />
+      <option name="AZURE_WEB_APP_IS_CREATE_RESOURCE_GROUP" value="0" />
+      <option name="AZURE_WEB_APP_RESOURCE_GROUP_NAME" value="" />
+      <option name="AZURE_WEB_APP_OPERATING_SYSTEM" value="WINDOWS" />
+      <option name="AZURE_WEB_APP_IS_CREATE_APP_SERVICE_PLAN" value="0" />
+      <option name="AZURE_WEB_APP_SERVICE_PLAN_ID" value="/subscriptions/42874c1c-2ba9-441d-865d-5b38e2c642f4/resourceGroups/rg-240331191401/providers/Microsoft.Web/serverfarms/appsp-240331191503" />
+      <option name="AZURE_WEB_APP_SERVICE_PLAN_NAME" value="" />
+      <option name="AZURE_WEB_APP_LOCATION" value="eastus" />
+      <option name="AZURE_WEB_APP_PRICING_TIER" value="S1" />
+      <option name="AZURE_WEB_APP_NET_FRAMEWORK" value="4.7" />
+      <option name="AZURE_WEB_APP_NET_CORE_RUNTIME" value="DOTNETCORE 2.1" />
+      <option name="AZURE_WEB_APP_IS_DEPLOY_TO_SLOT" value="0" />
+      <option name="AZURE_WEB_APP_SLOT_NAME" value="" />
+      <option name="AZURE_WEB_APP_OPEN_BROWSER_PUBLISH" value="0" />
+      <option name="AZURE_SQL_DATABASE_SUBSCRIPTION_ID" value="42874c1c-2ba9-441d-865d-5b38e2c642f4" />
+      <option name="AZURE_SQL_DATABASE_IS_ENABLED" value="0" />
+      <option name="AZURE_SQL_DATABASE_CONNECTION_STRING_NAME" value="" />
+      <option name="AZURE_SQL_DATABASE_IS_CREATE" value="0" />
+      <option name="AZURE_SQL_DATABASE_ID" value="/subscriptions/42874c1c-2ba9-441d-865d-5b38e2c642f4/resourceGroups/rg-240331191401/providers/Microsoft.Sql/servers/kimmo-bankappdata/databases/BankAppData" />
+      <option name="AZURE_SQL_DATABASE_NAME" value="" />
+      <option name="AZURE_SQL_DATABASE_IS_CREATE_RESOURCE_GROUP" value="0" />
+      <option name="AZURE_SQL_DATABASE_RESOURCE_GROUP_NAME" value="" />
+      <option name="AZURE_SQL_DATABASE_IS_CREATE_SQL_SERVER" value="0" />
+      <option name="AZURE_SQL_DATABASE_SQL_SERVER_ID" value="" />
+      <option name="AZURE_SQL_DATABASE_SQL_SERVER_NAME" value="" />
+      <option name="AZURE_SQL_DATABASE_SQL_SERVER_ADMIN_LOGIN" value="KiAhola" />
+      <option name="AZURE_SQL_DATABASE_LOCATION" value="eastus" />
+      <option name="AZURE_SQL_DATABASE_COLLATION" value="SQL_Latin1_General_CP1_CI_AS" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish Project-2 to Azure (2)" type="AzureDotNetWebAppPublish" factoryName="Azure Web App">
       <option name="AZURE_WEB_APP_PROJECT" value="$PROJECT_DIR$/Project-2/Project-2.csproj" />
       <option name="AZURE_WEB_APP_CONFIGURATION" value="Release" />
       <option name="AZURE_WEB_APP_PLATFORM" value="Any CPU" />
@@ -417,7 +455,7 @@
       <updated>1716402701774</updated>
       <workItem from="1716402706487" duration="402000" />
       <workItem from="1716474179841" duration="921000" />
-      <workItem from="1716565110632" duration="1404000" />
+      <workItem from="1716565110632" duration="1818000" />
     </task>
     <task id="LOCAL−00022" summary="Refactor Github project service and update project details&#10;&#10;This commit includes removal of the unused Get method in IGithubProjectService interface and GithubApiService class. The HomeController's submit method has been updated to use latitude and longitude for weather service, and the email body message has been localized. Finally, a new workspace.xml file has been added.">
       <option name="closed" value="true" />
@@ -426,7 +464,14 @@
       <option name="presentableId" value="LOCAL−00022" />
       <updated>1716563905792</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL−00023" summary="Update workspace configurations and refactor CSS files&#10;&#10;Adjusted workspace configurations in workspace.xml file, including changes in commit descriptions, and added Azure publishing settings. Also updated site.css for better webpage layout positioning by implementing CSS grid and transform properties.">
+      <option name="closed" value="true" />
+      <created>1716566680367</created>
+      <option name="number" value="LOCAL−00023" />
+      <option name="presentableId" value="LOCAL−00023" />
+      <updated>1716566680367</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -458,7 +503,8 @@
     <MESSAGE value="Update layout and styling of home page and footer&#10;&#10;Adjusted the layout of the home page for better UI flow and usability. Styling of elements has also been updated to meet visual design goals. The footer template was refined with visual improvements, including repositioning and improved alignment of certain elements." />
     <MESSAGE value="Update workspace configuration and enhance site aesthetics&#10;&#10;This commit entails modifications to the workspace.xml and site.css files. Changes include an update of commit messages in the workspace file for better change descriptions. Site aesthetics have been enhanced, including updated button styles &amp; homepage sections structures, and the introduction of a new font, Rubik, across the site." />
     <MESSAGE value="Refactor Github project service and update project details&#10;&#10;This commit includes removal of the unused Get method in IGithubProjectService interface and GithubApiService class. The HomeController's submit method has been updated to use latitude and longitude for weather service, and the email body message has been localized. Finally, a new workspace.xml file has been added." />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor Github project service and update project details&#10;&#10;This commit includes removal of the unused Get method in IGithubProjectService interface and GithubApiService class. The HomeController's submit method has been updated to use latitude and longitude for weather service, and the email body message has been localized. Finally, a new workspace.xml file has been added." />
+    <MESSAGE value="Update workspace configurations and refactor CSS files&#10;&#10;Adjusted workspace configurations in workspace.xml file, including changes in commit descriptions, and added Azure publishing settings. Also updated site.css for better webpage layout positioning by implementing CSS grid and transform properties." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update workspace configurations and refactor CSS files&#10;&#10;Adjusted workspace configurations in workspace.xml file, including changes in commit descriptions, and added Azure publishing settings. Also updated site.css for better webpage layout positioning by implementing CSS grid and transform properties." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
