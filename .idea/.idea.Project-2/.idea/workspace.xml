@@ -12,16 +12,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35eb54fb-81c2-4d76-ab0c-229ae8a87442" name="Changes" comment="Update workspace configuration and enhance site aesthetics&#10;&#10;This commit entails modifications to the workspace.xml and site.css files. Changes include an update of commit messages in the workspace file for better change descriptions. Site aesthetics have been enhanced, including updated button styles &amp; homepage sections structures, and the introduction of a new font, Rubik, across the site.">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Project-2/.idea/shelf/Uncommitted_changes_before_Update_at_2024-05-22_10_54__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Project-2/.idea/shelf/Uncommitted_changes_before_Update_at_2024-05-22_10_54__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Project-2/.idea/shelf/Uncommitted_changes_before_Update_at_2024-05-22_14_05__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Project-2/.idea/shelf/Uncommitted_changes_before_Update_at_2024-05-22_14_05__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Project-2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Project-2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project-2/Infrastructure/Parameters.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/Infrastructure/Parameters.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project-2/Models/FormModels/Contact/ContactMeModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/Models/FormModels/Contact/ContactMeModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project-2/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/Views/Home/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project-2/Views/Shared/_Footer.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/Views/Shared/_Footer.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project-2/wwwroot/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/wwwroot/css/site.css" afterDir="false" />
-    </list>
+    <list default="true" id="35eb54fb-81c2-4d76-ab0c-229ae8a87442" name="Changes" comment="Update workspace configuration and enhance site aesthetics&#10;&#10;This commit entails modifications to the workspace.xml and site.css files. Changes include an update of commit messages in the workspace file for better change descriptions. Site aesthetics have been enhanced, including updated button styles &amp; homepage sections structures, and the introduction of a new font, Rubik, across the site." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -129,28 +120,28 @@
     <option name="sortByType" value="true" />
     <option name="sortKey" value="BY_TYPE" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Launch Settings Profile.Project-2: http.executor": "Run",
-    ".NET Launch Settings Profile.ProjectAPI: http.executor": "Run",
-    "Azure - Publish Web App.Publish Project-2 to Azure.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "update-references",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.sourceCode.Service Authentication",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.Project-2: http.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Launch Settings Profile.ProjectAPI: http.executor&quot;: &quot;Run&quot;,
+    &quot;Azure - Publish Web App.Publish Project-2 to Azure.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;update-references&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Service Authentication&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\kahol\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache",
-      "C:\\Users\\kahol\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache",
-      "C:\\Users\\kahol\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\kahol\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\kahol\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\kahol\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.Project-2: http">
     <configuration name="Publish Project-2 to Azure" type="AzureDotNetWebAppPublish" factoryName="Azure Web App">
       <option name="AZURE_WEB_APP_PROJECT" value="$PROJECT_DIR$/Project-2/Project-2.csproj" />
