@@ -12,14 +12,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35eb54fb-81c2-4d76-ab0c-229ae8a87442" name="Changes" comment="Update workspace configuration and enhance site aesthetics&#10;&#10;This commit entails modifications to the workspace.xml and site.css files. Changes include an update of commit messages in the workspace file for better change descriptions. Site aesthetics have been enhanced, including updated button styles &amp; homepage sections structures, and the introduction of a new font, Rubik, across the site.">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Project-2/.idea/shelf/Uncommitted_changes_before_Update_at_2024-05-22_10_54__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Project-2/.idea/shelf/Uncommitted_changes_before_Update_at_2024-05-22_10_54__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Project-2/.idea/shelf/Uncommitted_changes_before_Update_at_2024-05-22_14_05__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Project-2/.idea/shelf/Uncommitted_changes_before_Update_at_2024-05-22_14_05__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Project-2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Project-2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project-2/Infrastructure/Parameters.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/Infrastructure/Parameters.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project-2/Models/FormModels/Contact/ContactMeModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/Models/FormModels/Contact/ContactMeModel.cs" afterDir="false" />
+    <list default="true" id="35eb54fb-81c2-4d76-ab0c-229ae8a87442" name="Changes" comment="Reorder social buttons in home index view&#10;&#10;The social media buttons in the home index view needed to be reordered. The CV button has been moved after the GitHub and LinkedIn image icons. This commit brings a small change to the UI, improving the presentation of the personal details section.">
+      <change afterPath="$PROJECT_DIR$/Project-2/Infrastructure/IGithubProjectService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project-2/Models/ViewModels/Weather/Current.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project-2/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/Controllers/HomeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project-2/Infrastructure/IHttpService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/Infrastructure/IWeatherService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project-2/Models/ViewModels/Weather/Clouds.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project-2/Models/ViewModels/Weather/Coord.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project-2/Models/ViewModels/Weather/Main.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project-2/Models/ViewModels/Weather/Root.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/Models/ViewModels/Weather/Root.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project-2/Models/ViewModels/Weather/Sys.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project-2/Models/ViewModels/Weather/Weather.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project-2/Models/ViewModels/Weather/Wind.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project-2/Models/ViewModels/WeatherModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/Models/ViewModels/WeatherModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project-2/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project-2/Services/GithubApiService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/Services/GithubApiService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project-2/Services/WeatherApiService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/Services/WeatherApiService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project-2/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/Views/Home/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project-2/Views/Shared/_Footer.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/Views/Shared/_Footer.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project-2/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project-2/Views/Shared/_Navbar.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/Views/Shared/_Navbar.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project-2/wwwroot/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/wwwroot/css/site.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,64 +63,7 @@
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/aspnetcore/88ec3bc3f37e76fbcc932a25f9f0c1c29fe2b343/src/Mvc/Mvc.Razor/src/RazorPageOfT.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/RiderProjects/Project-2/DataAccessLayer/Models/GithubProject.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/RiderProjects/Project-2/DataAccessLayer/appsettings.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://D:/RiderProjects/Project-2/DataAccessLayer/appsettings.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://D:/RiderProjects/Project-2/DataAccessLayer/appsettings.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://D:/RiderProjects/Project-2/DataAccessLayer/appsettings.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://D:/RiderProjects/Project-2/DataAccessLayer/appsettings.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://D:/RiderProjects/Project-2/DataAccessLayer/appsettings.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Controllers/HomeController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Controllers/HomeController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Controllers/HomeController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Controllers/HomeController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Controllers/HomeController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Controllers/HomeController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Infrastructure/Parameters.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Infrastructure/Parameters.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Infrastructure/Parameters.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Infrastructure/Parameters.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Infrastructure/Parameters.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Infrastructure/Parameters.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Models/FormModels/Contact/ContactMeModel.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Models/FormModels/Contact/ContactMeModel.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Models/FormModels/Contact/ContactMeModel.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Models/FormModels/Contact/ContactMeModel.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Models/ViewModels/GithubProjects/GithubProjectModel.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Models/ViewModels/GithubProjects/GithubProjectModel.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Models/ViewModels/GithubProjects/GithubProjectModel.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Models/ViewModels/GithubProjects/GithubProjectModel.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Models/ViewModels/IndexViewModel.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Models/ViewModels/IndexViewModel.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Models/ViewModels/IndexViewModel.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Models/ViewModels/IndexViewModel.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Models/ViewModels/SkillModel.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Program.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Views/Shared/_Footer.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Views/Shared/_Footer.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Views/Shared/_GithubProjectBox.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Views/Shared/_GithubProjectBox.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Views/Shared/_GithubProjectBox.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/RiderProjects/Project-2/Project-2/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Views/Shared/_Navbar.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Views/Shared/_ValidationScriptsPartial.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/RiderProjects/Project-2/ProjectAPI/DataInitializer.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/RiderProjects/Project-2/ProjectAPI/DataInitializer.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/RiderProjects/Project-2/ProjectAPI/DataInitializer.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/RiderProjects/Project-2/ProjectAPI/Models/GithubProjectViewModel.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/RiderProjects/Project-2/ProjectAPI/appsettings.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://D:/RiderProjects/Project-2/ProjectAPI/appsettings.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://D:/RiderProjects/Project-2/ProjectAPI/appsettings.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://D:/RiderProjects/Project-2/ProjectAPI/appsettings.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://D:/RiderProjects/Project-2/ProjectAPI/appsettings.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://D:/RiderProjects/Project-2/ProjectAPI/appsettings.json" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="false" />
   <component name="ProjectColorInfo">{
@@ -129,29 +83,104 @@
     <option name="sortByType" value="true" />
     <option name="sortKey" value="BY_TYPE" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Launch Settings Profile.Project-2: http.executor": "Run",
-    ".NET Launch Settings Profile.ProjectAPI: http.executor": "Run",
-    "Azure - Publish Web App.Publish Project-2 to Azure.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "update-references",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.sourceCode.Service Authentication",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.Project-2: http.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Launch Settings Profile.ProjectAPI: http.executor&quot;: &quot;Run&quot;,
+    &quot;Azure - Publish Web App.Publish Project-2 to Azure (1).executor&quot;: &quot;Run&quot;,
+    &quot;Azure - Publish Web App.Publish Project-2 to Azure.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;change-weather-api&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Service Authentication&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\kahol\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache",
-      "C:\\Users\\kahol\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache",
-      "C:\\Users\\kahol\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\kahol\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\kahol\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\kahol\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.Project-2: http">
+    <configuration name="Publish Project-2 to Azure (1)" type="AzureDotNetWebAppPublish" factoryName="Azure Web App">
+      <option name="AZURE_WEB_APP_PROJECT" value="$PROJECT_DIR$/Project-2/Project-2.csproj" />
+      <option name="AZURE_WEB_APP_CONFIGURATION" value="Release" />
+      <option name="AZURE_WEB_APP_PLATFORM" value="Any CPU" />
+      <option name="AZURE_WEB_APP_SUBSCRIPTION_ID" value="42874c1c-2ba9-441d-865d-5b38e2c642f4" />
+      <option name="AZURE_WEB_APP_IS_CREATE_APP" value="0" />
+      <option name="AZURE_WEB_APP_ID" value="/subscriptions/42874c1c-2ba9-441d-865d-5b38e2c642f4/resourceGroups/ResourceMoverRG-eastus-swedencentral-swc/providers/Microsoft.Web/sites/kimmo-project-2" />
+      <option name="AZURE_WEB_APP_NAME" value="" />
+      <option name="AZURE_WEB_APP_IS_CREATE_RESOURCE_GROUP" value="0" />
+      <option name="AZURE_WEB_APP_RESOURCE_GROUP_NAME" value="" />
+      <option name="AZURE_WEB_APP_OPERATING_SYSTEM" value="WINDOWS" />
+      <option name="AZURE_WEB_APP_IS_CREATE_APP_SERVICE_PLAN" value="0" />
+      <option name="AZURE_WEB_APP_SERVICE_PLAN_ID" value="/subscriptions/42874c1c-2ba9-441d-865d-5b38e2c642f4/resourceGroups/rg-240331191401/providers/Microsoft.Web/serverfarms/appsp-240331191503" />
+      <option name="AZURE_WEB_APP_SERVICE_PLAN_NAME" value="" />
+      <option name="AZURE_WEB_APP_LOCATION" value="eastus" />
+      <option name="AZURE_WEB_APP_PRICING_TIER" value="" />
+      <option name="AZURE_WEB_APP_NET_FRAMEWORK" value="4.7" />
+      <option name="AZURE_WEB_APP_NET_CORE_RUNTIME" value="DOTNETCORE 2.1" />
+      <option name="AZURE_WEB_APP_IS_DEPLOY_TO_SLOT" value="0" />
+      <option name="AZURE_WEB_APP_SLOT_NAME" value="" />
+      <option name="AZURE_WEB_APP_OPEN_BROWSER_PUBLISH" value="0" />
+      <option name="AZURE_SQL_DATABASE_SUBSCRIPTION_ID" value="42874c1c-2ba9-441d-865d-5b38e2c642f4" />
+      <option name="AZURE_SQL_DATABASE_IS_ENABLED" value="0" />
+      <option name="AZURE_SQL_DATABASE_CONNECTION_STRING_NAME" value="" />
+      <option name="AZURE_SQL_DATABASE_IS_CREATE" value="0" />
+      <option name="AZURE_SQL_DATABASE_ID" value="/subscriptions/42874c1c-2ba9-441d-865d-5b38e2c642f4/resourceGroups/rg-240331191401/providers/Microsoft.Sql/servers/kimmo-bankappdata/databases/BankAppData" />
+      <option name="AZURE_SQL_DATABASE_NAME" value="" />
+      <option name="AZURE_SQL_DATABASE_IS_CREATE_RESOURCE_GROUP" value="0" />
+      <option name="AZURE_SQL_DATABASE_RESOURCE_GROUP_NAME" value="" />
+      <option name="AZURE_SQL_DATABASE_IS_CREATE_SQL_SERVER" value="0" />
+      <option name="AZURE_SQL_DATABASE_SQL_SERVER_ID" value="" />
+      <option name="AZURE_SQL_DATABASE_SQL_SERVER_NAME" value="" />
+      <option name="AZURE_SQL_DATABASE_SQL_SERVER_ADMIN_LOGIN" value="KiAhola" />
+      <option name="AZURE_SQL_DATABASE_LOCATION" value="eastus" />
+      <option name="AZURE_SQL_DATABASE_COLLATION" value="SQL_Latin1_General_CP1_CI_AS" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish Project-2 to Azure" type="AzureDotNetWebAppPublish" factoryName="Azure Web App">
+      <option name="AZURE_WEB_APP_PROJECT" value="$PROJECT_DIR$/Project-2/Project-2.csproj" />
+      <option name="AZURE_WEB_APP_CONFIGURATION" value="Release" />
+      <option name="AZURE_WEB_APP_PLATFORM" value="Any CPU" />
+      <option name="AZURE_WEB_APP_SUBSCRIPTION_ID" value="42874c1c-2ba9-441d-865d-5b38e2c642f4" />
+      <option name="AZURE_WEB_APP_IS_CREATE_APP" value="0" />
+      <option name="AZURE_WEB_APP_ID" value="/subscriptions/42874c1c-2ba9-441d-865d-5b38e2c642f4/resourceGroups/ResourceMoverRG-eastus-swedencentral-swc/providers/Microsoft.Web/sites/kimmo-project-2" />
+      <option name="AZURE_WEB_APP_NAME" value="" />
+      <option name="AZURE_WEB_APP_IS_CREATE_RESOURCE_GROUP" value="0" />
+      <option name="AZURE_WEB_APP_RESOURCE_GROUP_NAME" value="" />
+      <option name="AZURE_WEB_APP_OPERATING_SYSTEM" value="WINDOWS" />
+      <option name="AZURE_WEB_APP_IS_CREATE_APP_SERVICE_PLAN" value="0" />
+      <option name="AZURE_WEB_APP_SERVICE_PLAN_ID" value="/subscriptions/42874c1c-2ba9-441d-865d-5b38e2c642f4/resourceGroups/rg-240331191401/providers/Microsoft.Web/serverfarms/appsp-240331191503" />
+      <option name="AZURE_WEB_APP_SERVICE_PLAN_NAME" value="" />
+      <option name="AZURE_WEB_APP_LOCATION" value="eastus" />
+      <option name="AZURE_WEB_APP_PRICING_TIER" value="" />
+      <option name="AZURE_WEB_APP_NET_FRAMEWORK" value="4.7" />
+      <option name="AZURE_WEB_APP_NET_CORE_RUNTIME" value="DOTNETCORE 2.1" />
+      <option name="AZURE_WEB_APP_IS_DEPLOY_TO_SLOT" value="0" />
+      <option name="AZURE_WEB_APP_SLOT_NAME" value="" />
+      <option name="AZURE_WEB_APP_OPEN_BROWSER_PUBLISH" value="0" />
+      <option name="AZURE_SQL_DATABASE_SUBSCRIPTION_ID" value="42874c1c-2ba9-441d-865d-5b38e2c642f4" />
+      <option name="AZURE_SQL_DATABASE_IS_ENABLED" value="0" />
+      <option name="AZURE_SQL_DATABASE_CONNECTION_STRING_NAME" value="" />
+      <option name="AZURE_SQL_DATABASE_IS_CREATE" value="0" />
+      <option name="AZURE_SQL_DATABASE_ID" value="/subscriptions/42874c1c-2ba9-441d-865d-5b38e2c642f4/resourceGroups/rg-240331191401/providers/Microsoft.Sql/servers/kimmo-bankappdata/databases/BankAppData" />
+      <option name="AZURE_SQL_DATABASE_NAME" value="" />
+      <option name="AZURE_SQL_DATABASE_IS_CREATE_RESOURCE_GROUP" value="0" />
+      <option name="AZURE_SQL_DATABASE_RESOURCE_GROUP_NAME" value="" />
+      <option name="AZURE_SQL_DATABASE_IS_CREATE_SQL_SERVER" value="0" />
+      <option name="AZURE_SQL_DATABASE_SQL_SERVER_ID" value="" />
+      <option name="AZURE_SQL_DATABASE_SQL_SERVER_NAME" value="" />
+      <option name="AZURE_SQL_DATABASE_SQL_SERVER_ADMIN_LOGIN" value="KiAhola" />
+      <option name="AZURE_SQL_DATABASE_LOCATION" value="eastus" />
+      <option name="AZURE_SQL_DATABASE_COLLATION" value="SQL_Latin1_General_CP1_CI_AS" />
+      <method v="2" />
+    </configuration>
     <configuration name="Publish Project-2 to Azure" type="AzureDotNetWebAppPublish" factoryName="Azure Web App">
       <option name="AZURE_WEB_APP_PROJECT" value="$PROJECT_DIR$/Project-2/Project-2.csproj" />
       <option name="AZURE_WEB_APP_CONFIGURATION" value="Release" />
@@ -191,6 +220,36 @@
     </configuration>
     <configuration name="Project-2: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile" temporary="true">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Project-2/Project-2.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net8.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="http" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Project-2: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile" temporary="true">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Project-2/Project-2.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net8.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="http" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="ProjectAPI: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile" temporary="true">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/ProjectAPI/ProjectAPI.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net8.0" />
       <option name="LAUNCH_PROFILE_NAME" value="http" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
@@ -383,8 +442,17 @@
       <updated>1716402701774</updated>
       <workItem from="1716402706487" duration="402000" />
       <workItem from="1716474179841" duration="921000" />
+      <workItem from="1716503394389" duration="196000" />
+      <workItem from="1716537809499" duration="8329000" />
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL−00022" summary="Reorder social buttons in home index view&#10;&#10;The social media buttons in the home index view needed to be reordered. The CV button has been moved after the GitHub and LinkedIn image icons. This commit brings a small change to the UI, improving the presentation of the personal details section.">
+      <option name="closed" value="true" />
+      <created>1716546519505</created>
+      <option name="number" value="LOCAL−00022" />
+      <option name="presentableId" value="LOCAL−00022" />
+      <updated>1716546519505</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -414,23 +482,37 @@
     <MESSAGE value="Convert project description to uppercase in project box&#10;&#10;The project description in the GitHub project box view has been updated to display in uppercase. This alteration improves visibility and alignment with other UI elements." />
     <MESSAGE value="Update footer content and styles&#10;&#10;Altered the styling of the footer in _Footer.cshtml, including an increase in line-height for better readability. Updated the footer's content to improve the visibility and accessibility of key information such as address and email." />
     <MESSAGE value="Update workspace configuration and enhance site aesthetics&#10;&#10;This commit entails modifications to the workspace.xml and site.css files. Changes include an update of commit messages in the workspace file for better change descriptions. Site aesthetics have been enhanced, including updated button styles &amp; homepage sections structures, and the introduction of a new font, Rubik, across the site." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update workspace configuration and enhance site aesthetics&#10;&#10;This commit entails modifications to the workspace.xml and site.css files. Changes include an update of commit messages in the workspace file for better change descriptions. Site aesthetics have been enhanced, including updated button styles &amp; homepage sections structures, and the introduction of a new font, Rubik, across the site." />
+    <MESSAGE value="Reorder social buttons in home index view&#10;&#10;The social media buttons in the home index view needed to be reordered. The CV button has been moved after the GitHub and LinkedIn image icons. This commit brings a small change to the UI, improving the presentation of the personal details section." />
+    <option name="LAST_COMMIT_MESSAGE" value="Reorder social buttons in home index view&#10;&#10;The social media buttons in the home index view needed to be reordered. The CV button has been moved after the GitHub and LinkedIn image icons. This commit brings a small change to the UI, improving the presentation of the personal details section." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Project-2/Controllers/HomeController.cs</url>
-          <line>35</line>
-          <properties documentPath="D:\RiderProjects\Project-2\Project-2\Controllers\HomeController.cs" containingFunctionPresentation="Method 'Submit'">
+          <url>file://$PROJECT_DIR$/Project-2/Services/WeatherApiService.cs</url>
+          <line>33</line>
+          <properties documentPath="D:\RiderProjects\Project-2\Project-2\Services\WeatherApiService.cs" containingFunctionPresentation="Method 'Get'">
             <startOffsets>
-              <option value="1178" />
+              <option value="1205" />
             </startOffsets>
             <endOffsets>
-              <option value="1245" />
+              <option value="1220" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="24" />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Project-2/Services/WeatherApiService.cs</url>
+          <line>17</line>
+          <properties documentPath="D:\RiderProjects\Project-2\Project-2\Services\WeatherApiService.cs" containingFunctionPresentation="Method 'Get'">
+            <startOffsets>
+              <option value="643" />
+            </startOffsets>
+            <endOffsets>
+              <option value="832" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

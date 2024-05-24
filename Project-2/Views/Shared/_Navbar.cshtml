@@ -1,7 +1,7 @@
 ﻿<div class="navbar">
     <div class="container">
         <div class="navbar-navigation">
-            <span class="navbar-link">WEATHER: <span style="text-decoration: underline">@Model.WeatherModel.Info.ToUpper()</span></span>
+            <span class="navbar-link">WEATHER: <span id="navbar-weather" style="text-decoration: underline">LOADING...</span></span>
         </div>
         <div class="navbar-site-settings">
             
@@ -14,4 +14,87 @@
     </div>
 </div>
 
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        getLocation();
+    });
 
+    const weatherElement = document.getElementById("navbar-weather");
+
+    function getLocation() {
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(showPosition);
+        } else{
+            showHardCodedPosition();
+        }
+    }
+
+    function showPosition(position) {
+        let latitude = position.coords.latitude;
+        let longitude = position.coords.longitude;
+        getWeather(latitude, longitude);
+    }
+    
+    function showHardCodedPosition(){
+        let latitude = 59.334591;
+        let longitude = 18.063240;
+        console.log(latitude, longitude)
+        getWeather(latitude, longitude);
+    }
+    
+    async function getWeather(latitude, longitude){
+        try {
+            let res = await fetch(`/Home/GetWeather/?lat=${latitude}&lon=${longitude}`);
+            let data = await res.json();
+            let icon = getWeatherIcon(data.current.weather_code, data.current.is_day);
+            console.log(data);
+            weatherElement.innerHTML = `${data.current.temperature_2m} °C ${icon}`;
+        } catch (error){
+            weatherElement.innerHTML = `COULD NOT FETCH THE WEATHER`;
+        }
+    }
+    
+    function getWeatherIcon(weather_code, is_day){
+        switch (weather_code){
+            case 0:
+                if (is_day)
+                    return `<span class="mdi mdi-weather-sunny"></span>`;
+                else
+                    return `<span class="mdi mdi-weather-night"></span>`;
+            case 1:
+            case 2:
+                if (is_day)
+                    return `<span class="mdi mdi-weather-partly-cloudy"></span>`;
+                else
+                    return `<span class="mdi mdi-weather-night-partly-cloudy"></span>`;
+            case 3:
+                return `<span class="mdi mdi-weather-cloudy"></span>`;
+            case 45:
+            case 48:
+                return `<span class="mdi mdi-weather-fog"></span>`;
+            case 51:
+            case 53:
+            case 55:
+            case 56:
+            case 57:
+            case 61:
+            case 63:
+            case 65:
+                return `<span class="mdi mdi-weather-pouring"></span>`;
+            case 71:
+            case 73:
+            case 75:
+            case 77:
+                return `<span class="mdi mdi-weather-snowy-heavy"></span>`;    
+            case 80:
+            case 81:
+            case 82:
+                return `<span class="mdi mdi-weather-pouring"></span>`;
+            case 85:
+            case 86:
+                return `<span class="mdi mdi-weather-snowy-heavy"></span>`;
+            default:
+                return "Unknown";
+        }
+    }
+</script>
