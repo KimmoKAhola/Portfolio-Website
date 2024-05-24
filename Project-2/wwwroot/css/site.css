@@ -555,7 +555,7 @@ span {
   min-height: 50vh;
   display: grid;
   place-items: center;
-  margin-bottom: 50px;
+  margin-bottom: 150px;
 }
 
 .references-header{
@@ -577,6 +577,7 @@ span {
   background-color: var(--off-white);
   border: 1px solid black;
   height: 100%;
+  width: 100%;
 }
 
 .reference-body{
