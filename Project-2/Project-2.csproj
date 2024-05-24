@@ -6,6 +6,7 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <UserSecretsId>aspnet-Project_2-A0F26DCA-0B72-47E0-8CAF-EB5ED98CCFBC</UserSecretsId>
         <RootNamespace>Project_2</RootNamespace>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
     </PropertyGroup>
 
     <ItemGroup>
