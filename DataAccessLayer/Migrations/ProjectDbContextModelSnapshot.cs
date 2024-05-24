@@ -41,7 +41,7 @@ namespace DataAccessLayer.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("LiveDemoUrl")
+                    b.Property<string>("LiveDemoURL")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ProjectURL")

@@ -12,26 +12,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35eb54fb-81c2-4d76-ab0c-229ae8a87442" name="Changes" comment="Reorder social buttons in home index view&#10;&#10;The social media buttons in the home index view needed to be reordered. The CV button has been moved after the GitHub and LinkedIn image icons. This commit brings a small change to the UI, improving the presentation of the personal details section.">
-      <change afterPath="$PROJECT_DIR$/Project-2/Infrastructure/IGithubProjectService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project-2/Models/ViewModels/Weather/Current.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project-2/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/Controllers/HomeController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project-2/Infrastructure/IHttpService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/Infrastructure/IWeatherService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project-2/Models/ViewModels/Weather/Clouds.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project-2/Models/ViewModels/Weather/Coord.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project-2/Models/ViewModels/Weather/Main.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project-2/Models/ViewModels/Weather/Root.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/Models/ViewModels/Weather/Root.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project-2/Models/ViewModels/Weather/Sys.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project-2/Models/ViewModels/Weather/Weather.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project-2/Models/ViewModels/Weather/Wind.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project-2/Models/ViewModels/WeatherModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/Models/ViewModels/WeatherModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project-2/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project-2/Services/GithubApiService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/Services/GithubApiService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project-2/Services/WeatherApiService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/Services/WeatherApiService.cs" afterDir="false" />
+    <list default="true" id="35eb54fb-81c2-4d76-ab0c-229ae8a87442" name="Changes" comment="Refactor HomeController and clean up workspace.xml settings&#10;&#10;Removed commented line from HomeController.cs. Cleaned up the settings in workspace.xml, removing repeated configurations and out-of-date task descriptions. Also, CSS changes were made to enhance site layout and styles for better visualization.">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Project-2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Project-2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccessLayer/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccessLayer/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project-2/Infrastructure/Parameters.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/Infrastructure/Parameters.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project-2/Models/ViewModels/SkillModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/Models/ViewModels/SkillModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project-2/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/Views/Home/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project-2/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/Views/Shared/_Layout.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project-2/Views/Shared/_Navbar.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/Views/Shared/_Navbar.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project-2/wwwroot/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/wwwroot/css/site.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectAPI/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectAPI/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +51,29 @@
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/aspnetcore/88ec3bc3f37e76fbcc932a25f9f0c1c29fe2b343/src/Mvc/Mvc.Razor/src/RazorPageOfT.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/DataAccessLayer/Models/GithubProject.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/DataAccessLayer/appsettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Controllers/HomeController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Controllers/HomeController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Controllers/HomeController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Infrastructure/Parameters.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Infrastructure/Parameters.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Models/FormModels/Contact/ContactMeModel.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Models/ViewModels/GithubProjects/GithubProjectModel.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Models/ViewModels/WeatherModel.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Services/WeatherApiService.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/RiderProjects/Project-2/Project-2/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Views/Shared/_Navbar.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Views/Shared/_Navbar.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/Project-2/Views/Shared/_Navbar.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/ProjectAPI/DataInitializer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/ProjectAPI/Models/GithubProjectViewModel.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/RiderProjects/Project-2/ProjectAPI/appsettings.json" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="false" />
   <component name="ProjectColorInfo">{
@@ -83,67 +93,30 @@
     <option name="sortByType" value="true" />
     <option name="sortKey" value="BY_TYPE" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Launch Settings Profile.Project-2: http.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Launch Settings Profile.ProjectAPI: http.executor&quot;: &quot;Run&quot;,
-    &quot;Azure - Publish Web App.Publish Project-2 to Azure (1).executor&quot;: &quot;Run&quot;,
-    &quot;Azure - Publish Web App.Publish Project-2 to Azure.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;change-weather-api&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Service Authentication&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Launch Settings Profile.Project-2: http.executor": "Run",
+    ".NET Launch Settings Profile.ProjectAPI: http.executor": "Run",
+    "Azure - Publish Web App.Publish Project-2 to Azure.executor": "Run",
+    "Azure - Publish Web App.Publish ProjectAPI to Azure.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "style-hero",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.sourceCode.Service Authentication",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\kahol\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache&quot;,
-      &quot;C:\\Users\\kahol\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache&quot;,
-      &quot;C:\\Users\\kahol\\AppData\\Local\\Symbols\\src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\kahol\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache",
+      "C:\\Users\\kahol\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache",
+      "C:\\Users\\kahol\\AppData\\Local\\Symbols\\src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.Project-2: http">
-    <configuration name="Publish Project-2 to Azure (1)" type="AzureDotNetWebAppPublish" factoryName="Azure Web App">
-      <option name="AZURE_WEB_APP_PROJECT" value="$PROJECT_DIR$/Project-2/Project-2.csproj" />
-      <option name="AZURE_WEB_APP_CONFIGURATION" value="Release" />
-      <option name="AZURE_WEB_APP_PLATFORM" value="Any CPU" />
-      <option name="AZURE_WEB_APP_SUBSCRIPTION_ID" value="42874c1c-2ba9-441d-865d-5b38e2c642f4" />
-      <option name="AZURE_WEB_APP_IS_CREATE_APP" value="0" />
-      <option name="AZURE_WEB_APP_ID" value="/subscriptions/42874c1c-2ba9-441d-865d-5b38e2c642f4/resourceGroups/ResourceMoverRG-eastus-swedencentral-swc/providers/Microsoft.Web/sites/kimmo-project-2" />
-      <option name="AZURE_WEB_APP_NAME" value="" />
-      <option name="AZURE_WEB_APP_IS_CREATE_RESOURCE_GROUP" value="0" />
-      <option name="AZURE_WEB_APP_RESOURCE_GROUP_NAME" value="" />
-      <option name="AZURE_WEB_APP_OPERATING_SYSTEM" value="WINDOWS" />
-      <option name="AZURE_WEB_APP_IS_CREATE_APP_SERVICE_PLAN" value="0" />
-      <option name="AZURE_WEB_APP_SERVICE_PLAN_ID" value="/subscriptions/42874c1c-2ba9-441d-865d-5b38e2c642f4/resourceGroups/rg-240331191401/providers/Microsoft.Web/serverfarms/appsp-240331191503" />
-      <option name="AZURE_WEB_APP_SERVICE_PLAN_NAME" value="" />
-      <option name="AZURE_WEB_APP_LOCATION" value="eastus" />
-      <option name="AZURE_WEB_APP_PRICING_TIER" value="" />
-      <option name="AZURE_WEB_APP_NET_FRAMEWORK" value="4.7" />
-      <option name="AZURE_WEB_APP_NET_CORE_RUNTIME" value="DOTNETCORE 2.1" />
-      <option name="AZURE_WEB_APP_IS_DEPLOY_TO_SLOT" value="0" />
-      <option name="AZURE_WEB_APP_SLOT_NAME" value="" />
-      <option name="AZURE_WEB_APP_OPEN_BROWSER_PUBLISH" value="0" />
-      <option name="AZURE_SQL_DATABASE_SUBSCRIPTION_ID" value="42874c1c-2ba9-441d-865d-5b38e2c642f4" />
-      <option name="AZURE_SQL_DATABASE_IS_ENABLED" value="0" />
-      <option name="AZURE_SQL_DATABASE_CONNECTION_STRING_NAME" value="" />
-      <option name="AZURE_SQL_DATABASE_IS_CREATE" value="0" />
-      <option name="AZURE_SQL_DATABASE_ID" value="/subscriptions/42874c1c-2ba9-441d-865d-5b38e2c642f4/resourceGroups/rg-240331191401/providers/Microsoft.Sql/servers/kimmo-bankappdata/databases/BankAppData" />
-      <option name="AZURE_SQL_DATABASE_NAME" value="" />
-      <option name="AZURE_SQL_DATABASE_IS_CREATE_RESOURCE_GROUP" value="0" />
-      <option name="AZURE_SQL_DATABASE_RESOURCE_GROUP_NAME" value="" />
-      <option name="AZURE_SQL_DATABASE_IS_CREATE_SQL_SERVER" value="0" />
-      <option name="AZURE_SQL_DATABASE_SQL_SERVER_ID" value="" />
-      <option name="AZURE_SQL_DATABASE_SQL_SERVER_NAME" value="" />
-      <option name="AZURE_SQL_DATABASE_SQL_SERVER_ADMIN_LOGIN" value="KiAhola" />
-      <option name="AZURE_SQL_DATABASE_LOCATION" value="eastus" />
-      <option name="AZURE_SQL_DATABASE_COLLATION" value="SQL_Latin1_General_CP1_CI_AS" />
-      <method v="2" />
-    </configuration>
     <configuration name="Publish Project-2 to Azure" type="AzureDotNetWebAppPublish" factoryName="Azure Web App">
       <option name="AZURE_WEB_APP_PROJECT" value="$PROJECT_DIR$/Project-2/Project-2.csproj" />
       <option name="AZURE_WEB_APP_CONFIGURATION" value="Release" />
@@ -181,13 +154,13 @@
       <option name="AZURE_SQL_DATABASE_COLLATION" value="SQL_Latin1_General_CP1_CI_AS" />
       <method v="2" />
     </configuration>
-    <configuration name="Publish Project-2 to Azure" type="AzureDotNetWebAppPublish" factoryName="Azure Web App">
-      <option name="AZURE_WEB_APP_PROJECT" value="$PROJECT_DIR$/Project-2/Project-2.csproj" />
+    <configuration name="Publish ProjectAPI to Azure" type="AzureDotNetWebAppPublish" factoryName="Azure Web App">
+      <option name="AZURE_WEB_APP_PROJECT" value="$PROJECT_DIR$/ProjectAPI/ProjectAPI.csproj" />
       <option name="AZURE_WEB_APP_CONFIGURATION" value="Release" />
       <option name="AZURE_WEB_APP_PLATFORM" value="Any CPU" />
       <option name="AZURE_WEB_APP_SUBSCRIPTION_ID" value="42874c1c-2ba9-441d-865d-5b38e2c642f4" />
       <option name="AZURE_WEB_APP_IS_CREATE_APP" value="0" />
-      <option name="AZURE_WEB_APP_ID" value="/subscriptions/42874c1c-2ba9-441d-865d-5b38e2c642f4/resourceGroups/ResourceMoverRG-eastus-swedencentral-swc/providers/Microsoft.Web/sites/kimmo-project-2" />
+      <option name="AZURE_WEB_APP_ID" value="/subscriptions/42874c1c-2ba9-441d-865d-5b38e2c642f4/resourceGroups/ResourceMoverRG-eastus-swedencentral-swc/providers/Microsoft.Web/sites/kimmo-github-api" />
       <option name="AZURE_WEB_APP_NAME" value="" />
       <option name="AZURE_WEB_APP_IS_CREATE_RESOURCE_GROUP" value="0" />
       <option name="AZURE_WEB_APP_RESOURCE_GROUP_NAME" value="" />
@@ -196,7 +169,7 @@
       <option name="AZURE_WEB_APP_SERVICE_PLAN_ID" value="/subscriptions/42874c1c-2ba9-441d-865d-5b38e2c642f4/resourceGroups/rg-240331191401/providers/Microsoft.Web/serverfarms/appsp-240331191503" />
       <option name="AZURE_WEB_APP_SERVICE_PLAN_NAME" value="" />
       <option name="AZURE_WEB_APP_LOCATION" value="eastus" />
-      <option name="AZURE_WEB_APP_PRICING_TIER" value="" />
+      <option name="AZURE_WEB_APP_PRICING_TIER" value="S1" />
       <option name="AZURE_WEB_APP_NET_FRAMEWORK" value="4.7" />
       <option name="AZURE_WEB_APP_NET_CORE_RUNTIME" value="DOTNETCORE 2.1" />
       <option name="AZURE_WEB_APP_IS_DEPLOY_TO_SLOT" value="0" />
@@ -220,36 +193,6 @@
     </configuration>
     <configuration name="Project-2: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile" temporary="true">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Project-2/Project-2.csproj" />
-      <option name="LAUNCH_PROFILE_TFM" value="net8.0" />
-      <option name="LAUNCH_PROFILE_NAME" value="http" />
-      <option name="USE_EXTERNAL_CONSOLE" value="0" />
-      <option name="USE_MONO" value="0" />
-      <option name="RUNTIME_ARGUMENTS" value="" />
-      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
-      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
-      <option name="SEND_DEBUG_REQUEST" value="1" />
-      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
-      <method v="2">
-        <option name="Build" />
-      </method>
-    </configuration>
-    <configuration name="Project-2: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile" temporary="true">
-      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Project-2/Project-2.csproj" />
-      <option name="LAUNCH_PROFILE_TFM" value="net8.0" />
-      <option name="LAUNCH_PROFILE_NAME" value="http" />
-      <option name="USE_EXTERNAL_CONSOLE" value="0" />
-      <option name="USE_MONO" value="0" />
-      <option name="RUNTIME_ARGUMENTS" value="" />
-      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
-      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
-      <option name="SEND_DEBUG_REQUEST" value="1" />
-      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
-      <method v="2">
-        <option name="Build" />
-      </method>
-    </configuration>
-    <configuration name="ProjectAPI: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile" temporary="true">
-      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/ProjectAPI/ProjectAPI.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net8.0" />
       <option name="LAUNCH_PROFILE_NAME" value="http" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
@@ -442,17 +385,78 @@
       <updated>1716402701774</updated>
       <workItem from="1716402706487" duration="402000" />
       <workItem from="1716474179841" duration="921000" />
-      <workItem from="1716503394389" duration="196000" />
-      <workItem from="1716537809499" duration="8329000" />
     </task>
-    <task id="LOCAL−00022" summary="Reorder social buttons in home index view&#10;&#10;The social media buttons in the home index view needed to be reordered. The CV button has been moved after the GitHub and LinkedIn image icons. This commit brings a small change to the UI, improving the presentation of the personal details section.">
+    <task id="LOCAL−00022" summary="Refactor workspace.xml to improve readability&#10;&#10;The commit involves refactoring the workspace.xml file to improve readability and maintainability of the code. It primarily includes the removal of several lines of code under the &quot;ChangeListManager&quot; component tag and adjustments to use HTML escape characters for quotes within the &quot;PropertiesComponent&quot; component. This ensures consistency and improves code clarity, especially for developers not familiar with this codebase.">
       <option name="closed" value="true" />
-      <created>1716546519505</created>
+      <created>1716546925820</created>
       <option name="number" value="LOCAL−00022" />
       <option name="presentableId" value="LOCAL−00022" />
-      <updated>1716546519505</updated>
+      <updated>1716546925820</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL−00023" summary="Refactor EF Core migrations and update workspace&#10;&#10;This commit involves deleting and recreating Entity Framework Core migrations to clean up and streamline the data layer. Additionally, changes made to workspace.xml file improved readability and the maintainability of the code, ensuring consistency and improving code clarity.">
+      <option name="closed" value="true" />
+      <created>1716552925858</created>
+      <option name="number" value="LOCAL−00023" />
+      <option name="presentableId" value="LOCAL−00023" />
+      <updated>1716552925858</updated>
+    </task>
+    <task id="LOCAL−00024" summary="Refactored _GithubProjectBox.cshtml view&#10;&#10;This commit includes refactoring the _GithubProjectBox.cshtml view by updating layout structure and case consistency. We have removed hardcoded styles from the title tag and merely use the defined classes. Project and Demo URLs are now capitalized consistently and the LiveDemoUrl section only renders if the URL is not null or empty.">
+      <option name="closed" value="true" />
+      <created>1716552952821</created>
+      <option name="number" value="LOCAL−00024" />
+      <option name="presentableId" value="LOCAL−00024" />
+      <updated>1716552952821</updated>
+    </task>
+    <task id="LOCAL−00025" summary="Removed console.log from weather data fetch &#10;&#10;In the _Navbar.cshtml file, the console.log line for displaying weather data was removed. This change prevents unnecessary logging of weather data on console, keeping the console cleaner for more important logs.">
+      <option name="closed" value="true" />
+      <created>1716552994537</created>
+      <option name="number" value="LOCAL−00025" />
+      <option name="presentableId" value="LOCAL−00025" />
+      <updated>1716552994537</updated>
+    </task>
+    <task id="LOCAL−00026" summary="Update default message in ContactMeModel&#10;&#10;The default message in the ContactMeModel class has been updated. We removed the placeholder for the company's name, as the message will now always address the individual in a more generic way without referencing any specific company.">
+      <option name="closed" value="true" />
+      <created>1716553005123</created>
+      <option name="number" value="LOCAL−00026" />
+      <option name="presentableId" value="LOCAL−00026" />
+      <updated>1716553005123</updated>
+    </task>
+    <task id="LOCAL−00027" summary="Remove unused code and refactor property names&#10;&#10;Several commented-out blocks of code were removed to improve readability. Additionally, the naming convention of multiple properties across models was unified for consistency, changing from 'Url' to 'URL'.">
+      <option name="closed" value="true" />
+      <created>1716553021880</created>
+      <option name="number" value="LOCAL−00027" />
+      <option name="presentableId" value="LOCAL−00027" />
+      <updated>1716553021880</updated>
+    </task>
+    <task id="LOCAL−00028" summary="Updated Home/Index.cshtml with revamped content and styling&#10;&#10;The previous 'About Me' section has been replaced with more comprehensive personal details while enhancing readability by using new CSS classes. Swapped the placeholder avatar text to a feature that lets users view a real picture. Also tidied up button stylings and solved a few TODO tasks such as the absolute positioning issue.">
+      <option name="closed" value="true" />
+      <created>1716553040255</created>
+      <option name="number" value="LOCAL−00028" />
+      <option name="presentableId" value="LOCAL−00028" />
+      <updated>1716553040255</updated>
+    </task>
+    <task id="LOCAL−00029" summary="Add Swagger and OAuth2 icons, update quote text &#10;&#10;Two new technolgy icons for Swagger and OAuth2 were added to the Parameters file. In addition, wording in the reference quote from William Gross was updated from &quot;joy&quot; to &quot;honor&quot;.">
+      <option name="closed" value="true" />
+      <created>1716553064902</created>
+      <option name="number" value="LOCAL−00029" />
+      <option name="presentableId" value="LOCAL−00029" />
+      <updated>1716553064902</updated>
+    </task>
+    <task id="LOCAL−00030" summary="Remove unused comments from Program.cs&#10;&#10;The unneeded comment line related to adding services to the container has been removed from Program.cs. This change is intended to improve code readability, it brought no major alterations to the logic of the code, keeping its behavior intact.">
+      <option name="closed" value="true" />
+      <created>1716553076727</created>
+      <option name="number" value="LOCAL−00030" />
+      <option name="presentableId" value="LOCAL−00030" />
+      <updated>1716553076727</updated>
+    </task>
+    <task id="LOCAL−00031" summary="Refactor HomeController and clean up workspace.xml settings&#10;&#10;Removed commented line from HomeController.cs. Cleaned up the settings in workspace.xml, removing repeated configurations and out-of-date task descriptions. Also, CSS changes were made to enhance site layout and styles for better visualization.">
+      <option name="closed" value="true" />
+      <created>1716553102038</created>
+      <option name="number" value="LOCAL−00031" />
+      <option name="presentableId" value="LOCAL−00031" />
+      <updated>1716553102038</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -461,13 +465,6 @@
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="false" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="You didn't provide any specific code differences (diffs) or a current commit message. I need this information to craft an appropriate commit message. Please provide these details so I can assist you further." />
-    <MESSAGE value="Remove .idea workspace configuration file&#10;&#10;The .idea workspace.xml configuration file was deleted to avoid sharing of personal IDE settings. This file is generated automatically by the IDE and should not be included in version control as it contains user specific settings. This change will improve project portability across different development environments." />
-    <MESSAGE value="Add new skills to Parameters.cs&#10;&#10;The commit expands the number of skills in the SkillModel section by adding .NET CORE, Google, Azure, React and Javascript. Each skill model includes a skill name, description, and an associated icon URL." />
-    <MESSAGE value="Update skill display and input placeholder in Home view&#10;&#10;The skill details display has been updated in the Home view to be more comprehensible by separating the skill name and description into separate spans. Furthermore, the placeholder text of the Name input field under 'Contact Me' form has been updated to &quot;Enter your name&quot; aiming for better clarity." />
-    <MESSAGE value="Add shelved patch for uncommitted changes&#10;&#10;This commit adds a new shelved.patch file capturing the uncommitted changes in the project. This patch serves as a backup of these uncommitted changes to allow switching branches or updates without losing current progress." />
-    <MESSAGE value="Update footer with additional details and links&#10;&#10;The footer layout has been updated to include more detailed information like the name and address. Social links are now also dynamic, deriving from the @Parameters object rather than being hardcoded." />
-    <MESSAGE value="Update text style in Github project title &#10;&#10;The Github project title in the shared project box view has been updated with new CSS styles for font size and font weight. Additionally, the title is now transformed to uppercase for better visual impact." />
     <MESSAGE value="Update navigation bar in shared view&#10;&#10;The navigation bar in the shared view file &quot;_Navbar.cshtml&quot; has been modified. The &quot;Home&quot; link and title have been replaced with dynamic weather information. The &quot;Hire Me&quot; section is also updated to a &quot;Contact Me&quot; call-to-action button." />
     <MESSAGE value="Update default value for Message in ContactMeModel&#10;&#10;The default message string in the ContactMeModel has been updated in order to be more appealing and professional. This new message is designed to encourage potential candidates to respond more effectively." />
     <MESSAGE value="Update project descriptions and images in DataInitializer&#10;&#10;In this commit, the project descriptions in the DataInitializer class have been updated to provide more layout for each project. Additionally, the project images' URLs have been updated to point to a .webp version instead of a .png for improved loading speed. A new project 'RESTful API' has also been added to" />
@@ -482,37 +479,117 @@
     <MESSAGE value="Convert project description to uppercase in project box&#10;&#10;The project description in the GitHub project box view has been updated to display in uppercase. This alteration improves visibility and alignment with other UI elements." />
     <MESSAGE value="Update footer content and styles&#10;&#10;Altered the styling of the footer in _Footer.cshtml, including an increase in line-height for better readability. Updated the footer's content to improve the visibility and accessibility of key information such as address and email." />
     <MESSAGE value="Update workspace configuration and enhance site aesthetics&#10;&#10;This commit entails modifications to the workspace.xml and site.css files. Changes include an update of commit messages in the workspace file for better change descriptions. Site aesthetics have been enhanced, including updated button styles &amp; homepage sections structures, and the introduction of a new font, Rubik, across the site." />
-    <MESSAGE value="Reorder social buttons in home index view&#10;&#10;The social media buttons in the home index view needed to be reordered. The CV button has been moved after the GitHub and LinkedIn image icons. This commit brings a small change to the UI, improving the presentation of the personal details section." />
-    <option name="LAST_COMMIT_MESSAGE" value="Reorder social buttons in home index view&#10;&#10;The social media buttons in the home index view needed to be reordered. The CV button has been moved after the GitHub and LinkedIn image icons. This commit brings a small change to the UI, improving the presentation of the personal details section." />
+    <MESSAGE value="Update WeatherModel with new properties&#10;&#10;The WeatherModel is updated with new properties to accommodate new requirements. Added Time, CurrentTemperature, IsDay, and WeatherCode fields, while removing the previous Info field. These changes provide more detailed weather information." />
+    <MESSAGE value="Refactor workspace.xml to improve readability&#10;&#10;The commit involves refactoring the workspace.xml file to improve readability and maintainability of the code. It primarily includes the removal of several lines of code under the &quot;ChangeListManager&quot; component tag and adjustments to use HTML escape characters for quotes within the &quot;PropertiesComponent&quot; component. This ensures consistency and improves code clarity, especially for developers not familiar with this codebase." />
+    <MESSAGE value="Refactor EF Core migrations and update workspace&#10;&#10;This commit involves deleting and recreating Entity Framework Core migrations to clean up and streamline the data layer. Additionally, changes made to workspace.xml file improved readability and the maintainability of the code, ensuring consistency and improving code clarity." />
+    <MESSAGE value="Refactored _GithubProjectBox.cshtml view&#10;&#10;This commit includes refactoring the _GithubProjectBox.cshtml view by updating layout structure and case consistency. We have removed hardcoded styles from the title tag and merely use the defined classes. Project and Demo URLs are now capitalized consistently and the LiveDemoUrl section only renders if the URL is not null or empty." />
+    <MESSAGE value="Removed console.log from weather data fetch &#10;&#10;In the _Navbar.cshtml file, the console.log line for displaying weather data was removed. This change prevents unnecessary logging of weather data on console, keeping the console cleaner for more important logs." />
+    <MESSAGE value="Update default message in ContactMeModel&#10;&#10;The default message in the ContactMeModel class has been updated. We removed the placeholder for the company's name, as the message will now always address the individual in a more generic way without referencing any specific company." />
+    <MESSAGE value="Remove unused code and refactor property names&#10;&#10;Several commented-out blocks of code were removed to improve readability. Additionally, the naming convention of multiple properties across models was unified for consistency, changing from 'Url' to 'URL'." />
+    <MESSAGE value="Updated Home/Index.cshtml with revamped content and styling&#10;&#10;The previous 'About Me' section has been replaced with more comprehensive personal details while enhancing readability by using new CSS classes. Swapped the placeholder avatar text to a feature that lets users view a real picture. Also tidied up button stylings and solved a few TODO tasks such as the absolute positioning issue." />
+    <MESSAGE value="Add Swagger and OAuth2 icons, update quote text &#10;&#10;Two new technolgy icons for Swagger and OAuth2 were added to the Parameters file. In addition, wording in the reference quote from William Gross was updated from &quot;joy&quot; to &quot;honor&quot;." />
+    <MESSAGE value="Remove unused comments from Program.cs&#10;&#10;The unneeded comment line related to adding services to the container has been removed from Program.cs. This change is intended to improve code readability, it brought no major alterations to the logic of the code, keeping its behavior intact." />
+    <MESSAGE value="Refactor HomeController and clean up workspace.xml settings&#10;&#10;Removed commented line from HomeController.cs. Cleaned up the settings in workspace.xml, removing repeated configurations and out-of-date task descriptions. Also, CSS changes were made to enhance site layout and styles for better visualization." />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor HomeController and clean up workspace.xml settings&#10;&#10;Removed commented line from HomeController.cs. Cleaned up the settings in workspace.xml, removing repeated configurations and out-of-date task descriptions. Also, CSS changes were made to enhance site layout and styles for better visualization." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Project-2/Services/WeatherApiService.cs</url>
-          <line>33</line>
-          <properties documentPath="D:\RiderProjects\Project-2\Project-2\Services\WeatherApiService.cs" containingFunctionPresentation="Method 'Get'">
+          <url>file://$PROJECT_DIR$/Project-2/Views/Shared/_Navbar.cshtml</url>
+          <line>41</line>
+          <properties documentPath="D:\RiderProjects\Project-2\Project-2\Views\Shared\_Navbar.cshtml" isMultiMethodBreakpoint="true">
+            <option name="multiMethodBreakpoint" value="true" />
             <startOffsets>
-              <option value="1205" />
+              <option value="-1" />
             </startOffsets>
             <endOffsets>
-              <option value="1220" />
+              <option value="-1" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="29" />
+          <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Project-2/Services/WeatherApiService.cs</url>
-          <line>17</line>
-          <properties documentPath="D:\RiderProjects\Project-2\Project-2\Services\WeatherApiService.cs" containingFunctionPresentation="Method 'Get'">
+          <url>file://$PROJECT_DIR$/Project-2/Views/Shared/_Navbar.cshtml</url>
+          <line>23</line>
+          <properties documentPath="D:\RiderProjects\Project-2\Project-2\Views\Shared\_Navbar.cshtml" isMultiMethodBreakpoint="true">
+            <option name="multiMethodBreakpoint" value="true" />
             <startOffsets>
-              <option value="643" />
+              <option value="-1" />
             </startOffsets>
             <endOffsets>
-              <option value="832" />
+              <option value="-1" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="34" />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Project-2/Views/Shared/_Navbar.cshtml</url>
+          <line>18</line>
+          <properties documentPath="D:\RiderProjects\Project-2\Project-2\Views\Shared\_Navbar.cshtml" isMultiMethodBreakpoint="true">
+            <option name="multiMethodBreakpoint" value="true" />
+            <startOffsets>
+              <option value="-1" />
+            </startOffsets>
+            <endOffsets>
+              <option value="-1" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Project-2/Views/Shared/_GithubProjectBox.cshtml</url>
+          <line>24</line>
+          <properties documentPath="D:\RiderProjects\Project-2\Project-2\Views\Shared\_GithubProjectBox.cshtml" isMultiMethodBreakpoint="true">
+            <option name="multiMethodBreakpoint" value="true" />
+            <startOffsets>
+              <option value="-1" />
+            </startOffsets>
+            <endOffsets>
+              <option value="-1" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Project-2/Views/Shared/_GithubProjectBox.cshtml</url>
+          <line>23</line>
+          <properties documentPath="D:\RiderProjects\Project-2\Project-2\Views\Shared\_GithubProjectBox.cshtml" isMultiMethodBreakpoint="true">
+            <option name="multiMethodBreakpoint" value="true" />
+            <startOffsets>
+              <option value="-1" />
+            </startOffsets>
+            <endOffsets>
+              <option value="-1" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Project-2/Services/GithubApiService.cs</url>
+          <line>27</line>
+          <properties documentPath="D:\RiderProjects\Project-2\Project-2\Services\GithubApiService.cs" containingFunctionPresentation="Method 'Get'">
+            <startOffsets>
+              <option value="875" />
+            </startOffsets>
+            <endOffsets>
+              <option value="889" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/ProjectAPI/DataInitializer.cs</url>
+          <line>15</line>
+          <properties documentPath="D:\RiderProjects\Project-2\ProjectAPI\DataInitializer.cs" containingFunctionPresentation="Method 'SeedData'">
+            <startOffsets>
+              <option value="324" />
+            </startOffsets>
+            <endOffsets>
+              <option value="351" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="46" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

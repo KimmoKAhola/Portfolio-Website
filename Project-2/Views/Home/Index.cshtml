@@ -12,28 +12,36 @@
         <div id="hero-profile-box">
             <img id="hero-profile-picture" src="~/images/profile.png" alt="TODO">
             <h2 class="hero-profile-box-title">POORLY DRAWN PICTURE OF ME</h2>
-            <span><h3 class="github-project-subtitle">BUT YOU CAN ALWAYS VIEW MY RESUME<button class="button-cta">HERE</button></h3></span>
+            <span class="hero-profile-box-subtitle"><h3 class="hero-box-subtitle">
+                BUT YOU CAN ALWAYS VIEW my resume
+                <a href="@Parameters.MyResume"><button class="button-cta">HERE</button></a>
+            </h3></span>
         </div>
         <div id="about-me">
-            <p>ABOUT ME:</p>
-            <p class="test">TEST</p>
-            <p>
-                <span>LIKES</span>
-                <span><br>DOGS, C#</span>
-                <span><br>DISLIKES</span>
-                <span><br>CATS, JAVA</span>
-            </p>
-            <p>
-                <br><span>LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISICING ELIT. </span>
-            </p>
-            <p>
-                <br><span>LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISICING ELIT. </span>
-            </p>
+            <p class="header">kimmo ahola:</p>
+            <p id="about-me-info">
+            <p><span class="underline">born:</span> <span class="normal-text">1991 to finnish parents</span></p>
+            <p><span class="underline">speaks:</span> <span class="normal-text">swedish, english and broken finnish</span></p>
+            <p><span class="underline">favorite food:</span> <span class="normal-text">anything spicy</span></p>
+            <p><span class="underline">nerd:</span> <span class="normal-text">yes</span></p>
+            <p style="margin-bottom: 3rem"><span class="underline">Also:</span> <span class="normal-text">proud uncle</span></p>
+            <p class="underline like">LIKES:</p>
+            <span style="margin-bottom: 3rem">
+                <span class="normal-text">
+                    <p style="max-width: 80%">DOGS, coding in C#, cold weather, early mornings and coding in python (sometimes)</p>
+                </span>
+            </span>
+            <p class="underline dislike">DISLIKES:</p>
+            <span>
+                <span>
+                    <span class="normal-text">
+                        <p style="max-width: 80%">cats, java, pollen, slow internet, hot weather and coding in python (other times)</p>
+                    </span>
+                </span>
+            </span>
             <span id="about-me-buttons">
-                @* TODO for absolute positioning*@
                 <a href="@Parameters.GitHub"><img class="social-icon" src="~/images/icons/github.svg" alt="github"></a>
                 <a href="@Parameters.LinkedIn"><img class="social-icon" src="~/images/icons/linkedin.svg" alt="linkedin"></a>
-                <a href="@Parameters.MyResume"><button class="button-cta">CV</button></a>
             </span>
         </div>
     </div>
@@ -42,18 +50,15 @@
 <section class="skills-section">
     <h2 class="skills-header">MY SKILLS</h2>
     <div class="skills-container">
-        @for (int i = 0; i < 2; i++)
+        @foreach (var skill in @Model.ListOfSkills)
         {
-            @foreach (var skill in @Model.ListOfSkills)
-            {
-                <span class="skill-span">
-                    <span class="skill-details">
-                        <span class="skill-header">@skill.SkillName</span>
-                        <span class="skill-subheader">@skill.Description</span>
-                    </span>
-                    @Html.Raw(skill.IconUrl)
+            <span class="skill-span">
+                <span class="skill-details">
+                    <span class="skill-header normal-text">@skill.SkillName</span>
+                    @* <span class="skill-subheader">@skill.Description</span> *@
                 </span>
-            }
+                @Html.Raw(skill.IconUrl)
+            </span>
         }
     </div>
 </section>
@@ -73,7 +78,6 @@
             <div class="reference-box">
                 <img class="reference-profile-picture" src="~/images/wilgross.jpg" alt="wilgross">
                 @Html.Raw(reference)
-                @* <i class="quote">@reference</i> TODO check if this is overcomplicated or not*@
             </div>
         }
     </div>
@@ -98,7 +102,7 @@
                 <span asp-validation-for="ContactMeModel.Message" class="text-danger"></span>
             </span>
         </span>
-        <button style="margin-bottom: 36px" type="submit" class="button-cta">SUBMIT</button>
+        <button id="submit-button" type="submit" class="button-cta">SUBMIT</button>
     </form>
 </section>
 

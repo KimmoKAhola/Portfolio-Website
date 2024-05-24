@@ -16,5 +16,5 @@ public record GithubProject
     public List<string> Skills { get; init; } = [];
     public Uri ProjectURL { get; init; } = null!;
     public Uri ImageURL { get; init; } = null!;
-    public Uri? LiveDemoUrl { get; init; }
+    public Uri? LiveDemoURL { get; init; }
 }

@@ -32,6 +32,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
   line-height: 1;
+  text-transform: uppercase;
 }
 
 ol, ul {
@@ -77,7 +78,7 @@ a{
 }
 
 button{
-  border-radius: 2px;
+  border-radius: 0;
   padding: 24px 48px;
   display: flex;
   justify-content: center;
@@ -91,7 +92,6 @@ button{
 }
 
 .navbar {
-  /*TODO play around with this, 10vh, 5vh?*/
   height: 7vh; 
   display: flex;
   justify-content: space-between;
@@ -169,38 +169,82 @@ button{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 700px;
-  width: 700px;
-  border-radius: 2px;
+  max-height: 700px;
+  max-width: 700px;
+  height: 100%;
+  width: 100%;
   z-index: 3;
-  border: 2px solid black;
   background-color: var(--off-white);
   padding: 24px;
+  position: relative;
 }
 
 #hero-profile-picture{
-  height: 100%;
-}
-
-.hero-profile-box-title{
-  font-size: 32px;
-  font-weight: bold;
-}
-
-#about-me, #hero-profile-box, .github-project-content, .contact-form{
-  /*box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.3);*/
-  box-shadow: 10px 10px 0px black;
+  height: 70%;
 }
 
 #about-me{
+  border-left: 3px solid black;
+}
+
+.hero-profile-box-title{
+  font-size: 2rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.hero-box-subtitle{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  a{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    button{
+      width: 100%;
+    }
+  }
+}
+#about-me, #hero-profile-box, .github-project-content, .contact-form{
+  box-shadow: 10px 10px 0 black;
+}
+
+.normal-text{
+  font-weight: normal;
+}
+
+#about-me{
+  max-height: 500px;
   height: 500px;
-  width: 750px;
-  padding: 12px;
+  max-width: 750px;
+  width: 100%;
+  padding: 1.5rem;
   background-color: var(--off-white);
-  border-radius: 2px;
   z-index: 4;
   font-weight: bolder;
   position: relative;
+}
+
+#about-me-info{
+  margin-bottom: 1rem;
+}
+
+.dislike{
+  text-decoration-color: var(--danger);
+}
+
+.header{
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.underline{
+  text-decoration: underline;
 }
 
 #about-me-buttons{
@@ -221,19 +265,21 @@ button{
 
 
 .skills-section{
-  height: 60vh;
+  min-height: 60vh;
   position: relative;
   display: grid;
   place-items: center;
-  margin-bottom: 72px;
+  margin: 72px 0;
 }
 
 .skills-container{
   display: flex;
   justify-content: center;
-  gap: 24px;
-  max-width: 100%; 
-  overflow: hidden;
+  gap: 48px;
+  margin-bottom: 1rem;
+  max-width: 50%; 
+  flex-wrap: wrap;
+  transition: all ease-in 0.1s;
 }
 
 .skill-span {
@@ -244,6 +290,18 @@ button{
   align-items: center;
   justify-content: center;
   text-align: center;
+  transition: all ease-in 0.1s;
+}
+
+.skill-details {
+  display: none;
+  position: absolute;
+  font-weight: normal;
+  top: 110%;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 10;
 }
 
 .scroll {
@@ -283,16 +341,7 @@ span {
   }
 }
 
-.skill-details {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  width: 100%;
-  padding: 10px;
-  box-sizing: border-box;
-  z-index: 10;
-}
+
 
 .skill-span:hover .skill-details {
   display: block;
@@ -302,6 +351,11 @@ span {
 .skill-icon img {
   width: 50px;  
   height: 50px;
+}
+
+.skill-icon:hover{
+  transform: scale(1.15);
+  transition: 0.1s ease-in;
 }
 
 .skill-header {
@@ -351,7 +405,6 @@ span {
   display: flex;
   gap: 24px;
   .button{
-    border-radius: 12px;
     border: none;
   }
 }
@@ -365,7 +418,6 @@ span {
   margin-bottom: 24px;
   object-fit: contain;
   width: 100%;
-  border-radius: 2px;
   border: 1px solid rgba(0, 0, 0, 0.4);
 }
 
@@ -379,14 +431,10 @@ span {
   align-items: center;
   justify-content: center;
   gap: 36px;
-  border-radius: 2px;
 }
 
 .skill{
   width: fit-content;
-  img{
-    border-radius: 12px;
-  }
 }
 
 .github-project-content{
@@ -394,15 +442,12 @@ span {
   display: flex;
   flex-direction: column;
   background-color: var(--off-white);
-  /*box-shadow: 7px 7px 0px rgba(0, 0, 0, 0.4);*/
-  /*box-shadow: 7px 7px 0px rgba(0, 0, 0, 0.8);*/
-  /*TODO How much shadow? 0.8, 1.0?*/
   padding: 24px;
-  border-radius: 2px;
 }
 
 .github-project-title{
-  font-size: 2rem;
+  font-size: 3.5rem;
+  font-weight: bold;
   margin-bottom: 1rem;
 }
 
@@ -448,7 +493,6 @@ span {
   background-color: var(--off-white);
   display: grid;
   place-items: center;
-  border-radius: 2px;
 }
 
 .form-row{
@@ -469,7 +513,6 @@ span {
   }
   input, textarea{
     border: 1px solid rgba(0, 0, 0, 0.3);
-    border-radius: 2px;
     padding: 12px;
     box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.4);
     text-transform: uppercase;
@@ -494,7 +537,7 @@ span {
   width: 66%;
   height: 100%;
   margin-right: 10px;
-  border-radius: 5px;
+  border-radius: 0;
   counter-increment: carousel-cell;
 }
 
@@ -524,6 +567,11 @@ span {
   font-size: 102px;
   font-weight: bold;
   text-decoration: underline;
+  margin: 50px 0;
+}
+
+.skills-header{
+  margin-bottom: 100px;
 }
 
 .reference-box{
@@ -584,8 +632,8 @@ input:active, input:focus, textarea:active, textarea:focus{
 }
 
 .flickity-prev-next-button.previous,.flickity-prev-next-button.next {
+  border-radius: 0;
   background-color: var(--success); 
-  border-radius: 2px; 
   color: var(--off-white); 
   width: 100px;
   height: 50px; 
@@ -623,7 +671,6 @@ input:active, input:focus, textarea:active, textarea:focus{
   cursor: pointer;
 }
 
-.test{
-  display: inline;
-  border-bottom: 4px solid var(--warning);
+#submit-button{
+  margin-bottom: 36px;
 }
