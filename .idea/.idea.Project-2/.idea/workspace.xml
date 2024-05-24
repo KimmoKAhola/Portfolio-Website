@@ -14,7 +14,8 @@
   <component name="ChangeListManager">
     <list default="true" id="35eb54fb-81c2-4d76-ab0c-229ae8a87442" name="Changes" comment="Refactor workspace.xml and update tasks&#10;&#10;The workspace.xml file has been refactored to include new tasks and update old ones. Focus was on enhancing the workspace configurations, modifying commit descriptions, and adding Azure publishing settings. Additional changes have been made to ensure better webpage layout positioning in site.css file as well.">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Project-2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Project-2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project-2/wwwroot/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/wwwroot/css/site.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project-2/Project-2.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/Project-2.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectAPI/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectAPI/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,34 +124,36 @@
     <option name="sortByType" value="true" />
     <option name="sortKey" value="BY_TYPE" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Launch Settings Profile.Project-2: http.executor": "Run",
-    ".NET Launch Settings Profile.ProjectAPI: http.executor": "Run",
-    "Azure - Publish Web App.Publish Project-2 to Azure (1).executor": "Run",
-    "Azure - Publish Web App.Publish Project-2 to Azure (2).executor": "Run",
-    "Azure - Publish Web App.Publish Project-2 to Azure (3).executor": "Run",
-    "Azure - Publish Web App.Publish Project-2 to Azure (4).executor": "Run",
-    "Azure - Publish Web App.Publish Project-2 to Azure (5).executor": "Run",
-    "Azure - Publish Web App.Publish Project-2 to Azure.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "final-push-cleaning",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.sourceCode.Service Authentication",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.Project-2: http.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Launch Settings Profile.ProjectAPI: http.executor&quot;: &quot;Run&quot;,
+    &quot;Azure - Publish Web App.Publish Project-2 to Azure (1).executor&quot;: &quot;Run&quot;,
+    &quot;Azure - Publish Web App.Publish Project-2 to Azure (2).executor&quot;: &quot;Run&quot;,
+    &quot;Azure - Publish Web App.Publish Project-2 to Azure (3).executor&quot;: &quot;Run&quot;,
+    &quot;Azure - Publish Web App.Publish Project-2 to Azure (4).executor&quot;: &quot;Run&quot;,
+    &quot;Azure - Publish Web App.Publish Project-2 to Azure (5).executor&quot;: &quot;Run&quot;,
+    &quot;Azure - Publish Web App.Publish Project-2 to Azure (6).executor&quot;: &quot;Run&quot;,
+    &quot;Azure - Publish Web App.Publish Project-2 to Azure (7).executor&quot;: &quot;Run&quot;,
+    &quot;Azure - Publish Web App.Publish Project-2 to Azure.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;final-push-cleaning&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Service Authentication&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\kahol\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache",
-      "C:\\Users\\kahol\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache",
-      "C:\\Users\\kahol\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\kahol\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\kahol\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\kahol\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.Project-2: http">
+}</component>
+  <component name="RunManager" selected=".NET Launch Settings Profile.ProjectAPI: http">
     <configuration name="Publish Project-2 to Azure (1)" type="AzureDotNetWebAppPublish" factoryName="Azure Web App">
       <option name="AZURE_WEB_APP_PROJECT" value="$PROJECT_DIR$/Project-2/Project-2.csproj" />
       <option name="AZURE_WEB_APP_CONFIGURATION" value="Release" />
@@ -277,7 +280,7 @@
       <option name="AZURE_WEB_APP_SERVICE_PLAN_ID" value="/subscriptions/42874c1c-2ba9-441d-865d-5b38e2c642f4/resourceGroups/rg-240331191401/providers/Microsoft.Web/serverfarms/appsp-240331191503" />
       <option name="AZURE_WEB_APP_SERVICE_PLAN_NAME" value="" />
       <option name="AZURE_WEB_APP_LOCATION" value="eastus" />
-      <option name="AZURE_WEB_APP_PRICING_TIER" value="S1" />
+      <option name="AZURE_WEB_APP_PRICING_TIER" value="" />
       <option name="AZURE_WEB_APP_NET_FRAMEWORK" value="4.7" />
       <option name="AZURE_WEB_APP_NET_CORE_RUNTIME" value="DOTNETCORE 2.1" />
       <option name="AZURE_WEB_APP_IS_DEPLOY_TO_SLOT" value="0" />
@@ -314,7 +317,81 @@
       <option name="AZURE_WEB_APP_SERVICE_PLAN_ID" value="/subscriptions/42874c1c-2ba9-441d-865d-5b38e2c642f4/resourceGroups/rg-240331191401/providers/Microsoft.Web/serverfarms/appsp-240331191503" />
       <option name="AZURE_WEB_APP_SERVICE_PLAN_NAME" value="" />
       <option name="AZURE_WEB_APP_LOCATION" value="eastus" />
-      <option name="AZURE_WEB_APP_PRICING_TIER" value="S1" />
+      <option name="AZURE_WEB_APP_PRICING_TIER" value="" />
+      <option name="AZURE_WEB_APP_NET_FRAMEWORK" value="4.7" />
+      <option name="AZURE_WEB_APP_NET_CORE_RUNTIME" value="DOTNETCORE 2.1" />
+      <option name="AZURE_WEB_APP_IS_DEPLOY_TO_SLOT" value="0" />
+      <option name="AZURE_WEB_APP_SLOT_NAME" value="" />
+      <option name="AZURE_WEB_APP_OPEN_BROWSER_PUBLISH" value="0" />
+      <option name="AZURE_SQL_DATABASE_SUBSCRIPTION_ID" value="42874c1c-2ba9-441d-865d-5b38e2c642f4" />
+      <option name="AZURE_SQL_DATABASE_IS_ENABLED" value="0" />
+      <option name="AZURE_SQL_DATABASE_CONNECTION_STRING_NAME" value="" />
+      <option name="AZURE_SQL_DATABASE_IS_CREATE" value="0" />
+      <option name="AZURE_SQL_DATABASE_ID" value="/subscriptions/42874c1c-2ba9-441d-865d-5b38e2c642f4/resourceGroups/rg-240331191401/providers/Microsoft.Sql/servers/kimmo-bankappdata/databases/BankAppData" />
+      <option name="AZURE_SQL_DATABASE_NAME" value="" />
+      <option name="AZURE_SQL_DATABASE_IS_CREATE_RESOURCE_GROUP" value="0" />
+      <option name="AZURE_SQL_DATABASE_RESOURCE_GROUP_NAME" value="" />
+      <option name="AZURE_SQL_DATABASE_IS_CREATE_SQL_SERVER" value="0" />
+      <option name="AZURE_SQL_DATABASE_SQL_SERVER_ID" value="" />
+      <option name="AZURE_SQL_DATABASE_SQL_SERVER_NAME" value="" />
+      <option name="AZURE_SQL_DATABASE_SQL_SERVER_ADMIN_LOGIN" value="KiAhola" />
+      <option name="AZURE_SQL_DATABASE_LOCATION" value="eastus" />
+      <option name="AZURE_SQL_DATABASE_COLLATION" value="SQL_Latin1_General_CP1_CI_AS" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish Project-2 to Azure (6)" type="AzureDotNetWebAppPublish" factoryName="Azure Web App">
+      <option name="AZURE_WEB_APP_PROJECT" value="$PROJECT_DIR$/Project-2/Project-2.csproj" />
+      <option name="AZURE_WEB_APP_CONFIGURATION" value="Release" />
+      <option name="AZURE_WEB_APP_PLATFORM" value="Any CPU" />
+      <option name="AZURE_WEB_APP_SUBSCRIPTION_ID" value="42874c1c-2ba9-441d-865d-5b38e2c642f4" />
+      <option name="AZURE_WEB_APP_IS_CREATE_APP" value="0" />
+      <option name="AZURE_WEB_APP_ID" value="/subscriptions/42874c1c-2ba9-441d-865d-5b38e2c642f4/resourceGroups/ResourceMoverRG-eastus-swedencentral-swc/providers/Microsoft.Web/sites/kimmo-project-2" />
+      <option name="AZURE_WEB_APP_NAME" value="" />
+      <option name="AZURE_WEB_APP_IS_CREATE_RESOURCE_GROUP" value="0" />
+      <option name="AZURE_WEB_APP_RESOURCE_GROUP_NAME" value="" />
+      <option name="AZURE_WEB_APP_OPERATING_SYSTEM" value="WINDOWS" />
+      <option name="AZURE_WEB_APP_IS_CREATE_APP_SERVICE_PLAN" value="0" />
+      <option name="AZURE_WEB_APP_SERVICE_PLAN_ID" value="/subscriptions/42874c1c-2ba9-441d-865d-5b38e2c642f4/resourceGroups/rg-240331191401/providers/Microsoft.Web/serverfarms/appsp-240331191503" />
+      <option name="AZURE_WEB_APP_SERVICE_PLAN_NAME" value="" />
+      <option name="AZURE_WEB_APP_LOCATION" value="eastus" />
+      <option name="AZURE_WEB_APP_PRICING_TIER" value="" />
+      <option name="AZURE_WEB_APP_NET_FRAMEWORK" value="4.7" />
+      <option name="AZURE_WEB_APP_NET_CORE_RUNTIME" value="DOTNETCORE 2.1" />
+      <option name="AZURE_WEB_APP_IS_DEPLOY_TO_SLOT" value="0" />
+      <option name="AZURE_WEB_APP_SLOT_NAME" value="" />
+      <option name="AZURE_WEB_APP_OPEN_BROWSER_PUBLISH" value="0" />
+      <option name="AZURE_SQL_DATABASE_SUBSCRIPTION_ID" value="42874c1c-2ba9-441d-865d-5b38e2c642f4" />
+      <option name="AZURE_SQL_DATABASE_IS_ENABLED" value="0" />
+      <option name="AZURE_SQL_DATABASE_CONNECTION_STRING_NAME" value="" />
+      <option name="AZURE_SQL_DATABASE_IS_CREATE" value="0" />
+      <option name="AZURE_SQL_DATABASE_ID" value="/subscriptions/42874c1c-2ba9-441d-865d-5b38e2c642f4/resourceGroups/rg-240331191401/providers/Microsoft.Sql/servers/kimmo-bankappdata/databases/BankAppData" />
+      <option name="AZURE_SQL_DATABASE_NAME" value="" />
+      <option name="AZURE_SQL_DATABASE_IS_CREATE_RESOURCE_GROUP" value="0" />
+      <option name="AZURE_SQL_DATABASE_RESOURCE_GROUP_NAME" value="" />
+      <option name="AZURE_SQL_DATABASE_IS_CREATE_SQL_SERVER" value="0" />
+      <option name="AZURE_SQL_DATABASE_SQL_SERVER_ID" value="" />
+      <option name="AZURE_SQL_DATABASE_SQL_SERVER_NAME" value="" />
+      <option name="AZURE_SQL_DATABASE_SQL_SERVER_ADMIN_LOGIN" value="KiAhola" />
+      <option name="AZURE_SQL_DATABASE_LOCATION" value="eastus" />
+      <option name="AZURE_SQL_DATABASE_COLLATION" value="SQL_Latin1_General_CP1_CI_AS" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish Project-2 to Azure (7)" type="AzureDotNetWebAppPublish" factoryName="Azure Web App">
+      <option name="AZURE_WEB_APP_PROJECT" value="$PROJECT_DIR$/Project-2/Project-2.csproj" />
+      <option name="AZURE_WEB_APP_CONFIGURATION" value="Release" />
+      <option name="AZURE_WEB_APP_PLATFORM" value="Any CPU" />
+      <option name="AZURE_WEB_APP_SUBSCRIPTION_ID" value="42874c1c-2ba9-441d-865d-5b38e2c642f4" />
+      <option name="AZURE_WEB_APP_IS_CREATE_APP" value="0" />
+      <option name="AZURE_WEB_APP_ID" value="/subscriptions/42874c1c-2ba9-441d-865d-5b38e2c642f4/resourceGroups/ResourceMoverRG-eastus-swedencentral-swc/providers/Microsoft.Web/sites/kimmo-project-2" />
+      <option name="AZURE_WEB_APP_NAME" value="" />
+      <option name="AZURE_WEB_APP_IS_CREATE_RESOURCE_GROUP" value="0" />
+      <option name="AZURE_WEB_APP_RESOURCE_GROUP_NAME" value="" />
+      <option name="AZURE_WEB_APP_OPERATING_SYSTEM" value="WINDOWS" />
+      <option name="AZURE_WEB_APP_IS_CREATE_APP_SERVICE_PLAN" value="0" />
+      <option name="AZURE_WEB_APP_SERVICE_PLAN_ID" value="/subscriptions/42874c1c-2ba9-441d-865d-5b38e2c642f4/resourceGroups/rg-240331191401/providers/Microsoft.Web/serverfarms/appsp-240331191503" />
+      <option name="AZURE_WEB_APP_SERVICE_PLAN_NAME" value="" />
+      <option name="AZURE_WEB_APP_LOCATION" value="eastus" />
+      <option name="AZURE_WEB_APP_PRICING_TIER" value="" />
       <option name="AZURE_WEB_APP_NET_FRAMEWORK" value="4.7" />
       <option name="AZURE_WEB_APP_NET_CORE_RUNTIME" value="DOTNETCORE 2.1" />
       <option name="AZURE_WEB_APP_IS_DEPLOY_TO_SLOT" value="0" />
@@ -405,8 +482,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue=".NET Launch Settings Profile.Project-2: http" />
         <item itemvalue=".NET Launch Settings Profile.ProjectAPI: http" />
+        <item itemvalue=".NET Launch Settings Profile.Project-2: http" />
         <item itemvalue=".NET Launch Settings Profile.Project-2: http" />
         <item itemvalue=".NET Launch Settings Profile.ProjectAPI: http" />
       </list>
@@ -570,7 +647,8 @@
       <workItem from="1716402706487" duration="402000" />
       <workItem from="1716474179841" duration="921000" />
       <workItem from="1716565110632" duration="2609000" />
-      <workItem from="1716568244034" duration="1567000" />
+      <workItem from="1716568244034" duration="2728000" />
+      <workItem from="1716573483227" duration="1177000" />
     </task>
     <task id="LOCAL−00022" summary="Refactor Github project service and update project details&#10;&#10;This commit includes removal of the unused Get method in IGithubProjectService interface and GithubApiService class. The HomeController's submit method has been updated to use latitude and longitude for weather service, and the email body message has been localized. Finally, a new workspace.xml file has been added.">
       <option name="closed" value="true" />
@@ -607,7 +685,14 @@
       <option name="presentableId" value="LOCAL−00026" />
       <updated>1716569480952</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL−00027" summary="Refactor workspace.xml and update tasks&#10;&#10;The workspace.xml file has been refactored to include new tasks and update old ones. Focus was on enhancing the workspace configurations, modifying commit descriptions, and adding Azure publishing settings. Additional changes have been made to ensure better webpage layout positioning in site.css file as well.">
+      <option name="closed" value="true" />
+      <created>1716570031443</created>
+      <option name="number" value="LOCAL−00027" />
+      <option name="presentableId" value="LOCAL−00027" />
+      <updated>1716570031443</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
