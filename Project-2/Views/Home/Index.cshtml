@@ -1,4 +1,5 @@
-﻿@using Project_2.Infrastructure
+﻿@using Microsoft.AspNetCore.Mvc.TagHelpers
+@using Project_2.Infrastructure
 @model Project_2.Models.ViewModels.IndexViewModel
 @{
     ViewData["Title"] = "Home Page";
@@ -11,12 +12,16 @@
         <div id="hero-profile-box">
             <img id="hero-profile-picture" src="~/images/profile.png" alt="TODO">
             <h2 class="hero-profile-box-title">POORLY DRAWN PICTURE OF ME</h2>
+            <span><h3 class="github-project-subtitle">BUT YOU CAN ALWAYS VIEW MY RESUME<button class="button-cta">HERE</button></h3></span>
         </div>
         <div id="about-me">
             <p>ABOUT ME:</p>
+            <p class="test">TEST</p>
             <p>
-                <span><br>LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISICING ELIT. ASPERIORES DEBITIS DOLOREM FUGIT NEMO NON PRAESENTIUM RERUM SAPIENTE TEMPORE VEL VOLUPTATE! A, AUTEM DELENITI EOS EUM ISTE NUMQUAM PERSPICIATIS PORRO REPUDIANDAE!</span>
-                <span><br>AD ALIQUAM ASPERIORES CONSECTETUR CULPA DIGNISSIMOS DOLOREMQUE, DOLORES DOLORUM ELIGENDI EST ET EX FUGA IN IPSUM MOLESTIAS NISI NOBIS OBCAECATI ODIT OFFICIIS PARIATUR QUASI QUOS RECUSANDAE SEQUI, SIMILIQUE TEMPORIBUS VERITATIS.</span>
+                <span>LIKES</span>
+                <span><br>DOGS, C#</span>
+                <span><br>DISLIKES</span>
+                <span><br>CATS, JAVA</span>
             </p>
             <p>
                 <br><span>LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISICING ELIT. </span>

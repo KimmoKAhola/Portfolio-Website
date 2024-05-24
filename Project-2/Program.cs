@@ -2,8 +2,6 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Project_2.Data;
 using Project_2.Infrastructure;
-using Project_2.Models.ViewModels.GithubProjects;
-using Project_2.Models.ViewModels.Weather;
 using Project_2.Services;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -21,15 +19,12 @@ builder
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews();
 
-var apiKey = builder.Configuration.GetSection("ApiSettings")["Key"];
-
-builder.Services.AddHttpClient<IHttpService<Root>, WeatherApiService>(o =>
+builder.Services.AddHttpClient<IWeatherService, WeatherApiService>(o =>
 {
-    o.BaseAddress = new Uri("https://api.openweathermap.org/data/2.5/");
-    o.DefaultRequestHeaders.Add("Authorization", $"Bearer {apiKey}");
+    o.BaseAddress = new Uri("https://api.open-meteo.com/v1/");
 });
 
-builder.Services.AddHttpClient<IHttpService<GithubProjectModel>, GithubApiService>(o =>
+builder.Services.AddHttpClient<IGithubProjectService, GithubApiService>(o =>
 {
     o.BaseAddress = new Uri("https://kimmo-github-api.azurewebsites.net/");
 });
