@@ -12,7 +12,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35eb54fb-81c2-4d76-ab0c-229ae8a87442" name="Changes" comment="Update workspace.xml and site.css files&#10;&#10;The workspace.xml file was updated, adding Azure publishing settings and modifying commit descriptions. Webpage layout positioning was also improved via changes in the site.css file. A few new quotes have been added to the Parameters in the Infrastructure folder." />
+    <list default="true" id="35eb54fb-81c2-4d76-ab0c-229ae8a87442" name="Changes" comment="Refactor workspace.xml and update tasks&#10;&#10;The workspace.xml file has been refactored to include new tasks and update old ones. Focus was on enhancing the workspace configurations, modifying commit descriptions, and adding Azure publishing settings. Additional changes have been made to ensure better webpage layout positioning in site.css file as well.">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Project-2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Project-2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project-2/wwwroot/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/wwwroot/css/site.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -128,6 +131,7 @@
     "Azure - Publish Web App.Publish Project-2 to Azure (2).executor": "Run",
     "Azure - Publish Web App.Publish Project-2 to Azure (3).executor": "Run",
     "Azure - Publish Web App.Publish Project-2 to Azure (4).executor": "Run",
+    "Azure - Publish Web App.Publish Project-2 to Azure (5).executor": "Run",
     "Azure - Publish Web App.Publish Project-2 to Azure.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "final-push-cleaning",
@@ -259,6 +263,43 @@
       <method v="2" />
     </configuration>
     <configuration name="Publish Project-2 to Azure (4)" type="AzureDotNetWebAppPublish" factoryName="Azure Web App">
+      <option name="AZURE_WEB_APP_PROJECT" value="$PROJECT_DIR$/Project-2/Project-2.csproj" />
+      <option name="AZURE_WEB_APP_CONFIGURATION" value="Release" />
+      <option name="AZURE_WEB_APP_PLATFORM" value="Any CPU" />
+      <option name="AZURE_WEB_APP_SUBSCRIPTION_ID" value="42874c1c-2ba9-441d-865d-5b38e2c642f4" />
+      <option name="AZURE_WEB_APP_IS_CREATE_APP" value="0" />
+      <option name="AZURE_WEB_APP_ID" value="/subscriptions/42874c1c-2ba9-441d-865d-5b38e2c642f4/resourceGroups/ResourceMoverRG-eastus-swedencentral-swc/providers/Microsoft.Web/sites/kimmo-project-2" />
+      <option name="AZURE_WEB_APP_NAME" value="" />
+      <option name="AZURE_WEB_APP_IS_CREATE_RESOURCE_GROUP" value="0" />
+      <option name="AZURE_WEB_APP_RESOURCE_GROUP_NAME" value="" />
+      <option name="AZURE_WEB_APP_OPERATING_SYSTEM" value="WINDOWS" />
+      <option name="AZURE_WEB_APP_IS_CREATE_APP_SERVICE_PLAN" value="0" />
+      <option name="AZURE_WEB_APP_SERVICE_PLAN_ID" value="/subscriptions/42874c1c-2ba9-441d-865d-5b38e2c642f4/resourceGroups/rg-240331191401/providers/Microsoft.Web/serverfarms/appsp-240331191503" />
+      <option name="AZURE_WEB_APP_SERVICE_PLAN_NAME" value="" />
+      <option name="AZURE_WEB_APP_LOCATION" value="eastus" />
+      <option name="AZURE_WEB_APP_PRICING_TIER" value="S1" />
+      <option name="AZURE_WEB_APP_NET_FRAMEWORK" value="4.7" />
+      <option name="AZURE_WEB_APP_NET_CORE_RUNTIME" value="DOTNETCORE 2.1" />
+      <option name="AZURE_WEB_APP_IS_DEPLOY_TO_SLOT" value="0" />
+      <option name="AZURE_WEB_APP_SLOT_NAME" value="" />
+      <option name="AZURE_WEB_APP_OPEN_BROWSER_PUBLISH" value="0" />
+      <option name="AZURE_SQL_DATABASE_SUBSCRIPTION_ID" value="42874c1c-2ba9-441d-865d-5b38e2c642f4" />
+      <option name="AZURE_SQL_DATABASE_IS_ENABLED" value="0" />
+      <option name="AZURE_SQL_DATABASE_CONNECTION_STRING_NAME" value="" />
+      <option name="AZURE_SQL_DATABASE_IS_CREATE" value="0" />
+      <option name="AZURE_SQL_DATABASE_ID" value="/subscriptions/42874c1c-2ba9-441d-865d-5b38e2c642f4/resourceGroups/rg-240331191401/providers/Microsoft.Sql/servers/kimmo-bankappdata/databases/BankAppData" />
+      <option name="AZURE_SQL_DATABASE_NAME" value="" />
+      <option name="AZURE_SQL_DATABASE_IS_CREATE_RESOURCE_GROUP" value="0" />
+      <option name="AZURE_SQL_DATABASE_RESOURCE_GROUP_NAME" value="" />
+      <option name="AZURE_SQL_DATABASE_IS_CREATE_SQL_SERVER" value="0" />
+      <option name="AZURE_SQL_DATABASE_SQL_SERVER_ID" value="" />
+      <option name="AZURE_SQL_DATABASE_SQL_SERVER_NAME" value="" />
+      <option name="AZURE_SQL_DATABASE_SQL_SERVER_ADMIN_LOGIN" value="KiAhola" />
+      <option name="AZURE_SQL_DATABASE_LOCATION" value="eastus" />
+      <option name="AZURE_SQL_DATABASE_COLLATION" value="SQL_Latin1_General_CP1_CI_AS" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish Project-2 to Azure (5)" type="AzureDotNetWebAppPublish" factoryName="Azure Web App">
       <option name="AZURE_WEB_APP_PROJECT" value="$PROJECT_DIR$/Project-2/Project-2.csproj" />
       <option name="AZURE_WEB_APP_CONFIGURATION" value="Release" />
       <option name="AZURE_WEB_APP_PLATFORM" value="Any CPU" />
@@ -529,7 +570,7 @@
       <workItem from="1716402706487" duration="402000" />
       <workItem from="1716474179841" duration="921000" />
       <workItem from="1716565110632" duration="2609000" />
-      <workItem from="1716568244034" duration="1109000" />
+      <workItem from="1716568244034" duration="1567000" />
     </task>
     <task id="LOCAL−00022" summary="Refactor Github project service and update project details&#10;&#10;This commit includes removal of the unused Get method in IGithubProjectService interface and GithubApiService class. The HomeController's submit method has been updated to use latitude and longitude for weather service, and the email body message has been localized. Finally, a new workspace.xml file has been added.">
       <option name="closed" value="true" />
@@ -559,7 +600,14 @@
       <option name="presentableId" value="LOCAL−00025" />
       <updated>1716569156070</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL−00026" summary="Refactor workspace.xml and update tasks&#10;&#10;The workspace.xml file has been refactored to include new tasks and update old ones. Focus was on enhancing the workspace configurations, modifying commit descriptions, and adding Azure publishing settings. Additional changes have been made to ensure better webpage layout positioning in site.css file as well.">
+      <option name="closed" value="true" />
+      <created>1716569480952</created>
+      <option name="number" value="LOCAL−00026" />
+      <option name="presentableId" value="LOCAL−00026" />
+      <updated>1716569480952</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -568,7 +616,6 @@
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="false" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Remove .idea workspace configuration file&#10;&#10;The .idea workspace.xml configuration file was deleted to avoid sharing of personal IDE settings. This file is generated automatically by the IDE and should not be included in version control as it contains user specific settings. This change will improve project portability across different development environments." />
     <MESSAGE value="Add new skills to Parameters.cs&#10;&#10;The commit expands the number of skills in the SkillModel section by adding .NET CORE, Google, Azure, React and Javascript. Each skill model includes a skill name, description, and an associated icon URL." />
     <MESSAGE value="Update skill display and input placeholder in Home view&#10;&#10;The skill details display has been updated in the Home view to be more comprehensible by separating the skill name and description into separate spans. Furthermore, the placeholder text of the Name input field under 'Contact Me' form has been updated to &quot;Enter your name&quot; aiming for better clarity." />
     <MESSAGE value="Add shelved patch for uncommitted changes&#10;&#10;This commit adds a new shelved.patch file capturing the uncommitted changes in the project. This patch serves as a backup of these uncommitted changes to allow switching branches or updates without losing current progress." />
@@ -593,7 +640,8 @@
     <MESSAGE value="Update workspace configurations and refactor CSS files&#10;&#10;Adjusted workspace configurations in workspace.xml file, including changes in commit descriptions, and added Azure publishing settings. Also updated site.css for better webpage layout positioning by implementing CSS grid and transform properties." />
     <MESSAGE value="Update workspace configuration and enhance site aesthetics &#10;&#10;This commit includes changes in workspace.xml file with updated commit descriptions and additional Azure publishing settings. Modification in site.css allows better webpage layout positioning. A few new quotes have also been added to the Parameters in the Infrastructure folder." />
     <MESSAGE value="Update workspace.xml and site.css files&#10;&#10;The workspace.xml file was updated, adding Azure publishing settings and modifying commit descriptions. Webpage layout positioning was also improved via changes in the site.css file. A few new quotes have been added to the Parameters in the Infrastructure folder." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update workspace.xml and site.css files&#10;&#10;The workspace.xml file was updated, adding Azure publishing settings and modifying commit descriptions. Webpage layout positioning was also improved via changes in the site.css file. A few new quotes have been added to the Parameters in the Infrastructure folder." />
+    <MESSAGE value="Refactor workspace.xml and update tasks&#10;&#10;The workspace.xml file has been refactored to include new tasks and update old ones. Focus was on enhancing the workspace configurations, modifying commit descriptions, and adding Azure publishing settings. Additional changes have been made to ensure better webpage layout positioning in site.css file as well." />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor workspace.xml and update tasks&#10;&#10;The workspace.xml file has been refactored to include new tasks and update old ones. Focus was on enhancing the workspace configurations, modifying commit descriptions, and adding Azure publishing settings. Additional changes have been made to ensure better webpage layout positioning in site.css file as well." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
