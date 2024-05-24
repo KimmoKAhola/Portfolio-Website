@@ -21,6 +21,7 @@ This portolio uses CSS and HTML for its design. The design is inspired by retro 
 
 ### Features
 - Display of GitHub projects
+- A contact form which opens your email client of choice.
 
 ## API
 The RESTful API is built with C# and follows the MVC pattern, providing endpoints to manage and retrieve information about GitHub projects. This api has been kept very simple by design and any CRUD operations other than Read (all) have been omitted.
