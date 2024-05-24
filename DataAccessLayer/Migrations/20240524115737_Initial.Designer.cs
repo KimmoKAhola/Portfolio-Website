@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DataAccessLayer.Migrations
 {
     [DbContext(typeof(ProjectDbContext))]
-    [Migration("20240521171936_Initial")]
+    [Migration("20240524115737_Initial")]
     partial class Initial
     {
         /// <inheritdoc />
@@ -44,7 +44,7 @@ namespace DataAccessLayer.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("LiveDemoUrl")
+                    b.Property<string>("LiveDemoURL")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ProjectURL")

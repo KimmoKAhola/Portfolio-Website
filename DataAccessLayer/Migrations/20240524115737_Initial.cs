@@ -22,7 +22,7 @@ namespace DataAccessLayer.Migrations
                     Skills = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     ProjectURL = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     ImageURL = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    LiveDemoUrl = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                    LiveDemoURL = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
                 {
