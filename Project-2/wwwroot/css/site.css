@@ -591,7 +591,7 @@ input:active, input:focus, textarea:active, textarea:focus{
   height: 50px; 
   border: none; 
   transition: all ease-in 0.1s;
-  box-shadow: 4px 4px 0px black;
+  box-shadow: 7px 7px 0px black;
 }
 
 .flickity-prev-next-button.previous{
@@ -603,17 +603,27 @@ input:active, input:focus, textarea:active, textarea:focus{
 }
 
 .flickity-prev-next-button.previous:hover,.flickity-prev-next-button.next:hover{
-  box-shadow: 4px 4px 0px black;
+  /*box-shadow: inset 7px 7px 0px black;*/
+  box-shadow: 7px 7px 0px black;
   text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.7);
   background-color: var(--success);
+  transition: all ease-in 0.1s;
+  
 }
 
 .flickity-prev-next-button.previous:active{
   box-shadow: inset 4px 4px 0px rgba(0, 0, 0, 0.4) !important; 
   text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.4) !important; 
   background-color: var(--success);
+  transition: all ease-in 0.1s;
+  
 }
 
 #ContactMeModel_Fullname:hover, #contact-me-textarea:hover{
   cursor: pointer;
+}
+
+.test{
+  display: inline;
+  border-bottom: 4px solid var(--warning);
 }
