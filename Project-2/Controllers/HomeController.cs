@@ -51,6 +51,5 @@ public class HomeController(IWeatherService weatherService, IGithubProjectServic
     {
         var result = await weatherService.Get(lat, lon);
         return new JsonResult(result);
-        // return $"{result.Current.Temperature2m}";
     }
 }
