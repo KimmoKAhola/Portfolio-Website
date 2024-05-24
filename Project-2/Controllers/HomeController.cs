@@ -25,11 +25,11 @@ public class HomeController(IWeatherService weatherService, IGithubProjectServic
     }
 
     [HttpPost]
-    public async Task<IActionResult> Submit(IndexViewModel indexViewModel)
+    public async Task<IActionResult> Submit(IndexViewModel indexViewModel, double lat, double lon)
     {
         indexViewModel.GithubProjectModels = await projectService.Get();
-        var result = await weatherService.Get(1, 1);
-        var weatherModel = new WeatherModel { CurrentTemperature = result.Current.Temperature2m }; //TODO
+        var result = await weatherService.Get(lat, lon);
+        var weatherModel = new WeatherModel { CurrentTemperature = result.Current.Temperature2m };
         indexViewModel.WeatherModel = weatherModel;
         indexViewModel.ListOfSkills = Parameters.Skills;
         if (!ModelState.IsValid)
@@ -42,7 +42,7 @@ public class HomeController(IWeatherService weatherService, IGithubProjectServic
         var mailtoLink =
             $"mailto:{Uri.EscapeDataString(myEmail)}"
             + $"?subject={Uri.EscapeDataString("Intresseanmälan")}"
-            + $"&body={Uri.EscapeDataString($"Hello {indexViewModel.ContactMeModel.Fullname},\n\n{indexViewModel.ContactMeModel.Message}")}";
+            + $"&body={Uri.EscapeDataString($"Hej Kimmo, {indexViewModel.ContactMeModel.Fullname} här!,\n\n{indexViewModel.ContactMeModel.Message}")}";
         return Redirect(mailtoLink);
     }
 

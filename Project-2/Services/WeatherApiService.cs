@@ -25,12 +25,12 @@ public class WeatherApiService(HttpClient httpClient) : IWeatherService
         catch (Exception e)
         {
             Console.WriteLine(e);
-            return null!; //TODO make this nicer
+            return null!;
         }
 
         var result = await httpResponse.Content.ReadAsStringAsync();
 
         var weather = JsonSerializer.Deserialize<Root>(result, _jsonOptions);
-        return weather;
+        return weather!;
     }
 }

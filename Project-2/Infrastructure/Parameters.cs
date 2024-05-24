@@ -9,7 +9,6 @@ public static class Parameters
         new SkillModel
         {
             SkillName = "C#",
-            // Description = "Best language",
             IconUrl = """
                 <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" />
                 """
@@ -17,7 +16,6 @@ public static class Parameters
         new SkillModel
         {
             SkillName = "JAVA",
-            // Description = "I spit on it",
             IconUrl = """
                 <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" />
                 """
@@ -25,7 +23,6 @@ public static class Parameters
         new SkillModel
         {
             SkillName = "Python",
-            // Description = "Love to hate it",
             IconUrl = """
                 <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />
                 """
@@ -33,7 +30,6 @@ public static class Parameters
         new SkillModel
         {
             SkillName = "MS-SQL",
-            // Description = "I like databases",
             IconUrl = """
                 <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" />
                 """
@@ -41,7 +37,6 @@ public static class Parameters
         new SkillModel
         {
             SkillName = "Pandas",
-            // Description = "I like csv files",
             IconUrl = """
                 <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg" />
                 """
@@ -49,7 +44,6 @@ public static class Parameters
         new SkillModel
         {
             SkillName = "MatPlotLib",
-            // Description = "Who doesn't like a good graph?",
             IconUrl = """
                 <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/matplotlib/matplotlib-original.svg" />
                 """
@@ -57,7 +51,6 @@ public static class Parameters
         new SkillModel
         {
             SkillName = ".NET CORE",
-            // Description = "The .NET Framework",
             IconUrl = """
                 <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-original.svg" />
                 """
@@ -65,7 +58,6 @@ public static class Parameters
         new SkillModel
         {
             SkillName = "Google",
-            // Description = "Google first",
             IconUrl = """
                 <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/google/google-original.svg" />
                 """
@@ -73,7 +65,6 @@ public static class Parameters
         new SkillModel
         {
             SkillName = "Azure",
-            // Description = "Pushing sites to azure services",
             IconUrl = """
                 <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original.svg" />
                 """
@@ -81,7 +72,6 @@ public static class Parameters
         new SkillModel
         {
             SkillName = "React",
-            // Description = "Creating websites using React",
             IconUrl = """
                 <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
                 """
@@ -89,7 +79,6 @@ public static class Parameters
         new SkillModel
         {
             SkillName = "Javascript",
-            // Description = "Please no",
             IconUrl = """
                 <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
                 """
@@ -97,35 +86,30 @@ public static class Parameters
         new SkillModel
         {
             SkillName = "HTML",
-            // Description = "",
             IconUrl =
                 """<img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" />"""
         },
         new SkillModel
         {
             SkillName = "CSS",
-            // Description = "",
             IconUrl =
                 """<img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" />"""
         },
         new SkillModel
         {
             SkillName = "SCSS",
-            // Description = "",
             IconUrl =
                 """<img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg" />"""
         },
         new SkillModel
         {
             SkillName = "SWAGGER",
-            // Description = "",
             IconUrl =
                 """<img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swagger/swagger-original.svg" />"""
         },
         new SkillModel
         {
             SkillName = "OAUTH2",
-            // Description = "",
             IconUrl =
                 """<img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/oauth/oauth-original.svg" />"""
         }
