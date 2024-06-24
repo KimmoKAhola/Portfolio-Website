@@ -112,6 +112,12 @@ public static class Parameters
             SkillName = "OAUTH2",
             IconUrl =
                 """<img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/oauth/oauth-original.svg" />"""
+        },
+        new SkillModel
+        {
+            SkillName = "Entity Framework",
+            IconUrl =
+                """<img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-plain-wordmark.svg" />"""
         }
     ];
 
@@ -194,20 +200,48 @@ public static class Parameters
             {
                 "OAUTH2",
                 """<img class="project-skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/oauth/oauth-original.svg" />"""
+            },
+            {
+                "ASP.NET",
+                """<img class="project-skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-original.svg" />"""
+            },
+            {
+                "EF",
+                """<img class="project-skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-plain-wordmark.svg" />"""
             }
         };
 
-    public static readonly List<string> ReferenceQuotes =
+    public static readonly List<Tuple<string, string>> ReferenceQuotes =
     [
-        """
-            <i class="quote">"IT WAS AN <span style='text-decoration: underline;'>HONOR</span> TO DO CONSOLE.WRITELINE WITH YOU"</i>
+        new Tuple<string, string>(
+            "~/images/wilgross.jpg",
+            """
+            <i class="quote">"IT WAS AN<span class="pink">HONOR</span>TO DO CONSOLE.WRITELINE WITH YOU"</i>
+            """
+        ),
+        new Tuple<string, string>(
+            """
+            <img class="reference-profile-picture" src="~/images/wilgross.jpg" alt="wilgross">
             """,
-        """
-            <i class="quote">"I CREATE BUGS, HE <span style='text-decoration: underline;'>SQUASHES</span> THEM"</i>
+            """
+            <i class="quote">"I CREATE BUGS, HE<span class="pink">SQUASHES</span>THEM"</i>
+            """
+        ),
+        new Tuple<string, string>(
+            """
+            <img class="reference-profile-picture" src="~/images/chalk.jpg" alt="chalk">
             """,
-        """
-            <i class="quote">"here i am, <span style='text-decoration: underline;'>again</span>."</i>
+            """
+            <i class="quote">"vilken jävla sida.<span class="pink">anställningsbar!</span>"</i>
+            """
+        ),
+        new Tuple<string, string>(
+            """
+            <img class="reference-profile-picture" src="~/images/wilgross.jpg" alt="wilgross">
             """,
-        """<i class="quote">"this is the last quote. I<span style='text-decoration: underline;'>promise</span>!"</i> """
+            """
+            <i class="quote">"this is the last quote. I<span class="pink">promise!</span>"</i>
+            """
+        )
     ];
 }
