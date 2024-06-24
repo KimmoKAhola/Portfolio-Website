@@ -116,12 +116,25 @@ public class DataInitializer(ProjectDbContext context)
             LiveDemoURL = new Uri("https://babun-api.azurewebsites.net/swagger/index.html")
         };
 
+        var portfolio = new GithubProject
+        {
+            Title = "web portfolio",
+            Description = "Retro inspired web portfolio",
+            Content = "",
+            Skills = ["C#", "ASP.NET", "Swagger", "Entity Framework", "MS-SQL"],
+            ImageURL = new Uri(
+                "https://kimmoprojectstorage.blob.core.windows.net/project/portfolio.webp"
+            ),
+            ProjectURL = new Uri("https://github.com/KimmoKAhola/Project-2")
+        };
+
         context.Add(cashierSystem);
         context.Add(blackjack);
         context.Add(hotel);
         context.Add(silicon);
         context.Add(bank);
         context.Add(api);
+        context.Add(portfolio);
 
         await context.SaveChangesAsync();
     }

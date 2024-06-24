@@ -1,18 +1,47 @@
-﻿<div class="navbar">
-    <div class="container">
-        <div class="navbar-navigation">
-            <span class="navbar-link">WEATHER: <span id="navbar-weather" style="text-decoration: underline">LOADING...</span></span>
+﻿@* <div class="en"> *@
+    <div class="navbar">
+        <div class="container">
+            <div class="navbar-navigation">
+                <span class="navbar-link">WEATHER: <span id="navbar-weather" style="text-decoration: underline">LOADING...</span></span>
+            </div>
+            <div class="navbar-site-settings">
+
+            </div>
+            <div class="navbar-buttons">
+                <div style="display: flex; gap: 12px">
+                    <button class="button-language button-shadow">SV</button>
+                    <button class="button-language chosen button-shadow">EN</button>
+                </div>
+                <a href="#contact-me" id="button-contact-me" class="button-cta button-shadow">
+                    CONTACT ME
+                </a>
+            </div>
         </div>
-        <div class="navbar-site-settings">
-            
-        </div>
-        <a class="navbar-link" href="#contact-me">
-            <button class="button-cta">
-                CONTACT ME
-            </button>
-        </a>
     </div>
-</div>
+@* </div> *@
+
+@* <div class="sv" style="display: none"> *@
+@*     <div class="navbar"> *@
+@*         <div class="container"> *@
+@*             <div class="navbar-navigation"> *@
+@*                 <span class="navbar-link">väder: <span id="navbar-weather" style="text-decoration: underline">laddar...</span></span> *@
+@*             </div> *@
+@*             <div class="navbar-site-settings"> *@
+@* *@
+@*             </div> *@
+@*             <div class="navbar-buttons"> *@
+@*                 <div style="display: flex; gap: 12px"> *@
+@*                     <button class="button-language chosen">SV</button> *@
+@*                     <button class="button-language">EN</button> *@
+@*                 </div> *@
+@*                 <a href="#contact-me" id="button-contact-me" class="button-cta"> *@
+@*                     kontakta mig *@
+@*                 </a> *@
+@*             </div> *@
+@*         </div> *@
+@*     </div> *@
+@* </div> *@
+
 
 <script>
     document.addEventListener("DOMContentLoaded", function() {
