@@ -1,7 +1,6 @@
 # Project Overview
 
-This project is divided into two sub-projects: a RESTful .NET API for managing GitHub projects and a web portfolio created with the .NET MVC framework.
-
+This project is divided into two sub-projects: a RESTful .NET API for managing GitHub projects and a web portfolio created with the .NET MVC framework. The portfolio content has been designed after the course content and the design is a personal retro-inspired design.
 ### Project Links
 - **Portfolio:** [View Portfolio](https://project-2-kimmo.azurewebsites.net/)
 - **API:** [View API](https://project-2-api-kimmo.azurewebsites.net/swagger/index.html)
