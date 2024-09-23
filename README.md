@@ -3,8 +3,8 @@
 This project is divided into two sub-projects: a RESTful .NET API for managing GitHub projects and a web portfolio created with the .NET MVC framework.
 
 ### Project Links
-- **Portfolio:** [View Portfolio](https://kimmo-project-2.azurewebsites.net/)
-- **API:** [View API](https://kimmo-github-api.azurewebsites.net/swagger/index.html)
+- **Portfolio:** [View Portfolio](https://project-2-kimmo.azurewebsites.net/)
+- **API:** [View API](https://project-2-api-kimmo.azurewebsites.net/swagger/index.html)
 
 ## Portfolio
 The web portfolio is developed using the .NET MVC framework and is a single page application. It showcases various projects of mine and provides an overview of skills and experience used in these project. 
