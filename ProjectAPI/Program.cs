@@ -40,7 +40,7 @@ builder.Services.AddSwaggerGen(options =>
 
 builder.Services.AddDbContext<ProjectDbContext>(o =>
 {
-    o.UseSqlServer(connectionString);
+    o.UseMySQL(connectionString);
 });
 builder.Services.AddTransient<DataInitializer>();
 

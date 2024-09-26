@@ -68,6 +68,8 @@
       <_ContentIncludedByDefault Remove="wwwroot\lib\bootstrap\dist\js\bootstrap.min.js" />
       <_ContentIncludedByDefault Remove="wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map" />
       <_ContentIncludedByDefault Remove="wwwroot\lib\bootstrap\LICENSE" />
+      <_ContentIncludedByDefault Remove="Views\Shared\Components\Section\English.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Shared\Components\Section\Swedish.cshtml" />
     </ItemGroup>
 
 </Project>

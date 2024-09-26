@@ -2,43 +2,43 @@
 @using Project_2.Infrastructure
 @model Project_2.Models.ViewModels.IndexViewModel
 @{
-    ViewData["Title"] = "Home Page";
-    Layout = "_Layout";
+ViewData["Title"] = "Home Page";
+Layout = "_Layout";
 }
 
-<div class="en">
+<div class="sv">
     <section class="hero-section">
         <div id="hero-section"></div>
         <div class="container hero">
             <div id="hero-profile-box" class="flex-column-center">
                 <img id="hero-profile-picture" src="~/images/profile.png" alt="TODO">
-                <h2 class="hero-profile-box-title">POORLY DRAWN PICTURE OF ME</h2>
+                <h2 class="hero-profile-box-title">dåligt ritad bild på mig</h2>
                 <span class="hero-profile-box-subtitle flex-column-center">
                     <h3 class="hero-box-subtitle">
-                        BUT YOU CAN ALWAYS VIEW my resume
-                        <a href="@Parameters.MyResume"><button class="button-cta button-shadow">HERE</button></a>
+                        men du kan alltid ta en titt på
+                        <a href="@Parameters.MyResume"><button class="button-cta">mitt cv</button></a>
                     </h3></span>
             </div>
             <div style="display: flex; flex-direction: column; justify-content: space-between" id="about-me">
                 <span>
                     <p class="header">kimmo ahola:</p>
                     <p id="about-me-info">
-                    <p><span class="underline">born:</span> <span class="normal-text">1991, finnish parents</span></p>
-                    <p><span class="underline">speaks:</span> <span class="normal-text">swedish, english and broken finnish</span></p>
-                    <p><span class="underline">favorite food:</span> <span class="normal-text">anything spicy</span></p>
-                    <p><span class="underline">nerd:</span> <span class="normal-text">yes</span></p>
-                    <p style="margin-bottom: 3rem"><span class="underline">Also:</span> <span class="normal-text">proud uncle</span></p>
-                    <p class="underline like">LIKES:</p>
+                    <p><span class="underline">född:</span> <span class="normal-text">1991, finska föräldrar</span></p>
+                    <p><span class="underline">språk:</span> <span class="normal-text">svenska, engelska och dålig finska</span></p>
+                    <p><span class="underline">favoritmat:</span> <span class="normal-text">allt kryddstarkt</span></p>
+                    <p><span class="underline">nörd:</span> <span class="normal-text">japp</span></p>
+                    <p style="margin-bottom: 3rem"><span class="underline">också:</span> <span class="normal-text">stolt morbror/farbror</span></p>
+                    <p class="underline like">gillar:</p>
                     <span style="margin-bottom: 3rem">
                         <span class="normal-text">
-                            <p style="max-width: 80%">DOGS, coding in C#, cold weather, early mornings and coding in python (sometimes)</p>
+                            <p style="max-width: 80%">hundar, programmera i c#, kallt väder, tidiga mornar och kodning i python (vissa gånger)</p>
                         </span>
                     </span>
-                    <p class="underline dislike">DISLIKES:</p>
+                    <p class="underline dislike">ogillar:</p>
                     <span>
                         <span>
                             <span class="normal-text">
-                                <p style="max-width: 80%">cats, java, pollen, slow internet, hot weather and coding in python (other times)</p>
+                                <p style="max-width: 80%">katter, java, pollen, LÅNGSAMT internet, varmt väder och kodning i python (andra gånger)</p>
                             </span>
                         </span>
                     </span>
@@ -51,15 +51,15 @@
         </div>
     </section>
 
+
     <section class="skills-section">
-        <h2 class="skills-header">MY SKILLS</h2>
+        <h2 class="skills-header">kunskaper</h2>
         <div class="skills-container">
             @foreach (var skill in @Model.ListOfSkills)
             {
                 <span class="skill-span flex-column-center">
                     <span class="skill-details">
                         <span class="skill-header normal-text">@skill.SkillName</span>
-                        @* <span class="skill-subheader">@skill.Description</span> *@
                     </span>
                     @Html.Raw(skill.IconUrl)
                 </span>
@@ -68,7 +68,7 @@
     </section>
 
     <div class="main-carousel project-section" data-flickity='{ "wrapAround":true }'>
-        @foreach (var project in @Model.GithubProjectModels)
+        @foreach (var project in @Model.GithubProjectModelsSwedish)
         {
             <partial name="_GithubProjectBox" model="project"/>
         }
@@ -82,7 +82,7 @@
                 <img class="reference-profile-picture" src="~/images/wilgross.jpg" alt="profile">
                 <span class="reference-body">
                     <span class="reference-body-top">
-                        <i class="quote">it was <span class="pink">an honor</span> to code blackjack with you</i>
+                        <i class="quote">det var <span class="pink">en ära</span> att få skriva blackjack med dig</i>
                         <p style="margin-top: 24px" class="normal-text"> - william gross</p>
                     </span>
                     <span class="about-me-buttons-references">
@@ -96,7 +96,7 @@
                 <img class="reference-profile-picture" src="~/images/chalk.jpg" alt="profile">
                 <span class="reference-body">
                     <span class="reference-body-top">
-                        <i class="quote">what a portfolio! <span class="pink">the best!</span></i>
+                        <i class="quote">vilken jävla sida. <span class="pink">anställningsbar!</span></i>
                         <p style="margin-top: 24px" class="normal-text"> - richard chalk</p>
                     </span>
                     <span class="about-me-buttons-references">
@@ -110,7 +110,7 @@
                 <img class="reference-profile-picture" src="~/images/wilgross.jpg" alt="profile">
                 <span class="reference-body">
                     <span class="reference-body-top">
-                        <i class="quote">I write the bugs, he <span class="pink">solves</span> them</i>
+                        <i class="quote">jag skriver buggarna, han <span class="pink">löser</span> dem</i>
                         <p style="margin-top: 24px" class="normal-text"> - william gross</p>
                     </span>
                     <span class="about-me-buttons-references">
@@ -143,63 +143,34 @@
             <input type="hidden" asp-for="WeatherModel">
             <span class="form-row">
                 <span class="form-input">
-                    <label asp-for="ContactMeModel.Fullname">YOUR NAME</label>
-                    <input asp-for="ContactMeModel.Fullname" type="text" placeholder="ENTER YOUR NAME">
+                    <label asp-for="ContactMeModel.Fullname">ditt namn</label>
+                    <input asp-for="ContactMeModel.Fullname" type="text" placeholder="fyll i ditt namn">
                     <span asp-validation-for="ContactMeModel.Fullname" class="text-danger"></span>
                 </span>
             </span>
 
             <span class="form-row">
                 <span class="form-input">
-                    <label asp-for="ContactMeModel.Message">YOUR MESSAGE</label>
+                    <label asp-for="ContactMeModel.Message">ditt meddelande</label>
                     <textarea id="contact-me-textarea" asp-for="ContactMeModel.Message"></textarea>
                     <span asp-validation-for="ContactMeModel.Message" class="text-danger"></span>
                 </span>
             </span>
-            <button id="submit-button" type="submit" class="button-cta button-shadow">SUBMIT</button>
+            <button id="submit-button" type="submit" class="button-cta">skicka</button>
         </form>
     </section>
 </div>
 
-@section Scripts{
-    <partial name="_ValidationScriptsPartial" />
-    <script src="~/js/index.js"></script>
-}
-
 <script>
-        const buttons = document.querySelectorAll('.button-language');
-        const svSection = document.querySelector(".en");
+    const buttons = document.querySelectorAll('.button-language');
+    const svSection = document.querySelector(".sv");
 
-        window.onload = function() {
+    window.onload = function() {
+        const svButton = Array.from(buttons).find(button => button.textContent === 'SV');
         const enButton = Array.from(buttons).find(button => button.textContent === 'EN');
-        if (enButton) {
-        enButton.classList.add('chosen');
-    }
+        if (svButton) {
+            svButton.classList.add('chosen');
+            enButton.classList.remove('chosen')
+        }
     }
 </script>
-
-@* <script> *@
-@*     const buttons = document.querySelectorAll('.button-language'); *@
-@*     const enSection = document.querySelector('.en'); *@
-@*     const svSection = document.querySelector(".sv"); *@
-@* *@
-@*     buttons.forEach(button => { *@
-@*         button.addEventListener('click', () => { *@
-@*             buttons.forEach(btn => { *@
-@*                 btn.classList.remove('chosen'); *@
-@*             }); *@
-@* *@
-@*             button.classList.add('chosen'); *@
-@* *@
-@*             if (button.textContent === 'SV') { *@
-@*                 console.log("SV") *@
-@*                 enSection.style.display = 'none'; *@
-@*                 svSection.style.display = 'block'; *@
-@*             } else { *@
-@*                 console.log("EN") *@
-@*                 enSection.style.display = 'block'; *@
-@*                 svSection.style.display = 'none'; *@
-@*             } *@
-@*         }); *@
-@*     }); *@
-@* </script> *@

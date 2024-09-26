@@ -105,7 +105,11 @@ a{
   text-decoration: none;
 }
 
-button{
+a:hover{
+  color: var(--off-white);
+}
+
+button, a{
   border-radius: 0;
   padding: 24px 48px;
   display: flex;
@@ -287,6 +291,9 @@ button{
 
 .about-me-buttons, .about-me-buttons-references{
   display: flex; justify-content: flex-end; gap: 12px;
+  a{
+    padding: 0;
+  }
 }
 
 .about-me-buttons-references a{
@@ -580,8 +587,9 @@ span {
 .references-header, .skills-header{
   font-size: 102px;
   font-weight: bold;
-  text-decoration: underline;
+  /*text-decoration: underline;*/
   line-height: 102px;
+  border-bottom: 12px solid var(--primary);
 }
 
 .reference-box{

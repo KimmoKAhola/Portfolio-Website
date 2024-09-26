@@ -5,10 +5,11 @@
     <div class="github-project-content">
         <span class="github-project-title">@Model.Title.ToUpper()</span>
         <span class="github-project-subtitle">@Model.Description.ToUpper()</span>
+
         <img class="github-project-image" src="@Model.ImageURL" alt="project image">
         <span class="project-skills">
             <div style="display: flex; gap: 12px">
-                @foreach (var skill in Model.Skills.Where(skill => Parameters.Icons.ContainsKey(skill.ToUpper())))
+                @foreach (var skill in Model.SkillsList.Where(skill => Parameters.Icons.ContainsKey(skill.ToUpper())))
                 {
                     <div class="skill">
                         @Html.Raw(Parameters.Icons[skill.ToUpper()])

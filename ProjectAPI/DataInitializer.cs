@@ -20,9 +20,9 @@ public class DataInitializer(ProjectDbContext context)
         {
             Title = "Cashier Console App",
             Description =
-                "A cashier management console application. Built with heavy focus on OOP and design pattern principles.",
+                "A cashier management console application. Built with heavy focus on OOP and design pattern principles.;Ett kassasystem. Byggt efter OOP-design.",
             Content = "",
-            Skills = ["C#"],
+            Skills = "C#",
             ProjectURL = new Uri("https://github.com/KimmoKAhola/KassaSystemet"),
             ImageURL = new Uri(
                 "https://kimmoprojectstorage.blob.core.windows.net/project/cashier.png"
@@ -32,9 +32,10 @@ public class DataInitializer(ProjectDbContext context)
         var blackjack = new GithubProject
         {
             Title = "Blackjack",
-            Description = "A blackjack game with heavy focus on OOP. Built using Console.Write.",
+            Description =
+                "A blackjack game with heavy focus on OOP. Built using Console.Write.;En blackjack-applikation med fokus på OOP. Byggd med Console.Write",
             Content = "Play until you lose all your money",
-            Skills = ["C#"],
+            Skills = "C#",
             ProjectURL = new Uri("https://github.com/KimmoKAhola/Blackjack"),
             ImageURL = new Uri(
                 "https://kimmoprojectstorage.blob.core.windows.net/project/blackjack.png"
@@ -44,9 +45,10 @@ public class DataInitializer(ProjectDbContext context)
         var hotel = new GithubProject
         {
             Title = "Hotel Console App",
-            Description = "A hotel managament console application. Utilizes entity framework.",
+            Description =
+                "A hotel managament console application. Utilizes entity framework.;En hotellapplikation. Använder Entity Framework Core.",
             Content = "",
-            Skills = ["C#", "MS-SQL", "Entity Framework"],
+            Skills = "C#, MS-SQL, Entity Framework",
             ProjectURL = new Uri("https://github.com/KimmoKAhola/HotelApp"),
             ImageURL = new Uri(
                 "https://kimmoprojectstorage.blob.core.windows.net/project/hotel.png"
@@ -56,9 +58,10 @@ public class DataInitializer(ProjectDbContext context)
         var silicon = new GithubProject
         {
             Title = "Silicon Design",
-            Description = "A website designed with React and SCSS.",
+            Description =
+                "A website designed with React and SCSS.;En hemsida skapad med React och SCSS. Baserad på given designspec.",
             Content = "",
-            Skills = ["HTML", "Figma", "CSS", "SCSS", "React", "Javascript"],
+            Skills = "HTML, Figma, CSS, SCSS, React, Javascript",
             ProjectURL = new Uri("https://github.com/KimmoKAhola/Silicon-Kimmo-Ahola"),
             ImageURL = new Uri(
                 "https://kimmoprojectstorage.blob.core.windows.net/project/silicon.webp"
@@ -69,20 +72,11 @@ public class DataInitializer(ProjectDbContext context)
         var bank = new GithubProject
         {
             Title = "Babun Bank",
-            Description = "A banking application built with ASP.NET MVC.",
+            Description =
+                "A banking application built with ASP.NET MVC.;En bankapp byggd med ASP.NET MVC",
             Content = "",
             Skills =
-            [
-                "C#",
-                "ASP.NET",
-                "MVC",
-                "RESTful API",
-                "MS-SQL",
-                "Entity Framework",
-                "HTML",
-                "CSS",
-                "Javascript"
-            ],
+                "C#, ASP.NET, MVC, RESTful API, MS-SQL, Entity Framework, HTML, CSS, Javascript",
             ProjectURL = new Uri("https://github.com/KimmoKAhola/BabunBank"),
             ImageURL = new Uri(
                 "https://kimmoprojectstorage.blob.core.windows.net/project/bank.webp"
@@ -94,21 +88,10 @@ public class DataInitializer(ProjectDbContext context)
         {
             Title = "RESTful API",
             Description =
-                "A RESTful API for the Babun Bank. Utilizes JWT tokenization and swagger documentation.",
+                "A RESTful API for the Babun Bank. Utilizes JWT tokenization and swagger documentation.;Rest-API till Babun Bank. Använder JWT för autentisering.",
             Content = "",
             Skills =
-            [
-                "C#",
-                "ASP.NET",
-                "MVC",
-                "RESTful API",
-                "MS-SQL",
-                "Entity Framework",
-                "JWT",
-                "OAUTH2",
-                "OPEN API",
-                "Swagger"
-            ],
+                "C#, ASP.NET, MVC, RESTful API, MS-SQL, Entity Framework, JWT, OAUTH2, OPEN API, Swagger",
             ProjectURL = new Uri("https://github.com/KimmoKAhola/BabunBank"),
             ImageURL = new Uri(
                 "https://kimmoprojectstorage.blob.core.windows.net/project/api.webp"
@@ -119,9 +102,9 @@ public class DataInitializer(ProjectDbContext context)
         var portfolio = new GithubProject
         {
             Title = "web portfolio",
-            Description = "Retro inspired web portfolio",
+            Description = "Retro inspired web portfolio;Retroinspirerad portfolio",
             Content = "",
-            Skills = ["C#", "ASP.NET", "Swagger", "Entity Framework", "MS-SQL"],
+            Skills = "C#, ASP.NET, Swagger, Entity Framework, MS-SQL",
             ImageURL = new Uri(
                 "https://kimmoprojectstorage.blob.core.windows.net/project/portfolio.webp"
             ),

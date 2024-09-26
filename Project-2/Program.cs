@@ -25,7 +25,7 @@ builder.Services.AddHttpClient<IWeatherService, WeatherApiService>(o =>
 
 builder.Services.AddHttpClient<IGithubProjectService, GithubApiService>(o =>
 {
-    o.BaseAddress = new Uri("https://kimmo-github-api.azurewebsites.net/");
+    o.BaseAddress = new Uri("https://project-2-api-kimmo.azurewebsites.net/");
 });
 
 var app = builder.Build();

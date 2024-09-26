@@ -4,34 +4,37 @@
     <projectFile profileName="IIS Express">Project-2/Project-2.csproj</projectFile>
     <projectFile profileName="http">Project-2/Project-2.csproj</projectFile>
     <projectFile profileName="https">Project-2/Project-2.csproj</projectFile>
+    <projectFile pubXmlPath="Project-2/Properties/PublishProfiles/Project-2-kimmo - Web Deploy.pubxml">Project-2/Project-2.csproj</projectFile>
     <projectFile profileName="IIS Express">ProjectAPI/ProjectAPI.csproj</projectFile>
     <projectFile profileName="http">ProjectAPI/ProjectAPI.csproj</projectFile>
     <projectFile profileName="https">ProjectAPI/ProjectAPI.csproj</projectFile>
+    <projectFile pubXmlPath="ProjectAPI/Properties/PublishProfiles/project-2-api-kimmo - Web Deploy.pubxml">ProjectAPI/ProjectAPI.csproj</projectFile>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5983723-c304-40ce-8165-71f5351228d6" name="Changes" comment="Update workspace.xml and enable documentation generation&#10;&#10;Updated workspace.xml with new tasks and improved configurations. Also added code to generate documentation in Project-2.csproj and enhanced swagger setup in Program.cs.">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Project-2/.idea/shelf/Uncommitted_changes_before_Update_at_2024-05-22_10_54_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Project-2/.idea/shelf/Uncommitted_changes_before_Update_at_2024-05-22_10_54__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Project-2/.idea/shelf/Uncommitted_changes_before_Update_at_2024-05-22_14_05_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Project-2/.idea/shelf/Uncommitted_changes_before_Update_at_2024-05-22_14_05__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Project-2/.idea/shelf/Uncommitted_changes_before_Update_at_2024-05-23_16_44_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Project-2/.idea/shelf/Uncommitted_changes_before_Update_at_2024-05-23_16_44__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Project-2/.idea/shelf/Uncommitted_changes_before_Update_at_2024-05-24_15_29_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Project-2/.idea/shelf/Uncommitted_changes_before_Update_at_2024-05-24_15_29__Changes_.xml" beforeDir="false" />
+    <list default="true" id="f5983723-c304-40ce-8165-71f5351228d6" name="Changes" comment="Remove appsettings.json files from multiple projects&#10;&#10;These appsettings.json files containing sensitive information such as database connection strings were removed from three projects: DataAccessLayer, Project-2, and ProjectAPI. It's part of an effort to increase security and enforce the use of environment variables for sensitive data.">
+      <change afterPath="$PROJECT_DIR$/Project-2/Views/Home/Swedish.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Project-2/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Project-2/.idea/projectSettingsUpdater.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Project-2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Project-2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataAccessLayer/Migrations/20240524115737_Initial.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataAccessLayer/Migrations/20240524115737_Initial.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataAccessLayer/Migrations/ProjectDbContextModelSnapshot.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataAccessLayer/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccessLayer/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project-2/Infrastructure/Parameters.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/Infrastructure/Parameters.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccessLayer/DataAccessLayer.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccessLayer/DataAccessLayer.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccessLayer/Models/GithubProject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccessLayer/Models/GithubProject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccessLayer/ProjectDbContextFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccessLayer/ProjectDbContextFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project-2/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/Controllers/HomeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project-2/Models/FormModels/Contact/ContactMeModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/Models/FormModels/Contact/ContactMeModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project-2/Models/ViewModels/GithubProjects/GithubProjectModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/Models/ViewModels/GithubProjects/GithubProjectModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project-2/Models/ViewModels/IndexViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/Models/ViewModels/IndexViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project-2/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project-2/Project-2.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/Project-2.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project-2/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/Views/Home/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project-2/Views/Shared/_GithubProjectBox.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/Views/Shared/_GithubProjectBox.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project-2/Views/Shared/_Navbar.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/Views/Shared/_Navbar.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project-2/wwwroot/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/Project-2/wwwroot/css/site.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectAPI/DataInitializer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectAPI/DataInitializer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectAPI/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectAPI/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectAPI/Models/GithubProjectViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectAPI/Models/GithubProjectViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectAPI/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectAPI/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectAPI/ProjectAPI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectAPI/ProjectAPI.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +59,10 @@
     &quot;accountId&quot;: &quot;a83314ef-d1f6-4c4e-bfd0-2b90b7703fe1&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/294078ecfce6fdb942ecfee089f09717de7a6fcfe5efd9fdb6f4f93c0fb4813/ActionMethodExecutor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/b12bc6498a3360a42c1edc9e39638cd444af4976e6e5b143698067eb2f30/RazorView.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="false" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -91,6 +98,9 @@
     "Azure - Publish Web App.Publish Project-2 to Azure.executor": "Run",
     "Azure - Publish Web App.Publish ProjectAPI to Azure (1).executor": "Run",
     "Azure - Publish Web App.Publish ProjectAPI to Azure.executor": "Run",
+    "Azure - Web App.Azure - Web App: Project-2 Project-2-kimmo.executor": "Run",
+    "Azure - Web App.Azure - Web App: Project-2 project-2-api-kimmo.executor": "Run",
+    "Publish to IIS.Project-2: Project-2-kimmo - Web Deploy.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "final-push-cleaning",
     "node.js.detected.package.eslint": "true",
@@ -99,13 +109,6 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
-  },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\kahol\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache",
-      "C:\\Users\\kahol\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache",
-      "C:\\Users\\kahol\\AppData\\Local\\Symbols\\src"
-    ]
   }
 }]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.Project-2: http">
@@ -590,6 +593,44 @@
       <option name="AZURE_SQL_DATABASE_COLLATION" value="SQL_Latin1_General_CP1_CI_AS" />
       <method v="2" />
     </configuration>
+    <configuration name="Azure - Web App: Project-2 Project-2-kimmo" type="AzureWebAppDeploy">
+      <option name="appServicePlanName" value="masoudmovieclub" />
+      <option name="appServicePlanResourceGroupName" value="masoudmafia" />
+      <option name="operatingSystem" value="Windows" />
+      <option name="pricingSize" value="F1" />
+      <option name="pricingTier" value="Free" />
+      <option name="projectConfiguration" value="Release" />
+      <option name="projectPlatform" value="Any CPU" />
+      <option name="publishableProjectPath" value="$PROJECT_DIR$/Project-2/Project-2.csproj" />
+      <option name="region" value="swedencentral" />
+      <option name="resourceGroupName" value="portfolio" />
+      <option name="subscriptionId" value="42874c1c-2ba9-441d-865d-5b38e2c642f4" />
+      <option name="webAppName" value="Project-2-kimmo" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Azure - Web App: Project-2 project-2-api-kimmo" type="AzureWebAppDeploy">
+      <option name="appServicePlanName" value="masoudmovieclub" />
+      <option name="appServicePlanResourceGroupName" value="masoudmafia" />
+      <option name="operatingSystem" value="Windows" />
+      <option name="pricingSize" value="F1" />
+      <option name="pricingTier" value="Free" />
+      <option name="projectConfiguration" value="Release" />
+      <option name="projectPlatform" value="Any CPU" />
+      <option name="publishableProjectPath" value="$PROJECT_DIR$/ProjectAPI/ProjectAPI.csproj" />
+      <option name="region" value="swedencentral" />
+      <option name="resourceGroupName" value="portfolio" />
+      <option name="subscriptionId" value="42874c1c-2ba9-441d-865d-5b38e2c642f4" />
+      <option name="webAppName" value="project-2-api-kimmo" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Project-2: Project-2-kimmo - Web Deploy" type="DotNetMsBuildPublish" factoryName="Publish to IIS">
+      <riderPublish configuration="Release" platform="Any CPU" publish_profile="Project-2-kimmo - Web Deploy.pubxml" pubxml_path="$PROJECT_DIR$/Project-2/Properties/PublishProfiles/Project-2-kimmo - Web Deploy.pubxml" user_name="$Project-2-kimmo" uuid_high="-1292787994191639247" uuid_low="-9174767317125323555" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ProjectAPI: project-2-api-kimmo - Web Deploy" type="DotNetMsBuildPublish" factoryName="Publish to IIS">
+      <riderPublish configuration="Release" platform="Any CPU" publish_profile="project-2-api-kimmo - Web Deploy.pubxml" pubxml_path="$PROJECT_DIR$/ProjectAPI/Properties/PublishProfiles/project-2-api-kimmo - Web Deploy.pubxml" user_name="$project-2-api-kimmo" uuid_high="2983326649399329652" uuid_low="-7846858777384468876" />
+      <method v="2" />
+    </configuration>
     <configuration name="Project-2: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile" temporary="true">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Project-2/Project-2.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net8.0" />
@@ -644,8 +685,27 @@
       <workItem from="1716797395189" duration="191000" />
       <workItem from="1717352344711" duration="43000" />
       <workItem from="1717406114099" duration="14000" />
-      <workItem from="1719248143325" duration="457000" />
+      <workItem from="1719248143325" duration="871000" />
+      <workItem from="1727079542276" duration="172000" />
+      <workItem from="1727079777674" duration="611000" />
+      <workItem from="1727081496521" duration="1886000" />
+      <workItem from="1727355174083" duration="9338000" />
     </task>
+    <task id="LOCAL−00001" summary="Remove initial DataAccessLayer migrations&#10;&#10;The initial migration files for the DataAccessLayer have been removed. This includes the primary migration scripts and associated designer files. The changes are part of a broader project restructure and cleanup, ensuring only necessary files are kept in the repository.">
+      <option name="closed" value="true" />
+      <created>1719248800216</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1719248800216</updated>
+    </task>
+    <task id="LOCAL−00002" summary="Remove appsettings.json files from multiple projects&#10;&#10;These appsettings.json files containing sensitive information such as database connection strings were removed from three projects: DataAccessLayer, Project-2, and ProjectAPI. It's part of an effort to increase security and enforce the use of environment variables for sensitive data.">
+      <option name="closed" value="true" />
+      <created>1719248904722</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1719248904722</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -654,25 +714,20 @@
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="false" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Update workspace.xml and enable documentation generation&#10;&#10;Updated workspace.xml with new tasks and improved configurations. Also added code to generate documentation in Project-2.csproj and enhanced swagger setup in Program.cs." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update workspace.xml and enable documentation generation&#10;&#10;Updated workspace.xml with new tasks and improved configurations. Also added code to generate documentation in Project-2.csproj and enhanced swagger setup in Program.cs." />
+    <MESSAGE value="Remove initial DataAccessLayer migrations&#10;&#10;The initial migration files for the DataAccessLayer have been removed. This includes the primary migration scripts and associated designer files. The changes are part of a broader project restructure and cleanup, ensuring only necessary files are kept in the repository." />
+    <MESSAGE value="Remove appsettings.json files from multiple projects&#10;&#10;These appsettings.json files containing sensitive information such as database connection strings were removed from three projects: DataAccessLayer, Project-2, and ProjectAPI. It's part of an effort to increase security and enforce the use of environment variables for sensitive data." />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove appsettings.json files from multiple projects&#10;&#10;These appsettings.json files containing sensitive information such as database connection strings were removed from three projects: DataAccessLayer, Project-2, and ProjectAPI. It's part of an effort to increase security and enforce the use of environment variables for sensitive data." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Project-2/Views/Shared/_GithubProjectBox.cshtml</url>
-          <line>11</line>
-          <properties documentPath="D:\RiderProjects\Project-2\Project-2\Views\Shared\_GithubProjectBox.cshtml" isMultiMethodBreakpoint="true">
-            <option name="multiMethodBreakpoint" value="true" />
-            <startOffsets>
-              <option value="-1" />
-            </startOffsets>
-            <endOffsets>
-              <option value="-1" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="1" />
+          <line>6</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

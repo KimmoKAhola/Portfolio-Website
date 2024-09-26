@@ -10,6 +10,5 @@ public class ContactMeModel
 
     [Required]
     [MinLength(20, ErrorMessage = "At least 20 characters required.")]
-    public string Message { get; set; } =
-        "Vi har blivit imponerade av dina färdigheter som programmerare och tror att du skulle vara en fantastisk tillgång för vårt team.\n\nVi skulle gärna vilja komma i kontakt med dig för att diskutera potentiella möjligheter.\n\nHör av dig så snart du kan!";
+    public string Message { get; set; }
 }

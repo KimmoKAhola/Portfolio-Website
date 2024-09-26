@@ -7,6 +7,7 @@ public class IndexViewModel
 {
     public WeatherModel? WeatherModel { get; set; }
     public List<GithubProjectModel>? GithubProjectModels { get; set; }
+    public List<GithubProjectModel>? GithubProjectModelsSwedish { get; set; }
     public List<SkillModel>? ListOfSkills { get; set; }
     public ContactMeModel ContactMeModel { get; set; } = null!;
 }
